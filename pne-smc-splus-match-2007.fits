@@ -1,0 +1,1219 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                15220 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="21">
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="3: MC.catalog"/>
+<PARAM arraysize="19" datatype="char" name="Second input table" value="2: pne-smc-2007.csv"/>
+<FIELD arraysize="6" datatype="char" name="Field"/>
+<FIELD arraysize="24" datatype="char" name="ID"/>
+<FIELD datatype="double" name="RA"/>
+<FIELD datatype="double" name="DEC"/>
+<FIELD datatype="float" name="X"/>
+<FIELD datatype="float" name="Y"/>
+<FIELD datatype="int" name="ISOarea">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="MU_MAX"/>
+<FIELD datatype="float" name="A"/>
+<FIELD datatype="float" name="B"/>
+<FIELD datatype="float" name="THETA"/>
+<FIELD datatype="float" name="ELONGATION"/>
+<FIELD datatype="float" name="ELLIPTICITY"/>
+<FIELD arraysize="3" datatype="float" name="FLUX_RADIUS"/>
+<FIELD datatype="float" name="KRON_RADIUS"/>
+<FIELD datatype="short" name="PhotoFlagDet">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="CLASS_STAR"/>
+<FIELD datatype="float" name="FWHM"/>
+<FIELD datatype="float" name="FWHM_n"/>
+<FIELD datatype="float" name="s2nDet"/>
+<FIELD datatype="short" name="PhotoFlag_U">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F378">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F395">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F410">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F430">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_G">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F515">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_R">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F660">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_I">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_F861">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PhotoFlag_Z">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="U_auto"/>
+<FIELD datatype="float" name="e_U_auto"/>
+<FIELD datatype="float" name="s2n_U_auto"/>
+<FIELD datatype="float" name="F378_auto"/>
+<FIELD datatype="float" name="e_F378_auto"/>
+<FIELD datatype="float" name="s2n_F378_auto"/>
+<FIELD datatype="float" name="F395_auto"/>
+<FIELD datatype="float" name="e_F395_auto"/>
+<FIELD datatype="float" name="s2n_F395_auto"/>
+<FIELD datatype="float" name="F410_auto"/>
+<FIELD datatype="float" name="e_F410_auto"/>
+<FIELD datatype="float" name="s2n_F410_auto"/>
+<FIELD datatype="float" name="F430_auto"/>
+<FIELD datatype="float" name="e_F430_auto"/>
+<FIELD datatype="float" name="s2n_F430_auto"/>
+<FIELD datatype="float" name="G_auto"/>
+<FIELD datatype="float" name="e_G_auto"/>
+<FIELD datatype="float" name="s2n_G_auto"/>
+<FIELD datatype="float" name="F515_auto"/>
+<FIELD datatype="float" name="e_F515_auto"/>
+<FIELD datatype="float" name="s2n_F515_auto"/>
+<FIELD datatype="float" name="R_auto"/>
+<FIELD datatype="float" name="e_R_auto"/>
+<FIELD datatype="float" name="s2n_R_auto"/>
+<FIELD datatype="float" name="F660_auto"/>
+<FIELD datatype="float" name="e_F660_auto"/>
+<FIELD datatype="float" name="s2n_F660_auto"/>
+<FIELD datatype="float" name="I_auto"/>
+<FIELD datatype="float" name="e_I_auto"/>
+<FIELD datatype="float" name="s2n_I_auto"/>
+<FIELD datatype="float" name="F861_auto"/>
+<FIELD datatype="float" name="e_F861_auto"/>
+<FIELD datatype="float" name="s2n_F861_auto"/>
+<FIELD datatype="float" name="Z_auto"/>
+<FIELD datatype="float" name="e_Z_auto"/>
+<FIELD datatype="float" name="s2n_Z_auto"/>
+<FIELD datatype="float" name="nDet_auto"/>
+<FIELD datatype="float" name="U_petro"/>
+<FIELD datatype="float" name="e_U_petro"/>
+<FIELD datatype="float" name="s2n_U_petro"/>
+<FIELD datatype="float" name="F378_petro"/>
+<FIELD datatype="float" name="e_F378_petro"/>
+<FIELD datatype="float" name="s2n_F378_petro"/>
+<FIELD datatype="float" name="F395_petro"/>
+<FIELD datatype="float" name="e_F395_petro"/>
+<FIELD datatype="float" name="s2n_F395_petro"/>
+<FIELD datatype="float" name="F410_petro"/>
+<FIELD datatype="float" name="e_F410_petro"/>
+<FIELD datatype="float" name="s2n_F410_petro"/>
+<FIELD datatype="float" name="F430_petro"/>
+<FIELD datatype="float" name="e_F430_petro"/>
+<FIELD datatype="float" name="s2n_F430_petro"/>
+<FIELD datatype="float" name="G_petro"/>
+<FIELD datatype="float" name="e_G_petro"/>
+<FIELD datatype="float" name="s2n_G_petro"/>
+<FIELD datatype="float" name="F515_petro"/>
+<FIELD datatype="float" name="e_F515_petro"/>
+<FIELD datatype="float" name="s2n_F515_petro"/>
+<FIELD datatype="float" name="R_petro"/>
+<FIELD datatype="float" name="e_R_petro"/>
+<FIELD datatype="float" name="s2n_R_petro"/>
+<FIELD datatype="float" name="F660_petro"/>
+<FIELD datatype="float" name="e_F660_petro"/>
+<FIELD datatype="float" name="s2n_F660_petro"/>
+<FIELD datatype="float" name="I_petro"/>
+<FIELD datatype="float" name="e_I_petro"/>
+<FIELD datatype="float" name="s2n_I_petro"/>
+<FIELD datatype="float" name="F861_petro"/>
+<FIELD datatype="float" name="e_F861_petro"/>
+<FIELD datatype="float" name="s2n_F861_petro"/>
+<FIELD datatype="float" name="Z_petro"/>
+<FIELD datatype="float" name="e_Z_petro"/>
+<FIELD datatype="float" name="s2n_Z_petro"/>
+<FIELD datatype="float" name="nDet_petro"/>
+<FIELD datatype="float" name="U_iso"/>
+<FIELD datatype="float" name="e_U_iso"/>
+<FIELD datatype="float" name="s2n_U_iso"/>
+<FIELD datatype="float" name="F378_iso"/>
+<FIELD datatype="float" name="e_F378_iso"/>
+<FIELD datatype="float" name="s2n_F378_iso"/>
+<FIELD datatype="float" name="F395_iso"/>
+<FIELD datatype="float" name="e_F395_iso"/>
+<FIELD datatype="float" name="s2n_F395_iso"/>
+<FIELD datatype="float" name="F410_iso"/>
+<FIELD datatype="float" name="e_F410_iso"/>
+<FIELD datatype="float" name="s2n_F410_iso"/>
+<FIELD datatype="float" name="F430_iso"/>
+<FIELD datatype="float" name="e_F430_iso"/>
+<FIELD datatype="float" name="s2n_F430_iso"/>
+<FIELD datatype="float" name="G_iso"/>
+<FIELD datatype="float" name="e_G_iso"/>
+<FIELD datatype="float" name="s2n_G_iso"/>
+<FIELD datatype="float" name="F515_iso"/>
+<FIELD datatype="float" name="e_F515_iso"/>
+<FIELD datatype="float" name="s2n_F515_iso"/>
+<FIELD datatype="float" name="R_iso"/>
+<FIELD datatype="float" name="e_R_iso"/>
+<FIELD datatype="float" name="s2n_R_iso"/>
+<FIELD datatype="float" name="F660_iso"/>
+<FIELD datatype="float" name="e_F660_iso"/>
+<FIELD datatype="float" name="s2n_F660_iso"/>
+<FIELD datatype="float" name="I_iso"/>
+<FIELD datatype="float" name="e_I_iso"/>
+<FIELD datatype="float" name="s2n_I_iso"/>
+<FIELD datatype="float" name="F861_iso"/>
+<FIELD datatype="float" name="e_F861_iso"/>
+<FIELD datatype="float" name="s2n_F861_iso"/>
+<FIELD datatype="float" name="Z_iso"/>
+<FIELD datatype="float" name="e_Z_iso"/>
+<FIELD datatype="float" name="s2n_Z_iso"/>
+<FIELD datatype="float" name="nDet_iso"/>
+<FIELD datatype="float" name="U_isocor"/>
+<FIELD datatype="float" name="e_U_isocor"/>
+<FIELD datatype="float" name="s2n_U_isocor"/>
+<FIELD datatype="float" name="F378_isocor"/>
+<FIELD datatype="float" name="e_F378_isocor"/>
+<FIELD datatype="float" name="s2n_F378_isocor"/>
+<FIELD datatype="float" name="F395_isocor"/>
+<FIELD datatype="float" name="e_F395_isocor"/>
+<FIELD datatype="float" name="s2n_F395_isocor"/>
+<FIELD datatype="float" name="F410_isocor"/>
+<FIELD datatype="float" name="e_F410_isocor"/>
+<FIELD datatype="float" name="s2n_F410_isocor"/>
+<FIELD datatype="float" name="F430_isocor"/>
+<FIELD datatype="float" name="e_F430_isocor"/>
+<FIELD datatype="float" name="s2n_F430_isocor"/>
+<FIELD datatype="float" name="G_isocor"/>
+<FIELD datatype="float" name="e_G_isocor"/>
+<FIELD datatype="float" name="s2n_G_isocor"/>
+<FIELD datatype="float" name="F515_isocor"/>
+<FIELD datatype="float" name="e_F515_isocor"/>
+<FIELD datatype="float" name="s2n_F515_isocor"/>
+<FIELD datatype="float" name="R_isocor"/>
+<FIELD datatype="float" name="e_R_isocor"/>
+<FIELD datatype="float" name="s2n_R_isocor"/>
+<FIELD datatype="float" name="F660_isocor"/>
+<FIELD datatype="float" name="e_F660_isocor"/>
+<FIELD datatype="float" name="s2n_F660_isocor"/>
+<FIELD datatype="float" name="I_isocor"/>
+<FIELD datatype="float" name="e_I_isocor"/>
+<FIELD datatype="float" name="s2n_I_isocor"/>
+<FIELD datatype="float" name="F861_isocor"/>
+<FIELD datatype="float" name="e_F861_isocor"/>
+<FIELD datatype="float" name="s2n_F861_isocor"/>
+<FIELD datatype="float" name="Z_isocor"/>
+<FIELD datatype="float" name="e_Z_isocor"/>
+<FIELD datatype="float" name="s2n_Z_isocor"/>
+<FIELD datatype="float" name="nDet_isocor"/>
+<FIELD datatype="float" name="U_aper_3"/>
+<FIELD datatype="float" name="e_U_aper_3"/>
+<FIELD datatype="float" name="s2n_U_aper_3"/>
+<FIELD datatype="float" name="F378_aper_3"/>
+<FIELD datatype="float" name="e_F378_aper_3"/>
+<FIELD datatype="float" name="s2n_F378_aper_3"/>
+<FIELD datatype="float" name="F395_aper_3"/>
+<FIELD datatype="float" name="e_F395_aper_3"/>
+<FIELD datatype="float" name="s2n_F395_aper_3"/>
+<FIELD datatype="float" name="F410_aper_3"/>
+<FIELD datatype="float" name="e_F410_aper_3"/>
+<FIELD datatype="float" name="s2n_F410_aper_3"/>
+<FIELD datatype="float" name="F430_aper_3"/>
+<FIELD datatype="float" name="e_F430_aper_3"/>
+<FIELD datatype="float" name="s2n_F430_aper_3"/>
+<FIELD datatype="float" name="G_aper_3"/>
+<FIELD datatype="float" name="e_G_aper_3"/>
+<FIELD datatype="float" name="s2n_G_aper_3"/>
+<FIELD datatype="float" name="F515_aper_3"/>
+<FIELD datatype="float" name="e_F515_aper_3"/>
+<FIELD datatype="float" name="s2n_F515_aper_3"/>
+<FIELD datatype="float" name="R_aper_3"/>
+<FIELD datatype="float" name="e_R_aper_3"/>
+<FIELD datatype="float" name="s2n_R_aper_3"/>
+<FIELD datatype="float" name="F660_aper_3"/>
+<FIELD datatype="float" name="e_F660_aper_3"/>
+<FIELD datatype="float" name="s2n_F660_aper_3"/>
+<FIELD datatype="float" name="I_aper_3"/>
+<FIELD datatype="float" name="e_I_aper_3"/>
+<FIELD datatype="float" name="s2n_I_aper_3"/>
+<FIELD datatype="float" name="F861_aper_3"/>
+<FIELD datatype="float" name="e_F861_aper_3"/>
+<FIELD datatype="float" name="s2n_F861_aper_3"/>
+<FIELD datatype="float" name="Z_aper_3"/>
+<FIELD datatype="float" name="e_Z_aper_3"/>
+<FIELD datatype="float" name="s2n_Z_aper_3"/>
+<FIELD datatype="float" name="nDet_aper_3"/>
+<FIELD datatype="float" name="U_aper_6"/>
+<FIELD datatype="float" name="e_U_aper_6"/>
+<FIELD datatype="float" name="s2n_U_aper_6"/>
+<FIELD datatype="float" name="F378_aper_6"/>
+<FIELD datatype="float" name="e_F378_aper_6"/>
+<FIELD datatype="float" name="s2n_F378_aper_6"/>
+<FIELD datatype="float" name="F395_aper_6"/>
+<FIELD datatype="float" name="e_F395_aper_6"/>
+<FIELD datatype="float" name="s2n_F395_aper_6"/>
+<FIELD datatype="float" name="F410_aper_6"/>
+<FIELD datatype="float" name="e_F410_aper_6"/>
+<FIELD datatype="float" name="s2n_F410_aper_6"/>
+<FIELD datatype="float" name="F430_aper_6"/>
+<FIELD datatype="float" name="e_F430_aper_6"/>
+<FIELD datatype="float" name="s2n_F430_aper_6"/>
+<FIELD datatype="float" name="G_aper_6"/>
+<FIELD datatype="float" name="e_G_aper_6"/>
+<FIELD datatype="float" name="s2n_G_aper_6"/>
+<FIELD datatype="float" name="F515_aper_6"/>
+<FIELD datatype="float" name="e_F515_aper_6"/>
+<FIELD datatype="float" name="s2n_F515_aper_6"/>
+<FIELD datatype="float" name="R_aper_6"/>
+<FIELD datatype="float" name="e_R_aper_6"/>
+<FIELD datatype="float" name="s2n_R_aper_6"/>
+<FIELD datatype="float" name="F660_aper_6"/>
+<FIELD datatype="float" name="e_F660_aper_6"/>
+<FIELD datatype="float" name="s2n_F660_aper_6"/>
+<FIELD datatype="float" name="I_aper_6"/>
+<FIELD datatype="float" name="e_I_aper_6"/>
+<FIELD datatype="float" name="s2n_I_aper_6"/>
+<FIELD datatype="float" name="F861_aper_6"/>
+<FIELD datatype="float" name="e_F861_aper_6"/>
+<FIELD datatype="float" name="s2n_F861_aper_6"/>
+<FIELD datatype="float" name="Z_aper_6"/>
+<FIELD datatype="float" name="e_Z_aper_6"/>
+<FIELD datatype="float" name="s2n_Z_aper_6"/>
+<FIELD datatype="float" name="nDet_aper_6"/>
+<FIELD datatype="float" name="U_total"/>
+<FIELD datatype="float" name="e_U_total"/>
+<FIELD datatype="float" name="s2n_U_total"/>
+<FIELD datatype="float" name="F378_total"/>
+<FIELD datatype="float" name="e_F378_total"/>
+<FIELD datatype="float" name="s2n_F378_total"/>
+<FIELD datatype="float" name="F395_total"/>
+<FIELD datatype="float" name="e_F395_total"/>
+<FIELD datatype="float" name="s2n_F395_total"/>
+<FIELD datatype="float" name="F410_total"/>
+<FIELD datatype="float" name="e_F410_total"/>
+<FIELD datatype="float" name="s2n_F410_total"/>
+<FIELD datatype="float" name="F430_total"/>
+<FIELD datatype="float" name="e_F430_total"/>
+<FIELD datatype="float" name="s2n_F430_total"/>
+<FIELD datatype="float" name="G_total"/>
+<FIELD datatype="float" name="e_G_total"/>
+<FIELD datatype="float" name="s2n_G_total"/>
+<FIELD datatype="float" name="F515_total"/>
+<FIELD datatype="float" name="e_F515_total"/>
+<FIELD datatype="float" name="s2n_F515_total"/>
+<FIELD datatype="float" name="R_total"/>
+<FIELD datatype="float" name="e_R_total"/>
+<FIELD datatype="float" name="s2n_R_total"/>
+<FIELD datatype="float" name="F660_total"/>
+<FIELD datatype="float" name="e_F660_total"/>
+<FIELD datatype="float" name="s2n_F660_total"/>
+<FIELD datatype="float" name="I_total"/>
+<FIELD datatype="float" name="e_I_total"/>
+<FIELD datatype="float" name="s2n_I_total"/>
+<FIELD datatype="float" name="F861_total"/>
+<FIELD datatype="float" name="e_F861_total"/>
+<FIELD datatype="float" name="s2n_F861_total"/>
+<FIELD datatype="float" name="Z_total"/>
+<FIELD datatype="float" name="e_Z_total"/>
+<FIELD datatype="float" name="s2n_Z_total"/>
+<FIELD datatype="float" name="nDet_magTotal"/>
+<FIELD datatype="short" name="recno">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD arraysize="7" datatype="char" name="Name"/>
+<FIELD datatype="float" name="A3727"/>
+<FIELD datatype="float" name="A3869"/>
+<FIELD datatype="float" name="A4959"/>
+<FIELD datatype="float" name="A6312"/>
+<FIELD datatype="float" name="A6584"/>
+<FIELD datatype="float" name="A6717"/>
+<FIELD datatype="float" name="A7135"/>
+<FIELD datatype="float" name="A7320"/>
+<FIELD arraysize="11" datatype="char" name="SimbadName"/>
+<FIELD datatype="double" name="_RA"/>
+<FIELD datatype="double" name="_DE"/>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                 1252 / width of table in bytes                        NAXIS2  =                   21 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                  305 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'Field   '           / label for column 1                             TFORM1  = '6A      '           / format for column 1                            TTYPE2  = 'ID      '           / label for column 2                             TFORM2  = '24A     '           / format for column 2                            TTYPE3  = 'RA      '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TTYPE4  = 'DEC     '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TTYPE5  = 'X       '           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TTYPE6  = 'Y       '           / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TTYPE7  = 'ISOarea '           / label for column 7                             TFORM7  = 'J       '           / format for column 7                            TTYPE8  = 'MU_MAX  '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TTYPE9  = 'A       '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TTYPE10 = 'B       '           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TTYPE11 = 'THETA   '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TTYPE12 = 'ELONGATION'         / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TTYPE13 = 'ELLIPTICITY'        / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TTYPE14 = 'FLUX_RADIUS'        / label for column 14                            TFORM14 = '3E      '           / format for column 14                           TTYPE15 = 'KRON_RADIUS'        / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 'PhotoFlagDet'       / label for column 16                            TFORM16 = 'I       '           / format for column 16                           TTYPE17 = 'CLASS_STAR'         / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TTYPE18 = 'FWHM    '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TTYPE19 = 'FWHM_n  '           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TTYPE20 = 's2nDet  '           / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TTYPE21 = 'PhotoFlag_U'        / label for column 21                            TFORM21 = 'I       '           / format for column 21                           TTYPE22 = 'PhotoFlag_F378'     / label for column 22                            TFORM22 = 'I       '           / format for column 22                           TTYPE23 = 'PhotoFlag_F395'     / label for column 23                            TFORM23 = 'I       '           / format for column 23                           TTYPE24 = 'PhotoFlag_F410'     / label for column 24                            TFORM24 = 'I       '           / format for column 24                           TTYPE25 = 'PhotoFlag_F430'     / label for column 25                            TFORM25 = 'I       '           / format for column 25                           TTYPE26 = 'PhotoFlag_G'        / label for column 26                            TFORM26 = 'I       '           / format for column 26                           TTYPE27 = 'PhotoFlag_F515'     / label for column 27                            TFORM27 = 'I       '           / format for column 27                           TTYPE28 = 'PhotoFlag_R'        / label for column 28                            TFORM28 = 'I       '           / format for column 28                           TTYPE29 = 'PhotoFlag_F660'     / label for column 29                            TFORM29 = 'I       '           / format for column 29                           TTYPE30 = 'PhotoFlag_I'        / label for column 30                            TFORM30 = 'I       '           / format for column 30                           TTYPE31 = 'PhotoFlag_F861'     / label for column 31                            TFORM31 = 'I       '           / format for column 31                           TTYPE32 = 'PhotoFlag_Z'        / label for column 32                            TFORM32 = 'I       '           / format for column 32                           TTYPE33 = 'U_auto  '           / label for column 33                            TFORM33 = 'E       '           / format for column 33                           TTYPE34 = 'e_U_auto'           / label for column 34                            TFORM34 = 'E       '           / format for column 34                           TTYPE35 = 's2n_U_auto'         / label for column 35                            TFORM35 = 'E       '           / format for column 35                           TTYPE36 = 'F378_auto'          / label for column 36                            TFORM36 = 'E       '           / format for column 36                           TTYPE37 = 'e_F378_auto'        / label for column 37                            TFORM37 = 'E       '           / format for column 37                           TTYPE38 = 's2n_F378_auto'      / label for column 38                            TFORM38 = 'E       '           / format for column 38                           TTYPE39 = 'F395_auto'          / label for column 39                            TFORM39 = 'E       '           / format for column 39                           TTYPE40 = 'e_F395_auto'        / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 's2n_F395_auto'      / label for column 41                            TFORM41 = 'E       '           / format for column 41                           TTYPE42 = 'F410_auto'          / label for column 42                            TFORM42 = 'E       '           / format for column 42                           TTYPE43 = 'e_F410_auto'        / label for column 43                            TFORM43 = 'E       '           / format for column 43                           TTYPE44 = 's2n_F410_auto'      / label for column 44                            TFORM44 = 'E       '           / format for column 44                           TTYPE45 = 'F430_auto'          / label for column 45                            TFORM45 = 'E       '           / format for column 45                           TTYPE46 = 'e_F430_auto'        / label for column 46                            TFORM46 = 'E       '           / format for column 46                           TTYPE47 = 's2n_F430_auto'      / label for column 47                            TFORM47 = 'E       '           / format for column 47                           TTYPE48 = 'G_auto  '           / label for column 48                            TFORM48 = 'E       '           / format for column 48                           TTYPE49 = 'e_G_auto'           / label for column 49                            TFORM49 = 'E       '           / format for column 49                           TTYPE50 = 's2n_G_auto'         / label for column 50                            TFORM50 = 'E       '           / format for column 50                           TTYPE51 = 'F515_auto'          / label for column 51                            TFORM51 = 'E       '           / format for column 51                           TTYPE52 = 'e_F515_auto'        / label for column 52                            TFORM52 = 'E       '           / format for column 52                           TTYPE53 = 's2n_F515_auto'      / label for column 53                            TFORM53 = 'E       '           / format for column 53                           TTYPE54 = 'R_auto  '           / label for column 54                            TFORM54 = 'E       '           / format for column 54                           TTYPE55 = 'e_R_auto'           / label for column 55                            TFORM55 = 'E       '           / format for column 55                           TTYPE56 = 's2n_R_auto'         / label for column 56                            TFORM56 = 'E       '           / format for column 56                           TTYPE57 = 'F660_auto'          / label for column 57                            TFORM57 = 'E       '           / format for column 57                           TTYPE58 = 'e_F660_auto'        / label for column 58                            TFORM58 = 'E       '           / format for column 58                           TTYPE59 = 's2n_F660_auto'      / label for column 59                            TFORM59 = 'E       '           / format for column 59                           TTYPE60 = 'I_auto  '           / label for column 60                            TFORM60 = 'E       '           / format for column 60                           TTYPE61 = 'e_I_auto'           / label for column 61                            TFORM61 = 'E       '           / format for column 61                           TTYPE62 = 's2n_I_auto'         / label for column 62                            TFORM62 = 'E       '           / format for column 62                           TTYPE63 = 'F861_auto'          / label for column 63                            TFORM63 = 'E       '           / format for column 63                           TTYPE64 = 'e_F861_auto'        / label for column 64                            TFORM64 = 'E       '           / format for column 64                           TTYPE65 = 's2n_F861_auto'      / label for column 65                            TFORM65 = 'E       '           / format for column 65                           TTYPE66 = 'Z_auto  '           / label for column 66                            TFORM66 = 'E       '           / format for column 66                           TTYPE67 = 'e_Z_auto'           / label for column 67                            TFORM67 = 'E       '           / format for column 67                           TTYPE68 = 's2n_Z_auto'         / label for column 68                            TFORM68 = 'E       '           / format for column 68                           TTYPE69 = 'nDet_auto'          / label for column 69                            TFORM69 = 'E       '           / format for column 69                           TTYPE70 = 'U_petro '           / label for column 70                            TFORM70 = 'E       '           / format for column 70                           TTYPE71 = 'e_U_petro'          / label for column 71                            TFORM71 = 'E       '           / format for column 71                           TTYPE72 = 's2n_U_petro'        / label for column 72                            TFORM72 = 'E       '           / format for column 72                           TTYPE73 = 'F378_petro'         / label for column 73                            TFORM73 = 'E       '           / format for column 73                           TTYPE74 = 'e_F378_petro'       / label for column 74                            TFORM74 = 'E       '           / format for column 74                           TTYPE75 = 's2n_F378_petro'     / label for column 75                            TFORM75 = 'E       '           / format for column 75                           TTYPE76 = 'F395_petro'         / label for column 76                            TFORM76 = 'E       '           / format for column 76                           TTYPE77 = 'e_F395_petro'       / label for column 77                            TFORM77 = 'E       '           / format for column 77                           TTYPE78 = 's2n_F395_petro'     / label for column 78                            TFORM78 = 'E       '           / format for column 78                           TTYPE79 = 'F410_petro'         / label for column 79                            TFORM79 = 'E       '           / format for column 79                           TTYPE80 = 'e_F410_petro'       / label for column 80                            TFORM80 = 'E       '           / format for column 80                           TTYPE81 = 's2n_F410_petro'     / label for column 81                            TFORM81 = 'E       '           / format for column 81                           TTYPE82 = 'F430_petro'         / label for column 82                            TFORM82 = 'E       '           / format for column 82                           TTYPE83 = 'e_F430_petro'       / label for column 83                            TFORM83 = 'E       '           / format for column 83                           TTYPE84 = 's2n_F430_petro'     / label for column 84                            TFORM84 = 'E       '           / format for column 84                           TTYPE85 = 'G_petro '           / label for column 85                            TFORM85 = 'E       '           / format for column 85                           TTYPE86 = 'e_G_petro'          / label for column 86                            TFORM86 = 'E       '           / format for column 86                           TTYPE87 = 's2n_G_petro'        / label for column 87                            TFORM87 = 'E       '           / format for column 87                           TTYPE88 = 'F515_petro'         / label for column 88                            TFORM88 = 'E       '           / format for column 88                           TTYPE89 = 'e_F515_petro'       / label for column 89                            TFORM89 = 'E       '           / format for column 89                           TTYPE90 = 's2n_F515_petro'     / label for column 90                            TFORM90 = 'E       '           / format for column 90                           TTYPE91 = 'R_petro '           / label for column 91                            TFORM91 = 'E       '           / format for column 91                           TTYPE92 = 'e_R_petro'          / label for column 92                            TFORM92 = 'E       '           / format for column 92                           TTYPE93 = 's2n_R_petro'        / label for column 93                            TFORM93 = 'E       '           / format for column 93                           TTYPE94 = 'F660_petro'         / label for column 94                            TFORM94 = 'E       '           / format for column 94                           TTYPE95 = 'e_F660_petro'       / label for column 95                            TFORM95 = 'E       '           / format for column 95                           TTYPE96 = 's2n_F660_petro'     / label for column 96                            TFORM96 = 'E       '           / format for column 96                           TTYPE97 = 'I_petro '           / label for column 97                            TFORM97 = 'E       '           / format for column 97                           TTYPE98 = 'e_I_petro'          / label for column 98                            TFORM98 = 'E       '           / format for column 98                           TTYPE99 = 's2n_I_petro'        / label for column 99                            TFORM99 = 'E       '           / format for column 99                           TTYPE100= 'F861_petro'         / label for column 100                           TFORM100= 'E       '           / format for column 100                          TTYPE101= 'e_F861_petro'       / label for column 101                           TFORM101= 'E       '           / format for column 101                          TTYPE102= 's2n_F861_petro'     / label for column 102                           TFORM102= 'E       '           / format for column 102                          TTYPE103= 'Z_petro '           / label for column 103                           TFORM103= 'E       '           / format for column 103                          TTYPE104= 'e_Z_petro'          / label for column 104                           TFORM104= 'E       '           / format for column 104                          TTYPE105= 's2n_Z_petro'        / label for column 105                           TFORM105= 'E       '           / format for column 105                          TTYPE106= 'nDet_petro'         / label for column 106                           TFORM106= 'E       '           / format for column 106                          TTYPE107= 'U_iso   '           / label for column 107                           TFORM107= 'E       '           / format for column 107                          TTYPE108= 'e_U_iso '           / label for column 108                           TFORM108= 'E       '           / format for column 108                          TTYPE109= 's2n_U_iso'          / label for column 109                           TFORM109= 'E       '           / format for column 109                          TTYPE110= 'F378_iso'           / label for column 110                           TFORM110= 'E       '           / format for column 110                          TTYPE111= 'e_F378_iso'         / label for column 111                           TFORM111= 'E       '           / format for column 111                          TTYPE112= 's2n_F378_iso'       / label for column 112                           TFORM112= 'E       '           / format for column 112                          TTYPE113= 'F395_iso'           / label for column 113                           TFORM113= 'E       '           / format for column 113                          TTYPE114= 'e_F395_iso'         / label for column 114                           TFORM114= 'E       '           / format for column 114                          TTYPE115= 's2n_F395_iso'       / label for column 115                           TFORM115= 'E       '           / format for column 115                          TTYPE116= 'F410_iso'           / label for column 116                           TFORM116= 'E       '           / format for column 116                          TTYPE117= 'e_F410_iso'         / label for column 117                           TFORM117= 'E       '           / format for column 117                          TTYPE118= 's2n_F410_iso'       / label for column 118                           TFORM118= 'E       '           / format for column 118                          TTYPE119= 'F430_iso'           / label for column 119                           TFORM119= 'E       '           / format for column 119                          TTYPE120= 'e_F430_iso'         / label for column 120                           TFORM120= 'E       '           / format for column 120                          TTYPE121= 's2n_F430_iso'       / label for column 121                           TFORM121= 'E       '           / format for column 121                          TTYPE122= 'G_iso   '           / label for column 122                           TFORM122= 'E       '           / format for column 122                          TTYPE123= 'e_G_iso '           / label for column 123                           TFORM123= 'E       '           / format for column 123                          TTYPE124= 's2n_G_iso'          / label for column 124                           TFORM124= 'E       '           / format for column 124                          TTYPE125= 'F515_iso'           / label for column 125                           TFORM125= 'E       '           / format for column 125                          TTYPE126= 'e_F515_iso'         / label for column 126                           TFORM126= 'E       '           / format for column 126                          TTYPE127= 's2n_F515_iso'       / label for column 127                           TFORM127= 'E       '           / format for column 127                          TTYPE128= 'R_iso   '           / label for column 128                           TFORM128= 'E       '           / format for column 128                          TTYPE129= 'e_R_iso '           / label for column 129                           TFORM129= 'E       '           / format for column 129                          TTYPE130= 's2n_R_iso'          / label for column 130                           TFORM130= 'E       '           / format for column 130                          TTYPE131= 'F660_iso'           / label for column 131                           TFORM131= 'E       '           / format for column 131                          TTYPE132= 'e_F660_iso'         / label for column 132                           TFORM132= 'E       '           / format for column 132                          TTYPE133= 's2n_F660_iso'       / label for column 133                           TFORM133= 'E       '           / format for column 133                          TTYPE134= 'I_iso   '           / label for column 134                           TFORM134= 'E       '           / format for column 134                          TTYPE135= 'e_I_iso '           / label for column 135                           TFORM135= 'E       '           / format for column 135                          TTYPE136= 's2n_I_iso'          / label for column 136                           TFORM136= 'E       '           / format for column 136                          TTYPE137= 'F861_iso'           / label for column 137                           TFORM137= 'E       '           / format for column 137                          TTYPE138= 'e_F861_iso'         / label for column 138                           TFORM138= 'E       '           / format for column 138                          TTYPE139= 's2n_F861_iso'       / label for column 139                           TFORM139= 'E       '           / format for column 139                          TTYPE140= 'Z_iso   '           / label for column 140                           TFORM140= 'E       '           / format for column 140                          TTYPE141= 'e_Z_iso '           / label for column 141                           TFORM141= 'E       '           / format for column 141                          TTYPE142= 's2n_Z_iso'          / label for column 142                           TFORM142= 'E       '           / format for column 142                          TTYPE143= 'nDet_iso'           / label for column 143                           TFORM143= 'E       '           / format for column 143                          TTYPE144= 'U_isocor'           / label for column 144                           TFORM144= 'E       '           / format for column 144                          TTYPE145= 'e_U_isocor'         / label for column 145                           TFORM145= 'E       '           / format for column 145                          TTYPE146= 's2n_U_isocor'       / label for column 146                           TFORM146= 'E       '           / format for column 146                          TTYPE147= 'F378_isocor'        / label for column 147                           TFORM147= 'E       '           / format for column 147                          TTYPE148= 'e_F378_isocor'      / label for column 148                           TFORM148= 'E       '           / format for column 148                          TTYPE149= 's2n_F378_isocor'    / label for column 149                           TFORM149= 'E       '           / format for column 149                          TTYPE150= 'F395_isocor'        / label for column 150                           TFORM150= 'E       '           / format for column 150                          TTYPE151= 'e_F395_isocor'      / label for column 151                           TFORM151= 'E       '           / format for column 151                          TTYPE152= 's2n_F395_isocor'    / label for column 152                           TFORM152= 'E       '           / format for column 152                          TTYPE153= 'F410_isocor'        / label for column 153                           TFORM153= 'E       '           / format for column 153                          TTYPE154= 'e_F410_isocor'      / label for column 154                           TFORM154= 'E       '           / format for column 154                          TTYPE155= 's2n_F410_isocor'    / label for column 155                           TFORM155= 'E       '           / format for column 155                          TTYPE156= 'F430_isocor'        / label for column 156                           TFORM156= 'E       '           / format for column 156                          TTYPE157= 'e_F430_isocor'      / label for column 157                           TFORM157= 'E       '           / format for column 157                          TTYPE158= 's2n_F430_isocor'    / label for column 158                           TFORM158= 'E       '           / format for column 158                          TTYPE159= 'G_isocor'           / label for column 159                           TFORM159= 'E       '           / format for column 159                          TTYPE160= 'e_G_isocor'         / label for column 160                           TFORM160= 'E       '           / format for column 160                          TTYPE161= 's2n_G_isocor'       / label for column 161                           TFORM161= 'E       '           / format for column 161                          TTYPE162= 'F515_isocor'        / label for column 162                           TFORM162= 'E       '           / format for column 162                          TTYPE163= 'e_F515_isocor'      / label for column 163                           TFORM163= 'E       '           / format for column 163                          TTYPE164= 's2n_F515_isocor'    / label for column 164                           TFORM164= 'E       '           / format for column 164                          TTYPE165= 'R_isocor'           / label for column 165                           TFORM165= 'E       '           / format for column 165                          TTYPE166= 'e_R_isocor'         / label for column 166                           TFORM166= 'E       '           / format for column 166                          TTYPE167= 's2n_R_isocor'       / label for column 167                           TFORM167= 'E       '           / format for column 167                          TTYPE168= 'F660_isocor'        / label for column 168                           TFORM168= 'E       '           / format for column 168                          TTYPE169= 'e_F660_isocor'      / label for column 169                           TFORM169= 'E       '           / format for column 169                          TTYPE170= 's2n_F660_isocor'    / label for column 170                           TFORM170= 'E       '           / format for column 170                          TTYPE171= 'I_isocor'           / label for column 171                           TFORM171= 'E       '           / format for column 171                          TTYPE172= 'e_I_isocor'         / label for column 172                           TFORM172= 'E       '           / format for column 172                          TTYPE173= 's2n_I_isocor'       / label for column 173                           TFORM173= 'E       '           / format for column 173                          TTYPE174= 'F861_isocor'        / label for column 174                           TFORM174= 'E       '           / format for column 174                          TTYPE175= 'e_F861_isocor'      / label for column 175                           TFORM175= 'E       '           / format for column 175                          TTYPE176= 's2n_F861_isocor'    / label for column 176                           TFORM176= 'E       '           / format for column 176                          TTYPE177= 'Z_isocor'           / label for column 177                           TFORM177= 'E       '           / format for column 177                          TTYPE178= 'e_Z_isocor'         / label for column 178                           TFORM178= 'E       '           / format for column 178                          TTYPE179= 's2n_Z_isocor'       / label for column 179                           TFORM179= 'E       '           / format for column 179                          TTYPE180= 'nDet_isocor'        / label for column 180                           TFORM180= 'E       '           / format for column 180                          TTYPE181= 'U_aper_3'           / label for column 181                           TFORM181= 'E       '           / format for column 181                          TTYPE182= 'e_U_aper_3'         / label for column 182                           TFORM182= 'E       '           / format for column 182                          TTYPE183= 's2n_U_aper_3'       / label for column 183                           TFORM183= 'E       '           / format for column 183                          TTYPE184= 'F378_aper_3'        / label for column 184                           TFORM184= 'E       '           / format for column 184                          TTYPE185= 'e_F378_aper_3'      / label for column 185                           TFORM185= 'E       '           / format for column 185                          TTYPE186= 's2n_F378_aper_3'    / label for column 186                           TFORM186= 'E       '           / format for column 186                          TTYPE187= 'F395_aper_3'        / label for column 187                           TFORM187= 'E       '           / format for column 187                          TTYPE188= 'e_F395_aper_3'      / label for column 188                           TFORM188= 'E       '           / format for column 188                          TTYPE189= 's2n_F395_aper_3'    / label for column 189                           TFORM189= 'E       '           / format for column 189                          TTYPE190= 'F410_aper_3'        / label for column 190                           TFORM190= 'E       '           / format for column 190                          TTYPE191= 'e_F410_aper_3'      / label for column 191                           TFORM191= 'E       '           / format for column 191                          TTYPE192= 's2n_F410_aper_3'    / label for column 192                           TFORM192= 'E       '           / format for column 192                          TTYPE193= 'F430_aper_3'        / label for column 193                           TFORM193= 'E       '           / format for column 193                          TTYPE194= 'e_F430_aper_3'      / label for column 194                           TFORM194= 'E       '           / format for column 194                          TTYPE195= 's2n_F430_aper_3'    / label for column 195                           TFORM195= 'E       '           / format for column 195                          TTYPE196= 'G_aper_3'           / label for column 196                           TFORM196= 'E       '           / format for column 196                          TTYPE197= 'e_G_aper_3'         / label for column 197                           TFORM197= 'E       '           / format for column 197                          TTYPE198= 's2n_G_aper_3'       / label for column 198                           TFORM198= 'E       '           / format for column 198                          TTYPE199= 'F515_aper_3'        / label for column 199                           TFORM199= 'E       '           / format for column 199                          TTYPE200= 'e_F515_aper_3'      / label for column 200                           TFORM200= 'E       '           / format for column 200                          TTYPE201= 's2n_F515_aper_3'    / label for column 201                           TFORM201= 'E       '           / format for column 201                          TTYPE202= 'R_aper_3'           / label for column 202                           TFORM202= 'E       '           / format for column 202                          TTYPE203= 'e_R_aper_3'         / label for column 203                           TFORM203= 'E       '           / format for column 203                          TTYPE204= 's2n_R_aper_3'       / label for column 204                           TFORM204= 'E       '           / format for column 204                          TTYPE205= 'F660_aper_3'        / label for column 205                           TFORM205= 'E       '           / format for column 205                          TTYPE206= 'e_F660_aper_3'      / label for column 206                           TFORM206= 'E       '           / format for column 206                          TTYPE207= 's2n_F660_aper_3'    / label for column 207                           TFORM207= 'E       '           / format for column 207                          TTYPE208= 'I_aper_3'           / label for column 208                           TFORM208= 'E       '           / format for column 208                          TTYPE209= 'e_I_aper_3'         / label for column 209                           TFORM209= 'E       '           / format for column 209                          TTYPE210= 's2n_I_aper_3'       / label for column 210                           TFORM210= 'E       '           / format for column 210                          TTYPE211= 'F861_aper_3'        / label for column 211                           TFORM211= 'E       '           / format for column 211                          TTYPE212= 'e_F861_aper_3'      / label for column 212                           TFORM212= 'E       '           / format for column 212                          TTYPE213= 's2n_F861_aper_3'    / label for column 213                           TFORM213= 'E       '           / format for column 213                          TTYPE214= 'Z_aper_3'           / label for column 214                           TFORM214= 'E       '           / format for column 214                          TTYPE215= 'e_Z_aper_3'         / label for column 215                           TFORM215= 'E       '           / format for column 215                          TTYPE216= 's2n_Z_aper_3'       / label for column 216                           TFORM216= 'E       '           / format for column 216                          TTYPE217= 'nDet_aper_3'        / label for column 217                           TFORM217= 'E       '           / format for column 217                          TTYPE218= 'U_aper_6'           / label for column 218                           TFORM218= 'E       '           / format for column 218                          TTYPE219= 'e_U_aper_6'         / label for column 219                           TFORM219= 'E       '           / format for column 219                          TTYPE220= 's2n_U_aper_6'       / label for column 220                           TFORM220= 'E       '           / format for column 220                          TTYPE221= 'F378_aper_6'        / label for column 221                           TFORM221= 'E       '           / format for column 221                          TTYPE222= 'e_F378_aper_6'      / label for column 222                           TFORM222= 'E       '           / format for column 222                          TTYPE223= 's2n_F378_aper_6'    / label for column 223                           TFORM223= 'E       '           / format for column 223                          TTYPE224= 'F395_aper_6'        / label for column 224                           TFORM224= 'E       '           / format for column 224                          TTYPE225= 'e_F395_aper_6'      / label for column 225                           TFORM225= 'E       '           / format for column 225                          TTYPE226= 's2n_F395_aper_6'    / label for column 226                           TFORM226= 'E       '           / format for column 226                          TTYPE227= 'F410_aper_6'        / label for column 227                           TFORM227= 'E       '           / format for column 227                          TTYPE228= 'e_F410_aper_6'      / label for column 228                           TFORM228= 'E       '           / format for column 228                          TTYPE229= 's2n_F410_aper_6'    / label for column 229                           TFORM229= 'E       '           / format for column 229                          TTYPE230= 'F430_aper_6'        / label for column 230                           TFORM230= 'E       '           / format for column 230                          TTYPE231= 'e_F430_aper_6'      / label for column 231                           TFORM231= 'E       '           / format for column 231                          TTYPE232= 's2n_F430_aper_6'    / label for column 232                           TFORM232= 'E       '           / format for column 232                          TTYPE233= 'G_aper_6'           / label for column 233                           TFORM233= 'E       '           / format for column 233                          TTYPE234= 'e_G_aper_6'         / label for column 234                           TFORM234= 'E       '           / format for column 234                          TTYPE235= 's2n_G_aper_6'       / label for column 235                           TFORM235= 'E       '           / format for column 235                          TTYPE236= 'F515_aper_6'        / label for column 236                           TFORM236= 'E       '           / format for column 236                          TTYPE237= 'e_F515_aper_6'      / label for column 237                           TFORM237= 'E       '           / format for column 237                          TTYPE238= 's2n_F515_aper_6'    / label for column 238                           TFORM238= 'E       '           / format for column 238                          TTYPE239= 'R_aper_6'           / label for column 239                           TFORM239= 'E       '           / format for column 239                          TTYPE240= 'e_R_aper_6'         / label for column 240                           TFORM240= 'E       '           / format for column 240                          TTYPE241= 's2n_R_aper_6'       / label for column 241                           TFORM241= 'E       '           / format for column 241                          TTYPE242= 'F660_aper_6'        / label for column 242                           TFORM242= 'E       '           / format for column 242                          TTYPE243= 'e_F660_aper_6'      / label for column 243                           TFORM243= 'E       '           / format for column 243                          TTYPE244= 's2n_F660_aper_6'    / label for column 244                           TFORM244= 'E       '           / format for column 244                          TTYPE245= 'I_aper_6'           / label for column 245                           TFORM245= 'E       '           / format for column 245                          TTYPE246= 'e_I_aper_6'         / label for column 246                           TFORM246= 'E       '           / format for column 246                          TTYPE247= 's2n_I_aper_6'       / label for column 247                           TFORM247= 'E       '           / format for column 247                          TTYPE248= 'F861_aper_6'        / label for column 248                           TFORM248= 'E       '           / format for column 248                          TTYPE249= 'e_F861_aper_6'      / label for column 249                           TFORM249= 'E       '           / format for column 249                          TTYPE250= 's2n_F861_aper_6'    / label for column 250                           TFORM250= 'E       '           / format for column 250                          TTYPE251= 'Z_aper_6'           / label for column 251                           TFORM251= 'E       '           / format for column 251                          TTYPE252= 'e_Z_aper_6'         / label for column 252                           TFORM252= 'E       '           / format for column 252                          TTYPE253= 's2n_Z_aper_6'       / label for column 253                           TFORM253= 'E       '           / format for column 253                          TTYPE254= 'nDet_aper_6'        / label for column 254                           TFORM254= 'E       '           / format for column 254                          TTYPE255= 'U_total '           / label for column 255                           TFORM255= 'E       '           / format for column 255                          TTYPE256= 'e_U_total'          / label for column 256                           TFORM256= 'E       '           / format for column 256                          TTYPE257= 's2n_U_total'        / label for column 257                           TFORM257= 'E       '           / format for column 257                          TTYPE258= 'F378_total'         / label for column 258                           TFORM258= 'E       '           / format for column 258                          TTYPE259= 'e_F378_total'       / label for column 259                           TFORM259= 'E       '           / format for column 259                          TTYPE260= 's2n_F378_total'     / label for column 260                           TFORM260= 'E       '           / format for column 260                          TTYPE261= 'F395_total'         / label for column 261                           TFORM261= 'E       '           / format for column 261                          TTYPE262= 'e_F395_total'       / label for column 262                           TFORM262= 'E       '           / format for column 262                          TTYPE263= 's2n_F395_total'     / label for column 263                           TFORM263= 'E       '           / format for column 263                          TTYPE264= 'F410_total'         / label for column 264                           TFORM264= 'E       '           / format for column 264                          TTYPE265= 'e_F410_total'       / label for column 265                           TFORM265= 'E       '           / format for column 265                          TTYPE266= 's2n_F410_total'     / label for column 266                           TFORM266= 'E       '           / format for column 266                          TTYPE267= 'F430_total'         / label for column 267                           TFORM267= 'E       '           / format for column 267                          TTYPE268= 'e_F430_total'       / label for column 268                           TFORM268= 'E       '           / format for column 268                          TTYPE269= 's2n_F430_total'     / label for column 269                           TFORM269= 'E       '           / format for column 269                          TTYPE270= 'G_total '           / label for column 270                           TFORM270= 'E       '           / format for column 270                          TTYPE271= 'e_G_total'          / label for column 271                           TFORM271= 'E       '           / format for column 271                          TTYPE272= 's2n_G_total'        / label for column 272                           TFORM272= 'E       '           / format for column 272                          TTYPE273= 'F515_total'         / label for column 273                           TFORM273= 'E       '           / format for column 273                          TTYPE274= 'e_F515_total'       / label for column 274                           TFORM274= 'E       '           / format for column 274                          TTYPE275= 's2n_F515_total'     / label for column 275                           TFORM275= 'E       '           / format for column 275                          TTYPE276= 'R_total '           / label for column 276                           TFORM276= 'E       '           / format for column 276                          TTYPE277= 'e_R_total'          / label for column 277                           TFORM277= 'E       '           / format for column 277                          TTYPE278= 's2n_R_total'        / label for column 278                           TFORM278= 'E       '           / format for column 278                          TTYPE279= 'F660_total'         / label for column 279                           TFORM279= 'E       '           / format for column 279                          TTYPE280= 'e_F660_total'       / label for column 280                           TFORM280= 'E       '           / format for column 280                          TTYPE281= 's2n_F660_total'     / label for column 281                           TFORM281= 'E       '           / format for column 281                          TTYPE282= 'I_total '           / label for column 282                           TFORM282= 'E       '           / format for column 282                          TTYPE283= 'e_I_total'          / label for column 283                           TFORM283= 'E       '           / format for column 283                          TTYPE284= 's2n_I_total'        / label for column 284                           TFORM284= 'E       '           / format for column 284                          TTYPE285= 'F861_total'         / label for column 285                           TFORM285= 'E       '           / format for column 285                          TTYPE286= 'e_F861_total'       / label for column 286                           TFORM286= 'E       '           / format for column 286                          TTYPE287= 's2n_F861_total'     / label for column 287                           TFORM287= 'E       '           / format for column 287                          TTYPE288= 'Z_total '           / label for column 288                           TFORM288= 'E       '           / format for column 288                          TTYPE289= 'e_Z_total'          / label for column 289                           TFORM289= 'E       '           / format for column 289                          TTYPE290= 's2n_Z_total'        / label for column 290                           TFORM290= 'E       '           / format for column 290                          TTYPE291= 'nDet_magTotal'      / label for column 291                           TFORM291= 'E       '           / format for column 291                          TTYPE292= 'recno   '           / label for column 292                           TFORM292= 'I       '           / format for column 292                          TTYPE293= 'Name    '           / label for column 293                           TFORM293= '7A      '           / format for column 293                          TTYPE294= 'A3727   '           / label for column 294                           TFORM294= 'E       '           / format for column 294                          TTYPE295= 'A3869   '           / label for column 295                           TFORM295= 'E       '           / format for column 295                          TTYPE296= 'A4959   '           / label for column 296                           TFORM296= 'E       '           / format for column 296                          TTYPE297= 'A6312   '           / label for column 297                           TFORM297= 'E       '           / format for column 297                          TTYPE298= 'A6584   '           / label for column 298                           TFORM298= 'E       '           / format for column 298                          TTYPE299= 'A6717   '           / label for column 299                           TFORM299= 'E       '           / format for column 299                          TTYPE300= 'A7135   '           / label for column 300                           TFORM300= 'E       '           / format for column 300                          TTYPE301= 'A7320   '           / label for column 301                           TFORM301= 'E       '           / format for column 301                          TTYPE302= 'SimbadName'         / label for column 302                           TFORM302= '11A     '           / format for column 302                          TTYPE303= '_RA     '           / label for column 303                           TFORM303= 'D       '           / format for column 303                          TTYPE304= '_DE     '           / label for column 304                           TFORM304= 'D       '           / format for column 304                          TTYPE305= 'Separation'         / label for column 305                           TFORM305= 'D       '           / format for column 305                          TUNIT305= 'arcsec  '           / units for column 305                           TCOMM305= 'Distance between matched objects along a great circle'               TUCD305 = 'pos.angDistance'                                                     DATE-HDU= '2020-08-27T23:07:06' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MC0072SPLUS.MC0072.006125.griz@-ÖtLğzŞÀQèÍ4SïÖFÀ”Dƒÿ)   %Ajz}?ç·9?ÚàÂª±?‡‚\=bú ?ŞÁ        @m2Ï ?zIé@5ıˆ?zí Bp%!            A”ÂÂ=dƒ«A›¿mA—+¡=ÔW‰A'ÖA‘—=«øÎANdÓA™uÃ>O@Ï@«ì;A”-k=Úà¢A"€A è<ØŸSB&v_Aeî=9KßAÀÙÔAŠ’<ª'BN¿·AyÊğ<£×
+C‰ A—ìå=ŒÙA”.A–çæ=øÏ	A§mA˜ğ=ëÂ›AA@  A”ç=ukfA‘	¶A–gf=Î{ÑA,Ú…A‘rª=²QÜAFˆA˜ø>Oş@«‡ØA“çF=ßìfAåöAñ<ä´BÄMA$é=>äÖA»ú0AÉH<¶GB>ÉˆAyÈ<£×
+C}R%A—¹Q=‘ÏŒAvÑ¢A– ½=şÚìA
+èXA—Ëü=åX™A"A@  A•XF==–ĞA»¹’A˜ó=ÇêíA2DSA“ª=“bAa@Ašh>>0¥H@É¶EA”’¹=°¬#AHÆfA©Ç<´ÄBH>™AŞÍ=*2AÑ‚[AËğ<£×
+B~ªAzÀè<£×
+CŒ«A˜W±=a5GAçãA˜‚f=ä7çA†JA˜‡´=³6ŞAFÉA@  AwN<£×
+B³æÊA~Äß<£×
+BÜWArø<£×
+BœãA€×<¬BN~hAv2<£×
+B—÷€ARQ<ù´¿Bh_AlœZ<£×
+B·kõA½W<Ç‡–B0O
+Awb\<ë?`B*‘A}#<£×
+B¯F'A}ã<£×
+B‡:A}î(<£×
+B—ÂA@  A˜®Š=#äâAÙ'öA›J¾=˜wüAi¾“A–óã=‘h]AtyAœ—.>>(A	ØéA–û=ˆ#íA‚FpA’<£×
+BwÄúA’¦=ªİB«qA¬ <£×
+B£2æA~©l<£×
+C-EAšrá=$™éAÙjfA›qO=´yRAD«,Ašeâ=zo=A@áA@  A”ãn=D¡|Aµ ŒA˜oF=Î‚óA,“-A’Ç=¦šƒAUVA™^â>,l%@Î§A•(=ÎYA,ôA‡ä<ÀéñB:ë‹Ab¥=/ôŒAËÆAÅš<£×
+Bk¤õAzb^<£×
+CˆêyA˜9Ã=s¨0A’ß¿A˜A	=ógQAÒeA˜Ò=Å›®A4H,A@  A“Ò =#äâAÙ'öA–Ö=˜wüAi¾“A‘Ë¾=‘h]AtyA—ß¬>>(A	ØéA’®Ç=ˆ#íA‚FpA,_<£×
+BwÄúAZ<=ªİB«qAIå<£×
+B£2æAwh<£×
+C-EA—f=$™éAÙjfA˜±”=´yRAD«,A—^ğ=zo=A@áA@    MGPN 2 5y¥6øM„7Ñ·5ˆ‹3éî2çí¡46‰?6]u‘SMP SMC 25 @-ÖpâÁ*ØÀQèÍJ¡?¢]HAÉªMC0072SPLUS.MC0072.044863.griz@2¬OŠÀQÜ¤‰ãùŞE.d:Eu   9Az+Ù@ã•@2³@™ªÑ?ƒë]<óc@@EI        @ĞWn >j±1@¶áh?ü'1A²            AšË>u“'@‘8!A‘hJ>ĞA	A”zÂ>‹]¨@~Ï”AÑ“?e,·?›ûA”òŸ>ÏE@zJ1A‘EB=ŸıeA`v'A—ú>æU@y¯A‡—=xd-A&RA‚Oİ<£×
+B A•_b=øœAIüA“‚>?<@¹Ü‹A–Ä>gbJ@šTA@  A™ZÇ>OşM@«Ó?A‘¸=ğ±]Ax¬A“ùo>o­‹@“ÛKA¤UH?ÄËŒ?4lgA”l>vµá@~3A‘~¤=—9wAo¤ãA—j >ˆœ]@‚@‘A¯=f´ A™ÿáA‚¤c<£×
+B¤³{A–t2> „îA
+¼A“¯{><Ç@¼ÆøA—•ü>h®@™ÿéA@  A˜Íé=¡¡äA\£=A“is=|Ü¥A‚A™g<>8˜.@À`ËA˜g>&€‘@Õ|ïA˜„g> >Ş@İ~–A’Á)=¾A÷Š|A™·h><û@óYEA’0<çF;B¾‘A„œ<£×
+C	›ÁA˜˜Ú=†ğ•AƒÿA–òÉ=àzÃAV`A˜ü=ÈG»A2K»A@  A~z”<£×
+B®As±¥<£×
+B¿VÚA­6<«›tBNïïA}á<£×
+B`‡A}ç<£×
+BfÉWAÈØ=OºÏA¬àZA€&È<£×
+Bwi²A+2=>áA»AVõ<£×
+BäÆYA~t<£×
+B»AzÄR<£×
+B’øA}¶<£×
+B„¡A@  AóJ=œ#AzqA˜°l=i@SA˜âëA 0)>APß@·²ïA —>!J—@Üb›A¿Ï>Çx@ü4A˜B¥=BäTA p>A¿@ëFGA—RÁ<ÑE_B)èØAˆp<£×
+C·pAŸC²=Š¶›A€gÃA”=å>A'ÕAŸĞ=ÉJğA1f"A@  A™§=›DöAe­ôA“7l=hÏ¥A™,êAš>Ö>=ûJ@ºìJA˜À+> 0@İçAA˜ÿ©>S@à.©A“Y=`ºA÷±Ašˆ>c(@ùîA’Şğ<ê)¾BÙA„±><£×
+C ñA™4ã=‡@XAƒ±*A˜–Ú=üÎA˜½A˜„=Å©ÛA4§øA@  A™À=œ#AzqA“m„=i@SA˜âëA›>APß@·²ïA™é>!J—@Üb›A™s{>Çx@ü4A”Qè=BäTAœÅª>A¿@ëFGA“ğ¦<ÑE_B)èØA„ÏZ<£×
+C·pAœ6ì=Š¶›A€gÃAšÔ`=å>A'ÕA›˜Ş=ÉJğA1f"A@   &MGPN 9 5®{©6¡°7ÉSœ4ÁF4l9$2¼úƒ3ì9$6µ1¦SMP SMC 34 @2 ¥&•–ÀQÜ¢	ª£­?âÁs yuMC0093SPLUS.MC0093.051819.griz@$®FÃ‹Y©ÀR0L°0E'¿ËDõxĞ   –ALç@@ôô@‡È·?Œ-I=±çè?Ôf"        @x6Ğ ?l#Q@æ„?y¡EC…õ›            A‹Ÿ™<£×
+Bš·mAˆ±®<£×
+B‹ûäA‰2*<Ï†8B*Ê„AyÔ=2EAôˆAŠyQ<¿!SB9ª«AÄë<£×
+C•sA‰Ü”<£×
+Bl¾ÏA…p<£×
+C<–Ai£w<£×
+D°ÌA‹<[<£×
+B‹µ‡Aü=8òAÀ)AŠM•<ï”¯BñA@  A‹»<£×
+B¢1wAˆ¸"<£×
+B’Ø4A‰V9<ÅX­B2áA‰7=§ôB‘AŠ¥E<¶=BBg¹A±x<£×
+C”Ù„AŠˆ<£×
+BwqŠA…â<£×
+CC(ĞAiî~<£×
+DªhA‹Y·<£×
+B–ZAÔ=%‘AÖ]ìAŠ?F<ÙŠB$ÑcA@  A‹á><£×
+B÷ûAˆÀ»<£×
+B¿÷A‰y;<Ë.ÆB.pÆA®&=:AıdÚAŠ²C<¹äŞB>å|A€V<£×
+CÒìAŠ6Ï<£×
+Bp3A…Ş<£×
+CAƒAiò<£×
+D¦òA‹z<£×
+B‘F7A¦&=%şRAÖ¨AŠaÛ<àÒBáÅA@  Ad¡?<£×
+C"Ğ7A^`6<£×
+C"=¡A_Ñ8<£×
+C8{Aj;<£×
+CİşAbCE<£×
+C"SAÈ[<£×
+C:AaL]<£×
+CÔ™A…P<£×
+CâyAhWù<£×
+BôiLA‰rc<¼ş±B<§sAh+<£×
+C³ñA…Š‹=»Añ,¨A@  AİÒ<£×
+B·ŠJA‹ç<£×
+B­A	<°©BH¡A’Ğ<ã`~B&•AFb<£×
+B_ÅA‚ë<£×
+C‡EuAÙC<£×
+BˆÔgAˆ ƒ<£×
+CVïAm†ï<£×
+D-DA,U<£×
+BÔj¬A‘}4<ÉX9B0‚lA»¥<£×
+Bò‘A@  AŒm‘<£×
+B·ïKA‰sá<£×
+B¡ÍµAŠnI<±ÖôBGL—A‘	<ıöBÎA‹ÄĞ<£×
+BZ?A€ÇÜ<£×
+C“‡EA‹ñ<£×
+B„± A†tÁ<£×
+CR¢ AjÛ<£×
+D²PA-g<£×
+Bª’äA}†=
+e™B efA‹ë<<³°ğBFÉA@  A‹B<£×
+B·ŠJAˆcœ<£×
+B­A‰yî<°©BH¡A¼<ã`~B&•A‹ Í<£×
+B_ÅA&Ï<£×
+C‡EuA‹U4<£×
+BˆÔgA…Zğ<£×
+CVïAhºV<£×
+D-DAR	<£×
+BÔj¬A”|<ÉX9B0‚lA‹ì<£×
+Bò‘A@   (MGPN 117Š>6Œíº8–şµ6»ç¢6İu‘30ú4›±L7Ÿb0SMP SMC 5  @$®:}ªOÊÀR0LƒfQn?»e¿é5¼MC0093SPLUS.MC0093.085620.griz@%µı?ü+
+ÀR(ß¹Š¢ØDÏ$E(fß   AOÄÑ@*m@³ªÂ¬‡³?“ÛU>	…<?à¤d        @|I  ?n$~@,Å„?™0C[Jy            A‰ºŒ<£×
+B¯ù¼A‰ª<£×
+Bv51A‡\j<·…±BAzïA‹«Q<è'ŒBñıAˆ¹‰<©ërBP±çA‚å<£×
+Cqù`A‰p<£×
+Bjÿ]A…ĞÆ<£×
+C/½¦AkK<£×
+D óAŒ%<£×
+Bc25A]=Nº[A«»]AŒÙ=%îA×A@  A‰Ä·<£×
+B»ÆòA‰ëx<£×
+BA‡¤ó<®¹BJÇ=A‹¢|<ÔB'yAˆ²£<£×
+Ba”ËA‚o<£×
+C{Û.A‰«°<£×
+Bx`5A…ë«<£×
+C9iÎAknz<£×
+D %·AŒ­­<£×
+Bz@¯Aoº=8èpA¿ŠŞAŒ;×=‘±AüA@  A‰Ê…<£×
+B¸¿BA‰Çz<£×
+B€Ç	A‡‡$<¯×ªBIî*A‹Wj<ÒV,B(Ï^Aˆ…\<£×
+BaÙçA‚*=<£×
+CwÀA‰qU<£×
+By¤QA…Ä^<£×
+C9.AkJ‚<£×
+D ÎĞAŒ+<£×
+B‚ŠÓAÆ=0‘ÕAÉ\A‹¤o==B< A@  A`sÉ<£×
+C,y·A`m²<£×
+C(ğA[í	<£×
+C$Õ.Ac”<£×
+C äA]éx<£×
+C&‘ĞAØd<£×
+CMÆA_Ái<£×
+C(n˜A…7\<£×
+C	¡áAi(d<£×
+BÅaôA‰> <Ø¶”B$¦©Ahjİ<£×
+CçGA‚6=Ç÷B¬ŒA@  ASz<£×
+BËBëAj÷<£×
+B%¬A‹ß<£×
+Bd›AÜ»<ªô€BO²ŠAŒ]<£×
+B‚şA…oà<£×
+Ch¦WAB.<£×
+B‚>Aˆ–ì<£×
+CN×[AoT÷<£×
+CôµSAA<£×
+BÂO?A’¸ <á¾lBDAG<£×
+B^–A@  AŠ•‰<£×
+BÓû,AŠÂş<£×
+B’m×Aˆ€<£×
+Bg^ıAŒO<¯´gBJ?A‰ƒ<£×
+B‚Ñ)Aƒ=<£×
+Cm`AŠ£7<£×
+Bİ²A†¬Î<£×
+CO`‡Alfõ<£×
+D;oAÆâ<£×
+B ¼ùAˆ¨=
+í¬AÿŠGAdE<Ó$›B)[dA@  A‰·°<£×
+BËBëA‰çz<£×
+B%¬A‡0<£×
+Bd›A‹Œj<ªô€BO²ŠAˆëÈ<£×
+B‚şA‚0<£×
+Ch¦WAŠ¾<£×
+B‚>A…ñY<£×
+CN×[Ajˆ^<£×
+CôµSAfÎ<£×
+BÂO?AÏH<á¾lBDAw†<£×
+B^–A@   +Ma 01  5“£¶7´±8M…Y6Ì®š5l9$4¦n57½À  SMP SMC 8  @%¶	VÀÖõÀR(ßø"»í?¼ÚR”Ó`¸MC0093SPLUS.MC0093.295870.griz@ Rå/Qt2ÀQìË/xø.EÚ•>F
+ô8   —AMJ(@N}@
+¼Â«Œ²?^=Î­x?Î,        @‚M  ?yí[@¤˜?jôC„‡ç                        A‹!"<£×
+BŸS%AŠ-İ<£×
+Bq€÷Aˆ¼Ò<Êó*B/ˆ—AYK=€›AòôAˆÍ’<¦¬.BUÇmA~ +<£×
+C˜EAé†=ºäAè:¶A…}<£×
+C9a…Agİ#<£×
+Dğ
+AI<¯Š=BJ©”A4>=YuKA£²kA:=&KAÕ®’A@  A‹1}<£×
+B¬uAŠc®<£×
+B€lAˆó(<½~+B<3ÓAƒÛ=±B%SAˆêƒ<£×
+BføšA~R<£×
+CšË±Aîm=ûŒBûèA…¦7<£×
+CCıÈAht<£×
+D³A'	<£×
+Bc”A•~=E1<A´“ÂA'›=¢EAó£A@  A‹2<£×
+BŸ}éAŠ,#<£×
+Bq¦ÁAˆÁÌ<ËQªB/7A?¥=	 Aõi‰Aˆ×C<§B¢BU!A}şe<£×
+C˜ ¯A¤=3AîÂòA…zB<£×
+C9—3Agà%<£×
+DáúAÜŞ<¬ÆMBMçúA)=XrA¤v$AŒ› =EzAàƒ$A@  Ac&<£×
+C3m÷Aa7<£×
+C/eA^bY<£×
+C)EìAi^<£×
+C’uA^E<£×
+C-äeA}Œí<£×
+C†‡¼An'Ú<£×
+CôüA„ŞÏ<£×
+Cw@AfĞ<£×
+BíZÇAˆuk=dªB	xNAk1Ş<£×
+C=AfÀ<£×
+CG A@  A ğ<£×
+BÀ·DA4<£×
+B‘ÁAŒr<¥óBWÆ
+A‘3Û<Ê &B0˜A‹õ<£×
+BƒRÆAÜi<£×
+C¡A“‹<ÂÅ’B64A‡„€<£×
+C]aÑAkÓĞ<£×
+D}»A]<£×
+BÅÇA’~<Õœ`B&¥1AH»<£×
+BuĞÕA@  A‹Ç9<£×
+BÁ{PAŠæ¸<£×
+BÉHA‰Ãe<©
+DBR¾õAT¥<ã¿¡BHÈA‰´c<£×
+BLAŠ<£×
+CœBpA’ª<é®5BÈA†#<£×
+CWË‡Aiz<£×
+D#	AÄz<£×
+B‘´°A©Œ=ãwAâå&A§:<×¢¤B$ÉpA@  AŠ…&<£×
+BÀ·DA‰’¶<£×
+B‘ÁAˆqÃ<¥óBWÆ
+AãŠ<Ê &B0˜AˆÏp<£×
+BƒRÆA}	q<£×
+C¡A‘õ<ÂÅ’B64A„Şí<£×
+C]aÑAg7<£×
+D}»A:<£×
+BÅÇA6Æ<Õœ`B&¥1Ay5<£×
+BuĞÕA@   SMP 26 7'Å¬7Z“8'Å¬5!°78Œ¤4–!4–!6±Ö§SMP SMC 2  @ RÖ#£ÂÀQìÊ˜ñÔ?ÉP6Ì%ŸMC0094SPLUS.MC0094.194143.griz@-¢dÿµ­êÀR!²7ÀmEŒEĞÖ4   {ANR@…g@&CÂEû¦?–,+>0È?Ú§        @~| ?{g.@*8?T)C}XÒ            A…d<£×
+C'yAƒŸ<£×
+Bø\”A„‹
+<£×
+B‘ë¾A‡p7<£×
+Bv€6A„ù’<£×
+B›K·A'H<£×
+Cu+”A‡îj<£×
+B‹‡²A‚µ<£×
+CUhAdJ	<£×
+D Ö+A‰»~<£×
+B±¡µA‹%<çJB€‡A‰<©¸SBR?.A@  A…€^<£×
+C/æAƒ¸×<£×
+CßA„½ä<£×
+Bš$SA‡¾Ì<£×
+BÑVA…à<£×
+B¥ ‰AB{<£×
+C~HØAˆ.'<£×
+B”8‘A‚Õƒ<£×
+C`ÈÉAdxr<£×
+D"€A‰æƒ<£×
+BÂŞÆA‹_ç<ÔJ‘B&ÙÎA‰"0<£×
+Bk<ÿA@  A…˜ú<£×
+C+]ÍAƒÚš<£×
+Bş/A„İ+<£×
+B•A_A‡!<£×
+B€\¨A…8$<£×
+B wAOT<£×
+CyíAˆ¸<£×
+B‘İjA‚Äî<£×
+C]ŞAd„“<£×
+D!€ôA‰Ë¯<£×
+B¾šúA‹”<ÕƒB&ŸAˆôW<£×
+BgeA@  AX´<£×
+C!MAT“ô<£×
+C±+AV™<£×
+CÒ‚A\ <£×
+CVµAWO<£×
+C€	A	L<£×
+CR]A]
+0<£×
+CétA‚of<£×
+C4¶§AcXä<£×
+C[oAˆß<¦1ïBV)†Abÿè<£×
+Cf®Aƒ¢=‡ÙAöã±A@  Aˆğv<£×
+C3ÒpA‡d·<£×
+C˜Aˆb¾<£×
+B¦pA‹
+~<£×
+B–Ú?Aˆ˜É<£×
+B´qSAƒş”<£×
+C|2¸A‹6Ó<£×
+B²S5A…w<£×
+CxgAh;«<£×
+D2ÅAŒH8<£×
+Cß¹A¶<£×
+Bd5A‹¤‚<£×
+BÑÆÛA@  A†) <£×
+C=tA„€´<£×
+COA…›p<£×
+B§ÆLAˆ›¿<£×
+B2ÄA…ù_<£×
+B³úAêÖ<£×
+C„	*A‰J<£×
+B¥‰eAƒQã<£×
+Cw‘•Ae=#<£×
+D#DFAŠ—o<£×
+Bí¹ÑAŒ<«±ÃBNÈYA‰ÇÄ<£×
+B”UùA@  A…‰Å<£×
+C3ÒpAƒ²3<£×
+C˜A…<£×
+B¦pAˆˆ<£×
+B–Ú?A…ŸH<£×
+B´qSA€*$<£×
+C|2¸Aˆ·~<£×
+B²S5A”è<£×
+CxgAb#<£×
+D2ÅA‰à<£×
+Cß¹AŒY'<£×
+Bd5AŠ{<£×
+BÑÆÛA@   MGPN 1 6Œíº6–şµ8¥¬Í7$j®6Œíº4»ç¢4Æ¤jÀ  SMP SMC 24 @-¢MÒñ©üÀR Ä›¥ã?Ò;Z:‘îMC0113SPLUS.MC0113.084466.griz@úôà"~ÀRhš‰»À¬EFÛtE‡ÊR   ¨AQV¶@J}@šÁ¿?¯_¶>ŠN”?å­e        @‚·Ğ ?ZÍ@Iò?†j~CZvû            AŠ/<£×
+Bœ¦”Aˆñ><£×
+Bi‹1A‰£´=i¹B_ÂAŠ§<ôw`B‰Aˆ:<¹×	B?†^A„¹l<£×
+C/ŒöA‹ÊÊ<×Ü:B$íEAƒP<£×
+C@¨çAfŠé<£×
+DHÏAˆ"Ñ<£×
+B¤IäA‰á =	qàB9\Aˆ€<Ù•ÁB#ğ‹A@  AŠ={<£×
+BªQ'Aˆûy<£×
+B€LYA‰¥@<èõB9AŠ¬<ÛƒB"göAˆ:2<¨ûÜBR«§A„õœ<£×
+C8bğAŒ1<ÇÑâB2=éAƒ(<£×
+CNZ[Afòó<£×
+DòAˆXC<£×
+B·€šAŠED<÷¶ñB$ÈAˆa<Âr‘B7âBA@  AŠŒÿ<£×
+B§ƒ#A‰Y«<£×
+Bzö¯A‰Ğº<é³@B3ÿAŠİ¢<Ü%³B!œÏAˆŸH<­ BM™”A…"<£×
+C7t€AŒ7W<ÅhÒB4WxAƒ¿À<£×
+CK¢úAg1Ï<£×
+D¤0AˆÉÅ<£×
+B²oAŠ¡¾<ı|ÀB"yAˆÉX<Ç6zB3A@  Aaø¿<£×
+C2lA_’<£×
+C/cA`€6<£×
+C#XÄAbš<£×
+C%?+A^P<£×
+C+Q5A„.<£×
+C	Û1AeMn<£×
+C(Z›AƒMw<£×
+C"¨TAe•T<£×
+CHA‡IÂ<£×
+Bx>ƒAb";<£×
+C VúA„Ij=ÏlBJØA@  A'Í<£×
+B³HAI‰<£×
+BŒPµAkµ<ºB>º)AHÿ<ª¤ıBP~ÇA‹÷¢<£×
+B|øAˆZ1<£×
+C;%
+A}2<£×
+BnÉÁA†¦$<£×
+CbMAkÒ'<£×
+D‚
+AŒ<£×
+C&`A#L<£×
+Br÷cA!<£×
+B›ÒæA@  A‹£ù<£×
+BÂ‚'AŠ<§<£×
+B“ÑoAŠº5<½nB;ÅöAŒÔ<µ¾BD}ÊA‰­•<£×
+Bu¸µA†?<£×
+CF&UAg¨<£×
+B\¸QA„Çb<£×
+CcÆAhje<£×
+DâƒAŠ@D<£×
+BáœLAŒ)ô<¿2B9}¦AŠá¶<£×
+BdXA@  A‰Äø<£×
+B³HAˆÜ<£×
+BŒPµA‰mÙ<ºB>º)AŠ„¾<ª¤ıBP~ÇAˆf)<£×
+B|øA„Òe<£×
+C;%
+AŒH¾<£×
+BnÉÁAƒœg<£×
+CbMAf_<£×
+D‚
+A‰¬ƒ<£×
+C&`A‹—<£×
+Br÷cAŠ¡|<£×
+B›ÒæA@   SMP 15 6BŸ7Ñ·8æ¯Í5‚0ò5ÉSœ2ßV›4l9$8›9SMP SMC 1  @ú1¤½º
+ÀRhšª:Ñ?ÁŒÓ:ŒMC0114SPLUS.MC0114.113862.griz@$»(å¶Š‹ÀRrA‚‘Eqæ×ER¨h   yAPYY@1"€@	c
+ÂsI…?¥;>eÇl?ôXÅ        @ƒO" ?|-\@A¹?ƒ«3Cgu            AÜò<¸âÑB@‰¶A‹™e<ÛæB"Û˜Aˆ¯ˆ<ü‘B-UAÙM=2Q[AÇ>ÅAˆï<ÑRŞB)ïA€Hµ<£×
+Cp^©A‹»x<ç/=Bû1A‚©ê<£×
+CAâAa©k<£×
+D!“°Aˆ<£×
+B¡æA‹MÚ=;êdA½Q°A‡~<ÑeB*/£A@  AŞÅ<´»'BE1A‹–è<ÖMB&ÖWAˆ¦'<öu–Bö[Aät=.\ïAËoüAˆë›<ÌX*B. ~A€Rf<£×
+CrŠ™A‹¦S<ßÕ.B¯A‚ l<£×
+CE¦-AaÈ<£×
+D!r	Aˆ¬<£×
+B’¯¨A‹LŠ=6IâAÃ©A‡•â<ÌA8B.¶³A@  AÜè<­=yBM{(A‹–¤<Í‡ZB-ŒìAˆ³D<íÊ BóFAÉ/=%(ıA×JA‰˜<Æ€B33)A€ZH<£×
+Cw>9A‹“©<ÔøîB'&A‚°ü<£×
+CJ©˜Aaàq<£×
+D"´Aˆ”?<£×
+B›kA‹3=+#ÖAÏàmA‡~><¿¥B9òÃA@  Ah˜<£×
+C*0ŒAd<£×
+C&:A^EI<£×
+C"1íAhq<£×
+CKA^çğ<£×
+C&ÿŸAñÙ<£×
+CATAAd<£×
+C%CqA‚)İ<£×
+CÆA`0h<£×
+BÿÆA…ôD<Ä·B4»AcDõ<£×
+C¹ÚA€G§=/ªBÒ‡A@  A’§ù<£×
+B|aåAøÜ<´{…BE¢}Aãv<ÏÃêB+£A“â$=
+ßÀAÿÕşAD<¬bBNÅAƒ¬Â<£×
+Cw‘ÌA‘Rs<·«0BAÑA…ë<£×
+ClAi(Û<£×
+DXîAŒqı<£×
+Bğ•ïA–i<Æ5ßB3|nA‹¨<£×
+B£7òA@  AM<£×
+B¢9AÖ<¬j‡BNá„A‰Ø<ÂôîB6åA;}=LBƒ¸AŠf?<¦WïBU×}A7º<£×
+C…n‰A¡<°kBJ!=Aƒš²<£×
+ClèœAcNl<£×
+D"ò¦A‰À<£×
+BÎR­AŒS <ó7´BE¹Aˆ«(<£×
+BÊ9A@  AÜ<£×
+B|aåAx<´{…BE¢}A‹Ë<ÏÃêB+£A§š=
+ßÀAÿÕşA‹4ø<¬bBNÅA€W|<£×
+Cw‘ÌAğ„<·«0BAÑA‚Ê|<£×
+ClAby#<£×
+DXîAŠÀè<£×
+Bğ•ïAŒøî<Æ5ßB3|nA‰ä•<£×
+B£7òA@   )MGPN 125ÿ7	’»7{¨‚5£¶7›94V¿•4AFÀ  SMP SMC 6  @$»NÛÊ—ÀRr>À//˜?ânH¥ñMC0114SPLUS.MC0114.273678.griz@!.åIÀÙòÀRN?WÇ½EßøEÜg¦   :Ac`k@êû?÷²mÂ®š-?“µi>¡¤?Ü‹y        @‹~ ?{NK@4†i?v)½BªšI            A“ó	=!$åAİ&A“=\6A¢DoA‘—=’KîAr~A“úè=!WA`ı÷A‘²'=o`óA”}°AˆŸ<£×
+Bõ–çA—=½v5A;™óA-~<£×
+Bƒş‡Ay@à<£×
+CCAA•¾é=r~2A’¡åA—k>#‘@Ú,ŠA”¿Ò=ÓçŒA'ÍA@  A“ëƒ=æBCA“84=:°AÀÊA‘ô]={AŒØWA”Ò=DšAzzA‘ø¾=L-=A­äìAˆÃr<£×
+CúïA˜X =¦ü,AT˜èAOÖ<£×
+B›İGAy´¯<£×
+C•[8A–šâ=VûA¥CGA˜½>	K@âqwA•Ó=¿´mA9UÆA@  A“Ûš<øûdB!PA“é=*¸AÑoÈA’*&=p^A“–üA•u=‡òrA‚ÚBA‘Òï=<?ÒA¼ÒdAˆÖÄ<£×
+CÆÔA˜ùõ=¥æŞAV>,Ahğ<£×
+B¤gdAyí9<£×
+C—½=A–Ã=EyzA´rA˜JI>	¨3A‰A•ÌÃ=¯Ô‰AJ:jA@  At•ô<£×
+BõArğ’<£×
+Béy•Aq3<£×
+BÒ³ÖAw¨<£×
+BÉ¡6Ap„œ<£×
+Bã ?Aˆ:;<£×
+BÄº«A~Ò¬<£×
+B·ØdAŒÎ†<À¼B:@ÃAsÍY=ñ|B{·Az F<£×
+Bàg³A}sR<£×
+B†5AxxE<£×
+B²jLA@  A–·^<ÁzéB80FA•Æ=*LB
+<4A”¶D=0ÙAÉ‰OA™;6=[vŸA¢#A”!1=	-`BA‹P<£×
+C2Aš­¬=IÇïA°%×A’#<£×
+BÜe\AÉË<£×
+CuÄA˜ú<ìå#BíAœ8|=¹(A@Ğ·A™¢ =iXA˜b@A@  A”ê<İ}›B å8A“GÈ=AêÁEA’.-=PIFAªRƒA•›‚=vXA™£A‘ö“=%£­AÖ˜¡A‰+h<£×
+Cf¢A˜ş=Œ§NA|³rAÖË<£×
+B´d¡Az”b<£×
+CšÈRA—sÄ=5º2AÃ©ÀA˜ÄC=ğ…:A^·A–®= ¹A]<ŸA@  A“ŸA<ÁzéB80FA’¹b=*LB
+<4A‘â™=0ÙAÉ‰OA– ¬=[vŸA¢#A‘Iå=	-`BA‡­
+<£×
+C2A˜K½=IÇïA°%×Aq<£×
+BÜe\Ay<£×
+CuÄA—Hì<ìå#BíA™› =¹(A@Ğ·A—è=iXA˜b@A@   $MGPN 7 7ÉSœ7û¨‚8f¯ÍÀ  6¸Œ¤4Ña14+Ìw6´±SMP SMC 3  @!.Ès«ÉÀRN?»×²?Ï¤¢ÇÇˆMC0115SPLUS.MC0115.043944.griz@)¶“Æ/%ÀR}wî[úKEü²0E	Ëa   ‹AR›„@ N@Â^Ğ?ƒÒ”<íŒÀ?à=o        @ƒJF ?\ùÇ@Mß?_xCa’Ë            A„JÆ<£×
+BŸ™¥Aƒk<£×
+B]>ÿA‚šU<ÛB"ı¸A…¢|=	ˆzB\òA¨G<³á„BEmAviS<£×
+CxÆA€šŸ<£×
+BˆyœA}‡ <£×
+C9ƒVA[”<£×
+D1İ¹A„Í{<£×
+B‰#VA†ç=)‰ÒAÑøQA„HZ<ÜW¤B!mÑA@  A„uÅ<£×
+B±EAƒz¦<£×
+By$ÎA‚¨–<Â>fB8xëA…«2<ğ*B&ãAÎ¢<£×
+B]aAv¦ä<£×
+C‡²¨A€Ú²<£×
+B–×ÅA}çC<£×
+CL¬ŞA[¿<£×
+D92øA„èœ<£×
+BœëvA‡ =#¸Aò³A„k4<¿ÏFB9[[A@  A„!<£×
+B¯J—Aƒ›E<£×
+BušÆA‚Á¾<ÃóÙB6;ÅA…İˆ<õ¼#BÍ×A‚í<¤ÑKBWxFAvØı<£×
+C†P_A€ê?<£×
+B•—÷A}ëq<£×
+CLRöA[çW<£×
+D7ÀA„ø]<£×
+B›·A‡Ë=#Aî±cA„t<ÁMB8=ÙA@  AUû<£×
+C#ÊœATJ<£×
+C D"ARb<<£×
+CkñAX™Ğ<£×
+C|úAPú›<£×
+CŠIAv6Î<£×
+CTpAN³?<£×
+C#%A|Ú<£×
+CAZl<£×
+BÕbÄA‚:<Ö}‘B%ßÒA[W<£×
+CQZAu<÷t8B¾A@  Aˆs<£×
+Bá…(A‡†Ç<£×
+B¡@A†k³<£×
+B|3A‰•Ü<£×
+B[-	A…Áh<£×
+B–ÌÆA|Œ<£×
+C O A„\‹<£×
+BÌAAÉS<£×
+C‰¸¼A`†à<£×
+D5 ‹Aˆœ<£×
+C }AŠ©æ<¥;¿BWpÅA‡À‡<£×
+B¬ª)A@  A…_ñ<£×
+B×;]A„…<<£×
+B–öEAƒÈ<£×
+Bf.‘A†ñB<Â6éB77’Aƒ¯<£×
+B…3ÆAxU<£×
+C›oáA‚0<£×
+B±ôpA¨<£×
+Cv†¶A\ÿÍ<£×
+D?k&A†O·<£×
+BÄˆAˆm°<ç4JB÷´A…‘<£×
+Bsç8A@  A…eg<£×
+Bá…(A…AŠ<£×
+B¡@Aƒ‘Æ<£×
+B|3A†Ì¸<£×
+B[-	Aƒ0<£×
+B–ÌÆAvr<£×
+C O A‚NĞ<£×
+BÌAA}=Ò<£×
+C‰¸¼A[!F<£×
+D5 ‹A†l¨<£×
+C }AˆõV<¥;¿BWpÅA†+É<£×
+B¬ª)A@   SMP 21 5ñ—‡6î<‰7Ñ·5Rè6“£¶4!°4–!6P	˜SMP SMC 15 @)¹8›R ÀR}xW)²?·˜Ñ
+í,MC0115SPLUS.MC0115.063029.griz@(¬ıXš$EÀRx„,Ò/FE(é   0At‡@(}Õ?Û>-B…!Z?Ä½m>²ãæ@8¹        @±	J ?7š@Ë<>@”BËê            A“s=¤õ—AWôA’Îç> A
+±A)ı>šË@ø–aA‘Wf>j@í&Aª=éñAÑmAŒ<ô†¤Bk.AÛ²=£ØjAZ"TA¸=¶AúJûA‚ø)<£×
+B±½zA†=e¹¿AšÿAAì˜=ú:RA0ßAÑ<=ÙJ A# ¼A@  A’÷Á=ˆpàA‚®ïA’¼9=ÔzA&â|A‘‡Q>Ú\@ş>IA‘©|>ÜşAœõAÒw=½:/A;S|AŒpø<×	GB%;ÖASß=‘”‰AvëAÇæ<î6®BûAƒ<£×
+BÎÚ=A¨ì=C4–A¶ƒ\Aš„=Ée3A0£A—À=°…eAI=eA@  A“/I=)5)AÒˆA’èp=‚†ÑAˆëA’ˆƒ=¼RA=İA’g=¢¹A[5íAÓÙ=IAy]Azú<£×
+Bo‰WAëÜ=PÚ„A« =AkP<£×
+BbívAƒÚ^<£×
+CÇ‡AR£<ùzB¹ÍAfN=hA™TáA¨=CÖ#Aµ^A@  As=R<£×
+BÍ€]Ar¯Ÿ<£×
+B¸ÿTAqïÅ<£×
+B môAp÷<£×
+B«?OAn†q<£×
+B³¦IA‹È="AõúÚAl¶y<£×
+BÅÕÈA‹¯.=ØJAáĞôAT“|<£×
+BàÒ¹Aˆ²:=NÚ´A¬"xAi«Z<£×
+B¿Ô‰Ai<£×
+BÇ›dA@  A—íû=¸[Aç¾4A–‡==Q1A©ôBA—ˆö=«08APˆGA•}U={:vAüA”DT=]?A ‡1AØ­<£×
+B’¸ãA“D=#ºAÛ4.A‘ä¥<£×
+BŒñA†Õè<£×
+CÏ_A“%d<Å²ŠB4‡A’aì=8˜ºAÀ¾ËA‘—É=Ä)Aóê0A@  A“S>=&4.AÖV*A’—‚=sã¤A‘¦xA’ÆT=º…™A?c°A’=œÑ6AcwBA‘™=)#A{š‘AÅî<£×
+Boµ”A-º=O¦±A¬ìAÊ <£×
+Ba^ÛAƒüŠ<£×
+CtÏAÆ=N[B ¥AuÆ=|{A#,A–=F³ÙA²îüA@  A”ßÄ=¸[Aç¾4A”B =Q1A©ôBA”¯=«08APˆGA’´0={:vAüA’=]?A ‡1AË©<£×
+B’¸ãA‘6V=#ºAÛ4.Aº;<£×
+BŒñA„#<£×
+CÏ_Aõô<Å²ŠB4‡A­\=8˜ºAÀ¾ËA=Ä)Aóê0A@   SMP 18 7–şµ7ÉSœ8¾×A5“£¶6já‹3á¤4«Ìw9Ì÷SMP SMC 12 @(¬í‘hr°ÀRx‚Æ#?ŞPÙ‰•V:MC0115SPLUS.MC0115.105523.griz@(î°$ÀRoPlFíQEcIB   ‰AU¬A@+)ı@¿B[© ?–ƒ>+0?í‡        @‚î÷ ?a¶’@$9?r”¬C@ò            A†³Á<£×
+Btº2A…=Ä<Å5UB4A…=3Aö,İAˆAG=:¹BA¿.ìAƒîê<éV¡B•Aw I<£×
+CmxA…]O<Ü$9B"((A
+Û<£×
+CÈA_¾L<£×
+DÒA‡£
+<´İxBD¸ºAŠOc=}™AŒesA‡†Ö=!ÅsAÛ´ıA@  A‡W<£×
+B…{.A…q˜<²ZÅBF ªA„ş²<şM[BåÍAˆ”q=*#4AÒ{İA„@¼<Õ7ÙB'”AwE<£×
+C~<ŒA…¡å<ÈTuB2ÀMAU›<£×
+C¤ÔA`<£×
+DĞA‡õ3<£×
+BY‘èAŠ.®=YïA£ûAˆ"=9ºAï}„A@  A†óş<£×
+B…ùÍA……×<´BD¶“A…"ã= âVB
+‡'AˆSn=%O§A×ònA„Iÿ<ÖZ«B&pAw|$<£×
+C¬ªA…wj<Äš¢B5‘ÿA9¤<£×
+C#…A`İ<£×
+D=QA‡®<£×
+B_õãA‰÷„=TA9A§®¡A‡¦.=¶âAù{A@  AZÆº<£×
+C&$AWêm<£×
+C!¦ÈAW$…<£×
+C‰qA]…œ<£×
+C÷AUr¾<£×
+CShAvÃ/<£×
+CDÚ¸AWÍ“<£×
+C ÉA€Xu<£×
+BÄ£A\ïª<£×
+B¼
+Aq=òqBÔlA`ÍÇ<£×
+CìA\+<£×
+CI…A@  A‹3S<£×
+B¶[²A‰c¦<£×
+B‹ºJAˆãW<¬‚µBNı¥AŒÁÌ<ÖÌB&2;A‡şŠ<£×
+B{Ö³A}¥‘<£×
+Cš9pA‰¡è<£×
+B…ÊîA„]¬<£×
+CdîAe%ó<£×
+DL¨AŒ<£×
+B¸1ÖAé<åmB!ÌAŒ:&<£×
+BZXA@  A‡ñA<£×
+B©îA†só<£×
+B|UA…á<Ây{B7 A‰®(= œB
+É7A…3<£×
+BYmTAy û<£×
+C–MVA†Ç¤<£×
+BeG¾A‚<£×
+CIAaM<£×
+D&.Aˆø…<£×
+B“ä[AŠ©=¼YAğé…Aˆç<Ò±4B(±aA@  Aˆ%<£×
+B¶[²A‡i<£×
+B‹ºJA†	j<¬‚µBNı¥A‰ø¨<ÖÌB&2;A…¼R<£×
+B{Ö³Aw‹‰<£×
+Cš9pA‡”,<£×
+B…ÊîA3B<£×
+CdîA_ÀY<£×
+DL¨A‰ï<£×
+B¸1ÖAŒ5<åmB!ÌAŠ¥h<£×
+BZXA@   SMP 19 6xM„7°)(9Pœ5.{©5¡°3#5q3Ô™Ó78Œ¤SMP SMC 13 @(î?»×²ÀRoQ¬šş?ÚÓÙî¦2MC0115SPLUS.MC0115.112627.griz@)JÎyš’ÀRmÔ€u	zFÍéEmXÌ   9Aiu@'Dd?şqÄÁ:R|?¨J/>u'(?åY§        @¬ ?zÉ@!~å?n^B„ûì            A:K=9RAÀNĞAªÚ=y¨A­.AH=á<€A”îA‘¨=>ßjAJAª¿=ÀæãA8•°A„jû<£×
+BÀ€A‘:3=ÏréA,tA‹N<¼|tB=âAs*B<£×
+CØÂA“íÅ=·œ€AA¦/Aœæ>ôƒ@ØòA“0$>—D@åßvA@  A­â=¯7AãÊAwK=Z•A¢H Av=¥)ÆAY´A‘¼3=Ù€mA$„¥Aé:=–àA`¦öA„µÛ<£×
+Bá­ A‘‰x=«äĞAPUÀA‹ †<£×
+Bb®5As–t<£×
+C’IGA”¹=“9AqOQAšÿ>ª¤ö@P¹A““C=ÿÛA
+äA@  A¬=ìlAşL Az~=C°ŸAµÎAË©=˜BAjùÅA‘%=´ÑAF }AX=†¯A„/²A„È*<£×
+BöÛ?A‘À=UWAySA‹sŞ<£×
+BKaAtW<£×
+C˜ç3A“‹=hİ<A˜°ÍA–Ì¾>9üì@¿kœA‘ñÔ=»VfA=°ìA@  Al6ğ<£×
+BıîŸAiÓ¹<£×
+BêõÂAjv<£×
+BÇ¦Ao(ë<£×
+Bµ‚qAiáq<£×
+BÑäAƒãÂ<£×
+BšíAnâ?<£×
+BÌAˆ°=Æ3AÿIAfğ=i¬Aè{]Arõ×<£×
+BŞ)HAzx;<§*xBTù.ApÂj<£×
+B°tA@  A“|_<ÇÓCB2aA‘×¢={\BA’ÑD=T@A¨HÍA•Ñ&=ÊïA‰wA‘`=!7BAÜİ!A‡gŞ<£×
+C%G4A“t=%¿¢A×`ÂA=<£×
+BÊ€Axi3<£×
+C«}A–§F=`âA÷ıA˜ÊÆ=º/A?7A”ı±=S­šA§àöA@  AUe<ñqzB_¾AQÄ=+¦WAÎüUAğ=‹;A€m«A“L=®m3AL”ÃA»=d«$A›¶A…J:<£×
+CFiA‘öÜ={šƒAâaAŒ\<£×
+B’²AtU<£×
+C¦DA•P×=já´A—aA™³å>I(@°ü`A“¤=°œ-AI6A@  An(<ÇÓCB2aA’e={\BA÷V=T@A¨HÍA“=ÊïA‰wAÓ(=!7BAÜİ!A„ZÚ<£×
+C%G4A‘fZ=%¿¢A×`ÂAŠéÓ<£×
+BÊ€As™<£×
+C«}A”wÖ=`âA÷ıA—6=º/A?7A“hó=S­šA§àöA@   SMP 20 5†7½78Œ¤8›94»ç¢4Üù2<úƒ3€ÙY7¸Œ¤SMP SMC 14 @)JÊÿm3	ÀRmÔA5Tv?®ş$ä¬MC0115SPLUS.MC0115.147165.griz@*Ûœ–,¦	ÀRg—.=ZPEØú}E‹   ,A}‘@,ƒw?çKìÂ®Md?¾ğN>¨Äø@ül        @*×T >•Ï=@ä
+Û@(löBW³[            A–{]=|ˆ{AŒÙKA“ø%=™f¥Ah=íA”ßq=ıÌÉAIŒA”ì=ÔìœA'-®A’DØ=®‹ÜAKğAMò<º]ÈB=TA’¿"=”XNAps AvŞ<Í‚B.õA†ø
+<£×
+BËÊ`A‘B=[Aá2BA’³=·õEAAŞ®A‘­=™È9AgBA@  A—›Ù>ïAÄúA”ŠŠ>øæ@æ%eA”¼ >n[@•KNA’­?>-“@ÍÉÈA“&}>7œü@Áì—A|â=ÄİAß+nA“4´>å!@ğIAÄğ=44†AÈ‹A†4O<£×
+B|"A´Á=éèAt«A’Ü¸>CM@·A’Ht>ºï@Ş,İA@  A—í¡=Š“ÜA€VA•dÊ=§ñOAT!ıA–u>“øANÎA•Œ =éÕ%A:ãA’ún=°ïAIšÆAW<Ã˜^B4e¤A“>æ=’ èAsCA‘„<×ûöB&	†A‡Å4<£×
+BÆk”A’7€='¬AÓšA’=µNAD´ğA’d=›Z‘Ad¿ÇA@  A|º<£×
+B²“"Aw¨S<£×
+B¦OŸAyª<£×
+B€*eAw÷<£×
+BŒ‡ArÓ<£×
+B¢”QAŒD˜=AõiAµëNAs\<£×
+B¯šìAŒ#:=O‹ÇA¬É®A\i)<£×
+BÙ@pA€]<Å¤ÔB3„AqûØ<£×
+B ïAq¦Ò<£×
+B«8EA@  A›Å=]?<A ÄAšÑŞ=£ tAZe6A™æğ=ÛRA"WAš˜Z=×TA%ìA—ÚË=¡´A]¦A”Oµ<¨LBQ¨sA—ød=ƒğA‡,YA•®å<¹­BA#¹AŠk‡<£×
+BíÊA–zy=Ô€AûïŸA•˜=xıäA;¾A•go=^YAŸÓ“A@  A–Â=p´A“ÅjA•\1=¥F”AWGA–C{>³áA:CA•rå=ä]áAß¥A“U¿=µfAD;ÇAAL<¿‘ÙB80A”}ù=¦7úAV—êA‘šf<×kEB&yA‡x<£×
+BÎqÉA’X£='öAÓ=–A’ë£=ºxA?AŞA’ı+=¤×AX‰A@  A˜s=]?<A ÄA˜Œ¡=£ tAZe6A—=ÛRA"WA—Ï6=×TA%ìA•˜’=¡´A]¦A‘B±<¨LBQ¨sA•ê¨=ƒğA‡,YA’„{<¹­BA#¹A‡¸º<£×
+BíÊA”K	=Ô€AûïŸA“f=xıäA;¾A“Ò±=^YAŸÓ“A@   %MGPN 8 92B5®{©6ÂŸ5fÚÀ7å<5ÿ3¿ D6§Å¬SMP SMC 32 @*ÛSP	,ÏÀRgšé$ò(?ïæş­‡,ÜMC0115SPLUS.MC0115.229578.griz@0,É àÀRWPà„½Dúë|E¾î   'AwüA@	`?íÒ@ÚİX?”U>
+¤¨@
+V²        @ € >®A @i|>?¬rB            A—©ğ=ìàÉAi)A“'=ä°‘AÆUA“>)äª@Ñ5AœË>ì‘@—A•û/>Z§Ú@¢¤Aè=	ÌAâäÖA”4X>ml@øõAŒ„æ<ÔèêB&ÖäAx|ş<£×
+CJZOA’@=’h°AssÇA’™>"â@ÚËöA‘ÕÚ>¨]A´ÈA@  A—#Û=°öAI”6A“H=¸UAAAwCA•nº>/´#@Ê=A›hÿ>{®@_R:A—e$>J}ò@¯ÅAùH=æ•B÷TA”Ú=ô)AÕ‚A ©<³BEşjAxì<£×
+CgÙ…A’§,=xŸA˜ÆA’Í—>xA·QA“22=ó¸A¡vA@  A—}İ=~IÅAŒŞA“N<=€[AŠıA—Üé>šJ@à³AšN>:}$@¾MVA˜0>hš@êà~A¯¥<Æv”B4­‹A–ÈÇ=ĞæA+ •A»d<£×
+B~ÔAyÒ<£×
+Cˆ:DA”jŸ=Nã÷A¬HJA”ò =â‚‚A‚sA“¨=¬æLAN¬A@  A{Ú{<£×
+B²1ÇAs{7<£×
+B±ğA|˜’<£×
+BbÀ;A€‰¯<°¬BHßÌA}?¾<£×
+BjVAŒà"=E©.AµiLAzpO<£×
+B’ÛàA‹ä=©ÀBíÅAr†=9W·A¿NAu³ş<£×
+B»S.AvÂ¾<£×
+B‹ßoAt.ê<£×
+B ®ºA@  A›‹.=]«HA »A– y=FjA³‹8A›¦q>}A']Aœ„‚>ÕAîÁA™Ï
+=Å]RA4/³A“Pr<£×
+Bhu—A™#=”]çAoØpAW<£×
+B£ıcA~¥<£×
+CaìA—ÍU="¬ÁAÛA˜j=«ëÊAN4pA–e£=xº×A©ùA@  A—¡.=„É.A†(ßA“ı=€²4AŠgdA—‡_>Rü@áëíAšº±>N:>@¬rA˜-h>¾f@äVÏA‘,<ÉH©B2%cA–)`=ÇßA2
+@A­õ<£×
+B}¶ìAy­~<£×
+C‡@	A”Uí=S2'A¨Å.A•HÂ=ò7AèA“à’=¶ÆACÓA@  A˜|÷=]«HA »A“»<=FjA³‹8A˜Ì„>}A']A™»^>ÕAîÁA—ŒÒ=Å]RA4/³ACn<£×
+Bhu—A—X=”]çAoØpA,°<£×
+B£ıcAx¯<£×
+CaìA•å="¬ÁAÛA–iÚ=«ëÊAN4pA”Ğå=xº×A©ùA@   !MGPN 3 6Ğ	˜7	’»8#“î6Ö¿•4–!4¡°4¦nÀ  SMP SMC 26 @0"Ğå`BÀRWOß;dZ?Å6ÿYÀfïMC0115SPLUS.MC0115.308119.griz@06ªûFÀRE¸¥¶\DÒìEöÖ   Aˆ­O?ùè/?¿GÂcóŠ?§;Õ>p<@<º        @08w >³rï@O6ô?™
+øA„æe            A¡ñº>5|>@Ã·A§Ë`?üv?ùï“A¥¼u?)üô?ÑêA×o>}6a@Œ;¦AŸU]>—8’@kpA›eT=w¿Ax¿iAŸ÷<>‚r®@ˆ“ŸAœ@=–<AjÏAw6<£×
+BcüA¢>,5@óbÿA ïq>ÅaG@3‘vA¢B|>Ë©Ú@/C¿A@  A¥ÿs?[¶?å¯BÆ  A ª^¾mñåA§…´?á¬‰?§Aœ2á>à^"@êäAµyAÀÔ>	y A‚>8»@Á¼A¡Ö;?. „?ÍAœ.*>º@İµAL=Ğ‘Aút[A ´>ÄÌ@4ºA«ªã@6ò>ÀõPAªı@¶ş?èúA0  A¢Úp>)@Ò):A§>Ûç†@!`lA¤.>îbV@p:A ‚>®%@w# Aeâ>dc´@œúAœkâ=‡²“Aƒ~ãA¡$°>z@yÂAœõ¨=ˆòØA€ËeAåö<£×
+B{YÍAŸ§‚>	zfAc¿A¥üv?8?ğòÓA¢|>¥¡)@W‚ØA@  A‰IĞ<µvBC¾/A‹í=?‰FA¹G&AŠc=N<A¬»ãA†ñg=}BAA„ÕB<İÚB šãA‚ÛB<£×
+B‹dãA‡”<ívB+Aƒe<£×
+B‰ŠèAjª­<£×
+Bš|"A†â<£×
+B[ÃAŒkÖ={¾A&,AˆvÜ="AïY°A@  A¥væ>!E,@Ü@ A¨ø@>¿‡‹@9HÓA¥>».Ï@>P°A£>ˆ&=@‚gSA¡2#>^:¥@ UA{=u)2A‘‘A¢NŒ>JBÀ@°+‹AŸ1B={HYAŒbµA¤<£×
+BˆtAA£Ã2>gÖ@æhÈA©UŸ?Q?êA¦uç>À ®@9NDA@  A¢g>]g#@ n1A«K?q?D?“•AªÔÁ?±Õ?I;ÖAÒW>’^Ú@r˜JA •¬>ÊB„@0)€A›1ö=¢ŸA\6ÒAìy>†Y›@„œ#A›Îü=¥^AURTA§<«{9BPÇµAÎ?>-‡@Í€¸A£~±?è,?æJ&A£E¶?{@!yA@  A¢h¯>!E,@Ü@ A¦³>¿‡‹@9HÓA¢B$>».Ï@>P°A Lè>ˆ&=@‚gSAïê>^:¥@ UA›mş=u)2A‘‘A @Ğ>JBÀ@°+‹AœØ={HYAŒbµAñ4<£×
+BˆtAA¡“Â>gÖ@æhÈA§¡?Q?êA¤á)>À ®@9NDA@   SMP 2  6H¸7Ÿb08û¨‚5AF5†7½3}g04LÍ7ISœMGPN SMC 10@06ÓØYÈÉÀRE¹bŒ½?å‡1²[MC0115SPLUS.MC0115.350934.griz@-ZVA´UMÀR<ÌIEòqF
+9È   /AoÈÛ@-ô?çfÀ	Æö? œù>Oíl?İva        @sP× ?z²g@*.?{bBm´            A‘6«=3BvAÆG’A=aŸ?A’_A·Q=£÷AZ$ÇA”ĞÛ>…@ğœ‡Aq‘=‘ä<AtÍyA‡«d<£×
+Bª÷¶A• ~=óúlAğôA+<Ç	iB2\ÌAyN<£×
+CgrA–{=³]äAEıëA˜´+>|õ:@ŒºøA™Q&>nLÓ@•fA@  A‘Mí='#BAÔgìAŠ
+=\/úA¡NA—˜=•JvAo›A•¨.>Á@î äA ı=‰Ğ A‚nA‡ä•<£×
+B³3ûA•6=áÑfAÄ±ABG<º†‰B=Ş¡Ayc<£×
+Cr›‹A–qj=«P+ANàA˜-	>Zsæ@£‹A™¸>TI-@¦ñ-A@  A‘6=cB¿A£#=6 ëAÃ3oA¸=vOAöŞA“S=´]`ADËAXï=Xo|A¥HAˆ À<£×
+BÓi·A“¸J=œtàAc”¤Aô«<£×
+Bp”Az8_<£×
+CƒüA”ÿ¯=hì˜A˜wrA–ÎW>Ó@ï3CA—Jñ>	ŞÔA Ê?A@  AoKü<£×
+BÑz„Al%<£×
+BÈÑ¶AjNå<£×
+B»Û¼Asf<£×
+B¡âñAiŸ<£×
+BÂŒQA‡8œ<£×
+B‰îAtOT<£×
+B¬¯ĞA‹‘H=DşAòµAo)é=?õ‹A»!AvŞ<£×
+B½á´Az{l<£×
+Bq±A{t£<£×
+B~#ÀA@  A”<Üª2B!A“­¾=ÒÏAáC"A’&a=F¨ÊA³˜ˆA•˜;=|€5AŒ’ËA‘c¹=&‹1AÖr,AŠxf<£×
+C û%A–Lp=\ÄÆA¡H½A7Y<£×
+B¥Ò@A~]B<£×
+CŒ¸A—õ¹=%A×*ÀA™=Àİ¿A8“÷A˜¡w=íÅA_sAA@  A‘T‘=ò¨B­;AIœ=>XAºÆ‘AŠ©=ƒşAˆ%A“ê9=¿ğSA8í¢A'=bş1AVŒAˆ.a<£×
+BÔ*GA•*¼=²¼BAG6 AW.<£×
+BlÌäAz@†<£×
+C„¬\A–	=~ù¤A‹GæA˜‚è>/š+@Ê¹sA˜Ğ(>Y@ŞÜÃA@  A‘~ã<Üª2B!A‘h=ÒÏAáC"ALt=F¨ÊA³˜ˆA’Ï=|€5AŒ’ËA!€=&‹1AÖr,A‡kb<£×
+C û%A”>´=\ÄÆA¡H½Aï<£×
+B¥Ò@Ax÷¨<£×
+CŒ¸A•ÆI=%A×*ÀA—gt=Àİ¿A8“÷A—¹=íÅA_sAA@   SMP 34 8ÿ7ÉSœ8™”4†7½6´±4¦n4 ÙY8›9SMP SMC 23 @-ZS¸ä¸|ÀR<ÌÌÌÌÍ?½jeÀÇã¤MC0115SPLUS.MC0115.402039.griz@*—æŒÙ,ÀR0!ºmÙhEãQ/FOâ   9Aiáö@$UB?ÑƒGÁÒˆã?ÈË¯>¹P?ÃPT        ?À    ?sIQ@„”ö?Ã×§C+Ù                        A”¸(<ñZB]CA“i»=% vAÖGüA’(=W ¦A¦;ÅA—ìi=°Â^AIoÜA‘MG=2ÓAÈgA‡x”<£×
+CFA›¨m=ÕA&7yAŒú×<£×
+BÑµJAvƒ¡<£×
+C³©°A•¹=öËAùG¡A›A×>ÃAò¶A•¶={€OA^A@  A•£9=™µVAfÓ1A—qÛ>@ê,ªA”ú>.ªè@Í¿¢A®/@@1ü>È)VA‘Ğ5=áGTA¨•A…7à<£×
+BÓ³óBÆ  A¢Ò5ÀVÍ´A‹¸<£×
+B\ÏAr<<£×
+C™á»Ašßï>$pk@Ù
+£BÆ  AŸà‰ÀæpÅAš½Ó>“ÿØ@pøA   A“IU=/¿pAÊ.NA“¼=‡‡hA‚p£AÈ%=°ÏAxà®A˜‰V>,úH@Í×8AÊf=ƒÑ¥A‡³ŞA…kü<£×
+C2Aœ…ş>Z(@¢\mA‹Z<£×
+BAs<£×
+C¬JBA•Uã=}4‘AŒ¿dA¨·á?—0â?k+A”ö=Ü¿kA!ãA@  Asqi<£×
+BÑUòArè7<£×
+B¹íöAlo<£×
+B¸cA}ñl<£×
+BZAls<£×
+B½ñZA„×Ï<£×
+B¸’A‚õ]<ÄÊGB3ı§A‰‰N<Î€|B+câAm—r=
+¬B ¥¢AwŠ‡<£×
+B¿½rA'A=ûøA"AvÊü<£×
+B”ÂÂA@  A•G@<ìqBH%A“á= *!AÜÀ¹A’îƒ=VİæA¦ojA˜k#=©ÿÀAQr…A‘ú|=0¿ØAÊi­Aˆ<£×
+C4A›¤e=ÁHA7A¥AÄª<£×
+BĞíAwÂã<£×
+C¯?’A–’ã=tÒAú+A›3ß=óm+AA–S=nZßA•*A@  A“˜=*’·AĞPA“G=†Ç.Aƒ*­A T=“¼DArXA™(¢>-$q@Í¥AŠh=†yA…gA…¬Ü<£×
+C_NA¡êç>»Şÿ@<‰*A‹ŒÍ<£×
+BÉAs­<£×
+C°jA–¤€=ˆæ A‚)rBÆ  A¡…¦¿ODA—X#>øÉAµ•A0  A’9	<ìqBH%A‘›É= *!AÜÀ¹A–=VİæA¦ojA•¡ş=©ÿÀAQr…A¸D=0¿ØAÊi­A…Œ<£×
+C4A™–ª=ÁHA7A¥AŠš@<£×
+BĞíAr]I<£×
+C¯?’A”cs=tÒAú+A™O=óm+AA”x•=nZßA•*A@   SMP 25 4AF6.{©7	’»4AF5†7½2+Ìw38¯ 5®{©SMP SMC 19 @*—Éšé$òÀR0"‘û?§?Ó-’´ZõMC0116SPLUS.MC0116.015280.griz@5 ò©lDÀR‚´\ÈVDÖÍDÌ.—   <AlT»@ŸL?ô;ÒB—z®?‰ö=“æ¸?ÓJ@        @˜¥« ?~d@(\?‚“BB«aá            A”Î=gúMA˜ı]A“D=¢Û[AZAÊ=¥`ºAU“åA•Ø>$@à"`A‘+T=±XAGÈÙAŒ“Ã<£×
+Be±°A‘Ÿ¦=•‹lAmš:AˆÃ%<£×
+B¶ÊAo99<£×
+C¿½ZA‘Q;=-€*AÍËBA’“ë=äÚA=$A´d=yÓA»QA@  A”:²=0Ø^AÈ%	A“iØ=x@A¿ÔA‹=†eNA‚mšA–ÙÊ>A¤yA’É=‘íØAq»eAŒİŒ<£×
+BQA‘’ø=_)¥Aú×A‰UX<£×
+BÚi$Ap'2<£×
+CÊÔ5A‘£§=›YB¾A”/å=Ê…A/(Aj~=HŞâA³RJA@  A”N§=)µAÑ <A“˜R=p¥jA“‘wA’Ö=€ßA‰	¬A–˜^=ù9ûA8%A‘Äî=†œAƒšäA1Ğ<£×
+B‘®ùA‘¯ˆ=V•„A¥–A‰Q<£×
+Bä@ÖAp'<£×
+CÎÿA‘“?<üHBB‡A”*Q=¿'A9ÛZAT‚=:Í%A¿©DA@  Au|<£×
+BæC€Atd<£×
+BÑT+All<£×
+BËcAzz<£×
+B¼DAphœ<£×
+BÈHŞA‹“g<ÉøB4¬ŒAp=Î<£×
+BÙR³Aˆ“›<£×
+B AmÅx<£×
+B„ŸºAŠíÛ=7›_AÂwjAu3b<£×
+B©YaAwG<£×
+Bt´A@  A—v*<îDòBó0A—xn=2‹AÆå±A“Yù=?SA¸ağA™=•İºAl‚‰A•¢ï=Dõ¹A³ãA I<£×
+B¿´»A”×=
+<ßB „¯A‹a†<£×
+C At3<£×
+CÊÂA“xK<£×
+BoæhA”ÿO=:óšA¾…A’.l<åI+B%ñA@  A”x×=Ã.Ağ/)A”Lv=]\1A lÕAX{=o8õA“¦4A–¸ß=ÕA&PA’ İ=n(”A”ÄÎA¢d<£×
+BŸu¬A‘×@=:@¡A¾Æ3A‰<£×
+BùÔHAp²Â<£×
+CÒ)ŠA‘ãÑ<İ_ÏB!J+A”ì=Ÿ=sA_„A=*ŠAÑçüA@  A“ P<îDòBó0A“o=2‹AÆå±AU„=?SA¸ağA•B=•İºAl‚‰A’=Dõ¹A³ãAŒí„<£×
+B¿´»Aéú=
+<ßB „¯Aˆ¸Š<£×
+C AnÖ<£×
+CÊÂA‘.f<£×
+BoæhA’Ü=:óšA¾…AŞ®<åI+B%ñA@   #MGPN 6 4‹–!5&n6šY³5“£¶4›±L3Ö¿•4AFÀ  SMP SMC 28 @5™Ì¢ÛÀR‚¶„‹ë[?ßBìoƒMC0116SPLUS.MC0116.172101.griz@4K[#¢àÀROµ‚îÂE8ë/E×¸^   ÃAQ°@:Ç@ôßBaÚê?¢Á>Wtd?Ï¾¦        @s¢ ?\¤ò@sq?~>nCÖ¸            A„æ<£×
+B»|A„ËÅ<£×
+BzD‘AƒåÇ<Ô¥B'Ø|A†E<ğÿ¯B;#A‚®?<£×
+BgÈÔAxR®<£×
+C‹^BA†Ó¨<¾ò«B:“AÀ$<£×
+CW­A]î<£×
+D3§áAˆ <£×
+B‹MáAŠ¿æ=C¢“AµØA‡ø.<ï”ëBªA@  A… x<£×
+BÅLaA„åe<£×
+B„zÂAƒô5<ÆÍÕB3)gA†€º<ä{ªBØA‚È\<£×
+Bu¹yAxˆT<£×
+C ^A‡H<¶.)BCºfA€n<£×
+C`bßA]şÀ<£×
+D6PÍAˆX<£×
+B‘ÂA‹?¼==òA»;.AˆXK<å¨§B9QA@  A…)<£×
+B¾¼îA„í)<£×
+B€ÄÛAƒûª<Ìº[B-æ<A†tı<ê”BBÈA‚ıW<£×
+Bjn‹Ax¤M<£×
+C@§A‡à<»ÏB=«ÙAïû<£×
+C\¢ŸA^&Ø<£×
+D4:Aˆ<£×
+B‘ËëA‹39=C3YA¶?·Aˆ+<èa9BE˜A@  AW<£×
+C5ŸAV¹<£×
+C1( ATÖ<£×
+C(ú.AYÈº<£×
+C$F1ARÙo<£×
+C/²¯Ax&:<£×
+Cwš±A[~<£×
+C+L,Aâ<£×
+C,¼fA\¶Ä<£×
+CoZA…IY<ÉÀUB03­AcE4<£×
+C7ÉAzeÏ<Ü ¹B!Í~A@  A‰Cj<£×
+Bğ½ˆAˆÙ—<£×
+B¬e×A‡Åx<£×
+By{ÎAŠÙ<£×
+Bd}¦A†ù’<£×
+B ¡A~f˜<£×
+C,©AŠyO<£×
+B’ôïA‚qÜ<£×
+C‹ô¹AbÛâ<£×
+D+0¦A‹D&<£×
+Bığ=A°æ<±²QBH3‹A‹u(<£×
+B›[ŞA@  A†1æ<£×
+Bî'rA†<£×
+B£UåA„øú<£×
+BeˆA‡Ğj<²˜ŠBF¬¾A„eÊ<£×
+B’ôJAzM¯<£×
+C ®uAˆî<£×
+BÀ­A€Ä‚<£×
+C…_A_Zü<£×
+D8‹‘A‰z<£×
+BÃjÊAŒBt=¢+BaA‰Év<©%fBR’4A@  A„í<£×
+Bğ½ˆA„Ğ,<£×
+B¬e×AƒÁ<£×
+By{ÎA†¶Æ<£×
+Bd}¦AƒdÀ<£×
+B ¡AxA<£×
+C,©A‡Tr<£×
+B’ôïA‘À<£×
+C‹ô¹A]~z<£×
+D+0¦Aˆú@<£×
+Bığ=A‹@s<±²QBH3‹A‰%j<£×
+B›[ŞA@   "MGPN 5 5l9$6´±7óE6BŸ5.{©2(\Û4ÁF7{¨‚SMP SMC 27 @4Kw[0ÀROOß;d?İ$Q±Õ5‡MC0133SPLUS.MC0133.025038.griz@.& ”-ÉÀR½‚Wv×áDæ»ŸEe¿Œ   ÑAAtE@Ù:@EìB`â3?„··=™ ?Ôì        @€ığ  ?|(@öô?tç5CÖŒä                        A–3,=9AÀ‰:A˜!4=¦¥'AUepA”Ëº=½cyA;©šA”á˜=§QtATº‚Aú*=WÏ—A¤£®Aˆ×<£×
+C KA‡¤a<£×
+B€ÑÄA|6L<£×
+C—œtAo¾)<£×
+CÔ&Av×<£×
+CŒAr™<£×
+C0Ã¤AqhÌ<£×
+CK?A@  A–w¯=*MpAÑ„A˜<±=•ÊÈAm=¼A•ŠÎ=¶PZAB²ŞA”à=”ÑAAo9HA‘=B³qA¶5 Aˆó™<£×
+CĞA‡Ä›<£×
+B‰ËºA|x<£×
+Cš²Ap*N<£×
+CÕĞ&Aw‰<£×
+C™e­ArLy<£×
+C>RuAq’<£×
+C_ÌÆA@  A–	ó=G×¯A²NßA˜t=¾dA:ÇòA”q„=ÈĞA0ü’A”™Æ=²ÎJAG¾AÎ¤=haÕA˜æAˆÄü<£×
+Bò«µA‡”Q<£×
+Bq¹3A|Y<£×
+C’ –Ao‘0<£×
+CĞ+êAv¬¯<£×
+Cˆ¢Arh<£×
+C$ş9Aq+`<£×
+C<é€A@  Axò¦<£×
+Cq´A}Æİ<£×
+BÆájAuÁÉ<£×
+B¾vAvL<£×
+BĞğêAn|<£×
+CI‹A†,b<£×
+Bb²äA\b<£×
+CHcA{\<£×
+CpKkAfáÏ<½bİB:5Av”<£×
+CoºşAm›<£×
+B}ñfApW€<£×
+C'ºFA@  A›<ù†qBÎ-A›ª=<äOA¼CxA™©=r……A’Œ`A˜•=AŞÚA·—ëA•=WÓAûaAŒ­\<£×
+C3¥AŠø<£×
+BAlA†<£×
+CÜ¸AtÿÚ<£×
+CÊÑAA{p•<£×
+C´¡¾Av`N<£×
+CspAvdğ<£×
+C˜tA@  A—é=„çB	•A˜‘=YÚ,A£<A—Kk=˜Ê¼AhœA•Ÿ=b/êA\ÅA’du=!lAÜÇA‰×<£×
+CÄüAˆ{g<£×
+BÕƒA}ÓO<£×
+C§¤íAq/„<£×
+CÛbAx$U<£×
+C¯‚ÎAs'D<£×
+Ccš¶Ar Š<£×
+CŒ1A@  A•da<ù†qBÎ-A–Ôà=<äOA¼CxA•=r……A’Œ`A”k(=AŞÚA·—ëA‘ò=WÓAûaAˆUf<£×
+C3¥A‡E‚<£×
+BAlA{.û<£×
+CÜ¸An½<£×
+CÊÑAAv$ç<£×
+C´¡¾Aq0<£×
+CspAp«<£×
+C˜tA@   SMP 13 6já‹7¸Œ¤9'Å¬5V¿•5®{©3¥[34LÍ7êá‹NAME SMC1  @.záG®ÀR½‚¡ Ï?²ÂÓ\É                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
