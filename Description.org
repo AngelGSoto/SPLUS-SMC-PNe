@@ -1,14 +1,14 @@
 * SMC Planetary nebula in SPLUS
 
-Given that the SMC was observed by S-PLUS and i is already available a catalog of SMC SPLUS, I am going to looking for new PNe in this galaxy. For that I will apply my SPLUS color criteria 
+  Given that the SMC was observed by S-PLUS and i is already available a catalog of SMC SPLUS, I am going to looking for new PNe in this galaxy. For that I will apply my SPLUS color criteria 
 and the statistical techniques (PCA, logistic regression, LDA). SMC was fully  observed, this means that many PNe should be in the SPLUS SMC catalog.
 So to explore the possibility to find for new PNe, I verified that by using known PNe and put them in my colour diagrams and I will try to classify them like Pne
 using the statistical techniques. 
 
 ** Data verification
- + I fin this catalog of SMC PNe: vizier-> J/A+A/472/101/table7. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, 2007A&A...472..101I)
+ + I found this sample of SMC PNe: vizier-> J/A+A/472/101/table7. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, 2007A&A...472..101I)
    This catalog has 46 PNe - > The file is pne-smc-2007.csv.
- + I make cross matching  between this catalog and SPLUS catalog. I found 21 matches using a 1 arcsec of radii. The file is pne-smc-splus-match-2007.fits (.dat)
+ + I made cross matching  between this catalog and SPLUS catalog. I found 21 matches using a 1 arcsec of radii. The file is pne-smc-splus-match-2007.fits (.dat)
  + I put the final matches in my diagram, the good news is that all the object, except 3, are located in the PNe region.
   - For that I wrote a new program to make the color-colour diagrams with this sample. I did this, because the name of the 
     columns of table of the SPLUS SMC catalog are different, the program is: 
@@ -21,4 +21,6 @@ using the statistical techniques.
 
                              python ../new-programs/photo-spectra-SPLUSDR2-v2.py pne-smc-splus-match-2007 --debug  
     
-        For this the file must be pne-smc-splus-match-2007.dat
+   For this the file must be pne-smc-splus-match-2007.dat
+ 
+ + All is resumed in the file pne-smc-splus.tex.
