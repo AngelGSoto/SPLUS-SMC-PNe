@@ -504,8 +504,6 @@ mag_auto_err  = [[] for _ in range(len(n))]
 mag_petro_err  = [[] for _ in range(len(n))]
 mag_aper_err  = [[] for _ in range(len(n))]
 
-
-
 print(len(n))
 #sys.exit()
 
