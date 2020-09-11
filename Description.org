@@ -2,7 +2,7 @@
 
   Given that the SMC was observed by S-PLUS and i is already available a catalog of SMC SPLUS, I am going to looking for new PNe in this galaxy. For that I will apply my SPLUS color criteria 
 and the statistical techniques (PCA, logistic regression, LDA). SMC was fully  observed, this means that many PNe should be in the SPLUS SMC catalog.
-So to explore the possibility to find for new PNe, I verified that by using known PNe and put them in my colour diagrams and I will try to classify them like Pne
+So to explore the possibility to find for new PNe, I verified that by using known PNe and putted them in my colour diagrams and I will try to classify them like Pne
 using the statistical techniques. 
 
 ** Data verification
@@ -685,7 +685,7 @@ for i in range(len(n)):
  + All is resumed in the file pne-smc-splus.tex.
      - For that I wrote a program to made the table eith of th figures (photospectrum,): 
 
-                     :   python ../varios-programas/latex-figs.py
+                     : python ../varios-programas/latex-figs.py
 
 #+BEGIN_SRC python :eval no :tangle latex-figs.py     
 
@@ -1091,10 +1091,6 @@ run in the SMC folder:
 
 : python ../varios-programas/run-rgb-image.py > run-rgb-image.run
 
-Because the comand lines into of the executable file are, for example, of the type:
-
-: python ../varios-programas/rgb_image-v2.py MC0072/MC0072_I_006125_swp-crop MC0072/MC0072_R_006125_swp-crop MC0072/MC0072_G_006125_swp-crop --position MC0072/MC0072-006125-position --debug
-
 #+BEGIN_SRC python :eval no : run-rgb-image.py
 
 '''
@@ -1141,6 +1137,12 @@ for aa, bb, cc, dd in zip(tab['File1'], tab['File2'], tab['File3'], tab['File_re
    
 #+END_SRC
 
+
+Because the comand lines into of the executable file are, for example, of the type:
+
+: python ../varios-programas/rgb_image-v2.py MC0072/MC0072_I_006125_swp-crop MC0072/MC0072_R_006125_swp-crop MC0072/MC0072_G_006125_swp-crop --position MC0072/MC0072-006125-position --debug
+
+
 After to create the file ith the comands, I convert the file in a executable:
 
 : chmod +x run-rgb-image.run 
@@ -1151,13 +1153,13 @@ To rum the executable file:
 
 - I already make for the filters G, R and I.
 
-- I now have to make for the filters F515, F660, F861.
+- I now have to make for the filters F515, F660, F861 (it is done).
 
 * Finding for new SMC PNe
 
 ** Applying the colour criterio:
- *** Given is a very large catalog MC.catalog ~ 4 G. It s necesary used database sqlite3. 
-  + Creating sqlite databe:
+  Given catalog MC.catalog is a very large file ~ 4 G. It s necesary used database sqlite3. 
+  + Creating sqlite database:
     : sqlite3 MCcatalog.db
 
    - Creating a table for example
@@ -1177,11 +1179,11 @@ To rum the executable file:
 
    + To see the tables in the database:
 
-    : .tables
+    : sqlite> .tables
 
    + See the name of columns:
    
-   : .schema SMCcatalog
+   : sqlite> .schema SMCcatalog
 
 #+RESULTS:
 #+begin_example
@@ -1497,10 +1499,60 @@ MC0070,SPLUS.MC0070.000001.griz,6.177394747955132,-71.66593832317544,10018.773,8
  
 + Tables contains:
    
- : select count(*) from SMCcatalog;
+ : sqlite> select count(*) from SMCcatalog;
 
  : 2898812
 
+** Run sqlite query on python
 
+By applying the the colour criteria. Pne candidate were select 
 
+: python ../varios-programas/sqlite-query.py
 
+#+BEGIN_SRC python : Run query
+
+'''
+Author: Luis A. Gutiérrez
+11/09/2020
+Testing query on sqlite3
+Based on https://stuartsplace.com/computing/programming/python/python-and-sqlite-exporting-data
+Please consult it
+'''
+import sqlite3
+import os
+import csv
+
+# Create a SQL connection to our SQLite database
+conn = sqlite3.connect('MCcatalog.db')
+
+cur = conn.cursor()
+
+#  query
+qry = ("SELECT * FROM SMCcatalog WHERE PhotoFlag_F660 <= 3.0 AND R_aper_3 <= 19 AND e_R_aper_3 <= 0.2 AND e_F660_aper_3 <= 0.2 AND e_I_aper_3 <= 0.2 AND R_aper_3 - F660_aper_3 >= 0.43*(R_aper_3 - I_aper_3) + 0.65 AND R_aper_3 - F660_aper_3 <= -6.8*(R_aper_3 - I_aper_3) - 1.3 AND F515_aper_3 - F660_aper_3 >= 0.3 AND F515_aper_3 - F660_aper_3 >= 2.7*(F515_aper_3 - F861_aper_3) + 2.15 AND G_aper_3 - F515_aper_3 <= 0.12*(F660_aper_3 - R_aper_3) - 0.01 AND G_aper_3 - F515_aper_3 <= -1.1*(F660_aper_3 - R_aper_3) - 1.07 AND Z_aper_3 - F660_aper_3 >= 0.2319*(Z_aper_3 - G_aper_3) + 0.85 AND Z_aper_3 - F660_aper_3 >= -1.3*(Z_aper_3 - G_aper_3) + 1.7 AND F410_aper_3 - F660_aper_3 >= 8.0*(G_aper_3 - I_aper_3) + 4.5 AND F410_aper_3 - F660_aper_3 >= 0.8*(G_aper_3 - I_aper_3) + 0.55;")
+#for row in cur.execute(qry):
+    #print(row)
+
+cur.execute(qry)
+data = cur.fetchall()
+#print(data)
+
+# Extract the table headers
+headers = [i[0] for i in cur.description]
+
+# Open CSV file for writing
+file_name = 'pne-cand-smc-colorcriterio.csv'
+csv_file = csv.writer(open(file_name, 'w', newline=''),
+                             delimiter=',', lineterminator='\r\n',
+                             quoting=csv.QUOTE_ALL, escapechar='\\')
+
+# Add the headers and data to the CSV file.
+csv_file.writerow(headers)
+csv_file.writerows(data)
+
+# Message stating export successful.
+print("Data export successful ans writting the file: {}.".format(file_name))
+
+# Be sure to close the connection
+conn.close()
+
+#+END_SRC
