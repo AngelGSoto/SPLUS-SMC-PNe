@@ -80,7 +80,7 @@ tab_ = hdu[1].data
 #Calor Auto#############################################################
 #########################################################################
 #Color vironen
-x1_MAG_APER_aper, y1_MAG_APER_aper = colour(tab_, 'R_aper_3', 'i_aper_3', 'R_aper_3', 'F660_aper_3')
+x1_MAG_APER_aper, y1_MAG_APER_aper = colour(tab_, 'R_aper_3', 'I_aper_3', 'R_aper_3', 'F660_aper_3')
 colours0["r-i"] = x1_MAG_APER_aper
 colours0["r-ha"] = y1_MAG_APER_aper
 #Color
@@ -88,7 +88,7 @@ x2_MAG_APER_aper, y2_MAG_APER_aper = colour(tab_, 'F515_aper_3', 'F861_aper_3', 
 colours0["F515 - F861"] = x2_MAG_APER_aper
 colours0["F515 - F660"] = y2_MAG_APER_aper
 #Color
-x3_MAG_APER_aper, y3_MAG_APER_aper = colour(tab_, 'z_aper_3', 'G_aper_3', 'Z_aper_3', 'F660_aper_3')
+x3_MAG_APER_aper, y3_MAG_APER_aper = colour(tab_, 'Z_aper_3', 'G_aper_3', 'Z_aper_3', 'F660_aper_3')
 colours0["z - g"] = x3_MAG_APER_aper
 colours0["z - F660"] = y3_MAG_APER_aper
 #Color
