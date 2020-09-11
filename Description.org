@@ -14,7 +14,7 @@ using the statistical techniques.
    - For that I wrote a new program to make the color-colour diagrams with this sample. I did this, because the name of the 
      columns of table of the SPLUS SMC catalog are different, the program is: 
 
-                           python ../varios-programas/color-diagrams-splusdr2_automatic-v2.py pne-smc-splus-match-2007
+                           : python ../varios-programas/color-diagrams-splusdr2_automatic-v2.py pne-smc-splus-match-2007
 
 #+BEGIN_SRC python :eval no :tangle color-diagrams-splusdr2_automatic-v2.py
 '''
@@ -448,7 +448,8 @@ plt.savefig(pltfile)
 
  + I made the S-spectrum for all the objects. I also wrote the a new program based on the other to display the spectrum:
 
-                             python ../new-programs/photo-spectra-SPLUSDR2-v2.py pne-smc-splus-match-2007 --debug  
+                             : python ../new-programs/photo-spectra-SPLUSDR2-v2.py pne-smc-splus-match-2007 --debug  
+
 #+BEGIN_SRC python :eval no :photo-spectra-SPLUSDR2-v2.py
 
 '''
@@ -682,55 +683,70 @@ for i in range(len(n)):
    For this the file must be pne-smc-splus-match-2007.dat
  
  + All is resumed in the file pne-smc-splus.tex.
-     - For that I wrote a program to made the table eith of th figures (photospectrum,): python ../varios-programas/latex-figs.py
+     - For that I wrote a program to made the table eith of th figures (photospectrum,): 
+
+                     :   python ../varios-programas/latex-figs.py
 
 #+BEGIN_SRC python :eval no :tangle latex-figs.py     
 
-      from astropy.io import fits
-      import os
-      import glob
-      import json
-      import matplotlib.pyplot as plt
-      import pandas as pd
-      #import StringIO
-      from astropy.table import Table
-      import seaborn as sns
-      import sys
-      from scipy.optimize import fsolve
-      import colours
+'''
+Create file.tex with several figures
+'''
+from __future__ import print_function
+import numpy as np
+from astropy.io import fits
+import os
+import glob
+import json
+import matplotlib.pyplot as plt
+import pandas as pd
+#import StringIO
+from astropy.table import Table
+import seaborn as sns
+import sys
+from scipy.optimize import fsolve
+import colours
 
-      #Read de files
-      pattern = "*aper.pdf"
-      file_list = glob.glob(pattern)
+#Read de files
+pattern = "*aper.pdf"
+file_list = glob.glob(pattern)
 
-      pattern1 = "*auto.pdf"
-      file_list1 = glob.glob(pattern1)
+pattern1 = "*auto.pdf"
+file_list1 = glob.glob(pattern1)
 
-      pattern2 = "*petro.pdf"
-      file_list2 = glob.glob(pattern2)
+pattern2 = "*petro.pdf"
+file_list2 = glob.glob(pattern2)
 
-      latex_columns = ['Aper_3', 'Auto', 'Petro']
+latex_columns = ['Aper_3', 'Auto', 'Petro']
     
-      #print('\n'.join(map(lambda x: 'Test{0:04}'.format(x), range(0, 10000))))
+#print('\n'.join(map(lambda x: 'Test{0:04}'.format(x), range(0, 10000))))
 
-      ap3, apa, app = [], [], []
-      for a, b, c in zip(file_list, file_list1, file_list2):
-          ap3.append(a)
-          apa.append(b)
-          app.append(c)
+ap3, apa, app = [], [], []
+for a, b, c in zip(file_list, file_list1, file_list2):
+    ap3.append("\includegraphics[width=0.3\linewidth, clip]{"+a+"}")
+    apa.append("\includegraphics[width=0.3\linewidth, clip]{"+b+"}")
+    app.append("\includegraphics[width=0.3\linewidth, clip]{"+c+"}")
 
-      ap3.sort()
-      apa.sort()
-      app.sort()
-      table_fig = Table([ap3, apa, app],  names=('Aper_3', 'Auto', 'Petro'), meta={'name': 'first table'})
-      #table_fig.sort('Auto')
-      table_fig.write('table-figs.tex', format = "ascii.latex", overwrite=True) 
+ap3.sort()
+apa.sort()
+app.sort()
+table_fig = Table([ap3, apa, app],  names=('Aper_3', 'Auto', 'Petro'), meta={'name': 'first table'})
+    #table_fig.sort('Auto')
+table_fig.write('table-figs.tex', format = "ascii.latex", overwrite=True) 
+ 
   
 #+END_SRC
+  
+ + I now included the RGB images of the objects. I made one pair of the objects: One combining the F515, F660 and F861 and the second one by 
+   combining the filters G, R and I.
 
 *** Making the images of the objects.
 + I wrote the DS9 region for each PNe using ipython/Write DS9 region.
-+ I converted the .fz to .fits using for D in ./MC*; do if [ -d “$D” ]; then cd “$D”; for f in *.fz; do python ../varios-programas/convert-fz-fits.py ${f%.fz}; done; cd ..; fi; done
+   I made some changes for this one I used the package catalog-utils-v2.py. I change box for circle, and I putted 6 arcsec of radii.
+
++ I converted the .fz to .fits using the comand line:
+
+: for D in ./MC*; do if [ -d “$D” ]; then cd “$D”; for f in *.fz; do python ../varios-programas/convert-fz-fits.py ${f%.fz}; done; cd ..; fi; done
 
 #+BEGIN_SRC python: convert fz to fits
 
@@ -773,7 +789,7 @@ for i in range(len(n)):
 #+BEGIN_SRC python : cut images
 
 '''
-Cuting images fits
+Cutting images fits
 Based in pyFIST.py and extract-image.py from Henney program
 
 '''
@@ -876,3 +892,615 @@ for line in f:
 
 The only problem it is the program is no so autmatic I have to change manually " outfile = regionfile.replace("_swp.fits", "_{}_swp-crop.fits".format(position.split("15-")[-1].split("-p")[0]))"
 I have to fix that.
+
++ I modified the rgb-image.py (now rgb_image-v2.py) to make the RGB images to work with these data. To run the programa just executing the comand:
+
+: python ../../varios-programas/rgb_image-v2.py MC0072_F861_044863_swp-crop MC0072_F660_044863_swp-crop MC0072_F515_044863_swp-crop --vmin_r -0.1 --vmax_r 5 --vmin_g -0.01 --vmax_g 3.0 --vmin_b -0.1 --vmax_b 20 --debug 
+
+#+BEGIN_SRC python: rgb_image-v2.py
+
+'''
+Making RGB images from PLUS .fits
+Based on original: rgb_image.py
+Autor: L. A. Gutiérrez Soto
+02/09/20
+'''
+
+from __future__ import print_function
+import aplpy
+import numpy
+import sys
+from astropy import coordinates as coord
+from astropy import units as u
+from astropy.coordinates import SkyCoord
+import argparse
+import matplotlib.pyplot as plt
+from astropy.io import fits
+import matplotlib
+matplotlib.use("Agg")
+
+parser = argparse.ArgumentParser(
+    description="""Plot side-by-side RGB images of sources""")
+
+parser.add_argument("image_r", type=str,
+                    default="1000001-JPLUS-01485-v2_iSDSS_swp-crop",
+                    help="Name of original FITS image (section in database) in i")
+
+parser.add_argument("image_g", type=str,
+                    default="1000001-JPLUS-01485-v2_rSDSS_swp-crop",
+                    help="Name of original FITS image (section in database) in r")
+
+parser.add_argument("image_b", type=str,
+                    default="1000001-JPLUS-01485-v2_gSDSS_swp-crop",
+                    help="Name of original FITS image (section in database) in g")
+
+# parser.add_argument("--name", type=str,
+#                     default="PSP",
+#                     help="Name of the objet")
+
+parser.add_argument("--vmin_r", type=float, default=None,
+                    help="""Set minimum brightness directly - overrides minfactor - r""")
+parser.add_argument("--vmax_r", type=float, default=None,
+                    help="""Set maximum brightness directly - overrides maxfactor - r""")
+
+parser.add_argument("--vmin_g", type=float, default=None,
+                    help="""Set minimum brightness directly - overrides minfactor - g""")
+parser.add_argument("--vmax_g", type=float, default=None,
+                    help="""Set maximum brightness directly - overrides maxfactor - g""")
+
+parser.add_argument("--vmin_b", type=float, default=None,
+                    help="""Set minimum brightness directly - overrides minfactor - b""")
+parser.add_argument("--vmax_b", type=float, default=None,
+                    help="""Set maximum brightness directly - overrides maxfactor - b""")
+
+# parser.add_argument("--zoom", type=float, default=None,
+#                     help="""\
+#                    Zoom factor to adjust size of plot box - values > 1.0 mean to zoom in""")
+
+parser.add_argument("--position", type=str,
+                    default="HYDRA-0026-000010640-position",
+                    help="Find the DS9 region")
+
+parser.add_argument("--debug", action="store_true",
+                    help="Print out verbose debugging info")
+
+
+cmd_args = parser.parse_args()
+image_r = cmd_args.image_r + ".fits"
+image_g = cmd_args.image_g + ".fits"
+image_b = cmd_args.image_b + ".fits"
+
+hdul_r = fits.open(image_r)
+instrument_r = hdul_r[0].header['FILTER']
+hdul_g = fits.open(image_g)
+instrument_g = hdul_g[0].header['FILTER']
+hdul_b = fits.open(image_b)
+instrument_b = hdul_b[0].header['FILTER']
+
+#aplpy.make_rgb_cube(['1000001-JPLUS-01485-v2_iSDSS_swp-crop.fits', '1000001-JPLUS-01485-v2_rSDSS_swp-crop.fits',
+                     #'1000001-JPLUS-01485-v2_gSDSS_swp-crop.fits'], 'JPLUS_cube.fits')
+
+aplpy.make_rgb_cube([image_r, image_g, image_b], image_r.replace('_swp-crop.fits', '_cube.fits'))
+
+aplpy.make_rgb_image(image_r.replace('_swp-crop.fits', '_cube.fits'),
+                              image_r.replace('_swp-crop.fits', '_rgb.png'),
+                      vmin_r=cmd_args.vmin_r, vmax_r=cmd_args.vmax_r, vmin_g=cmd_args.vmin_g,
+                                                      vmax_g=cmd_args.vmax_g, vmin_b=cmd_args.vmin_b, vmax_b=cmd_args.vmax_b)
+
+#aplpy.make_rgb_image('JPLUS_cube.fits','JPLUS_linear.png')
+#hdul = fits.open('JPLUS_cube_2d.fits')
+# aplpy.make_rgb_image('JPLUS_cube.fits','JPLUS_rgb.png',
+#                       stretch_r='arcsinh', stretch_g='arcsinh',
+#                       stretch_b='arcsinh')
+
+
+# With the mask regions, the file may not exist
+position = cmd_args.position + ".reg"
+ra, dec = [], []
+
+try:
+    f = open(position, 'r')
+    header1 = f.readline()
+    header2 = f.readline()
+    header3 = f.readline()
+    for line in f:
+        line = line.strip()
+        columns = line.split()
+        coor = line.split("(")[-1].split("\"")[0]
+        ra1, dec1 = coor.split(",")[0:2]
+        c = SkyCoord(ra1, dec1, unit=(u.hourangle, u.deg))
+        ra.append(c.ra.degree)
+        dec.append(c.dec.degree)
+
+except FileNotFoundError:
+    print("File", position,
+                "not found - is not necesary now")
+    
+# Launch APLpy figure of 2D cube
+img = aplpy.FITSFigure(image_r.replace('_swp-crop.fits', '_cube_2d.fits')) 
+img.show_rgb(image_r.replace('_swp-crop.fits', '_rgb.png'))
+
+# Maybe we would like the arcsinh stretched image more?
+#img.show_rgb('ic348_color_arcsinh.png')
+
+# Modify the tick labels for precision and format
+# img.tick_labels.set_xformat('hh:mm:ss')
+# img.tick_labels.set_yformat('dd:mm')
+img.axis_labels.set_xtext('RA (J2000)')
+#img.axis_labels.hide_x()
+img.axis_labels.set_ytext('Dec (J2000)')
+img.axis_labels.set_font(size=18, weight='medium', stretch='normal', family='sans-serif', style='normal', variant='normal')
+#img.axis_labels.hide()
+#img.axis_labels.hide_y()
+
+img.tick_labels.set_font(size=18, weight='medium', stretch='normal', family='sans-serif', style='normal', variant='normal')
+#img.axis_labels.set_yposition('right')
+#img.tick_labels.set_yposition('right')
+#img.tick_labels.hide()
+#img.tick_labels.hide_x()  # Hide the x axis
+#img.tick_labels.hide_y()  # Hide the y axis
+# Let's add a scalebar to it
+img.add_scalebar(20.0/3600.)
+img.scalebar.set_label('20"')
+img.scalebar.set(color='white', linewidth=4, alpha=0.9)
+img.scalebar.set_font(size=45, weight='bold',
+                      stretch='normal', family='sans-serif',
+                      style='normal', variant='normal')
+
+#Filter names
+img.add_label(0.1, 0.9, instrument_b + "+" + instrument_g + "+" + instrument_r, color="white",
+              horizontalalignment='left',
+              weight='bold', size=20, relative=True, zorder=1000)
+dx, dy = 0.001, -0.001
+# img.add_label(0.1+dx, 0.9+dy, instrument_b, color="black", alpha=0.6,
+#               horizontalalignment='left',
+#               bbox={"facecolor": "black", "edgecolor": "none",# "pad": 20,
+#                     "alpha": 0.5, "boxstyle": "round, pad=0.5"},
+#               weight='bold', size=55, relative=True, zorder=999)
+
+img.show_regions(position)
+# except FileNotFoundError:
+#     print("File", position,
+#                 "not found - is not necesary now")
+
+# img.show_markers(ra, dec, layer='marker_set_1', edgecolor='red',
+#                  facecolor='red', marker='o', s=10, alpha=1.)
+#img.show_markers(ra, dec , layer="marker_set_1", edgecolor="red", facecolor="none", marker="o", s=10,  alpha=0.5)
+#img.recenter(ra, dec, radius=cmd_args.zoom/3600.) #zoom ax2.recenter(ra0, dec0, 4*R0/cmd_args.zoom)
+#img.show_markers(ra, dec, layer='marker', edgecolor='red', facecolor='none', marker='o', s=10, alpha=0.9, linewidths=100.)#, layer='marker_set_1', edgecolor='black', facecolor='none', s=30, alpha=0.5, linewidths=20)
+# img.scalebar.set_font(size=23, weight='bold',
+#                       stretch='normal', family='sans-serif',
+#                       style='normal', variant='normal')
+
+# We may want to lengthen the scalebar, move it to the top left,
+# and apply a physical scale
+#img.scalebar.set_corner('top left')
+# img.scalebar.set_length(20/3600.)
+# img.scalebar.set_label('20 arcsec')
+
+if cmd_args.debug:
+    print("Creating of PDF image of:", position.split('-p')[0])
+    
+img.set_theme('publication')
+img.save(image_r.replace('_swp-crop.fits', '-RGB.pdf'))
+
+#+END_SRC
+
+- I automatized this one to make the RGB images, for which I created a executable. I wrote one program to creted the executable, this one has to be 
+run in the SMC folder: 
+
+: python ../varios-programas/run-rgb-image.py > run-rgb-image.run
+
+Because the comand lines into of the executable file are, for example, of the type:
+
+: python ../varios-programas/rgb_image-v2.py MC0072/MC0072_I_006125_swp-crop MC0072/MC0072_R_006125_swp-crop MC0072/MC0072_G_006125_swp-crop --position MC0072/MC0072-006125-position --debug
+
+#+BEGIN_SRC python :eval no : run-rgb-image.py
+
+'''
+Creating command lines to run rgb_image-v2.py
+'''
+from __future__ import print_function
+import glob
+from astropy.table import Table
+
+pattern1 = "MC*/MC*I*swp-crop.fits"
+file_list1 = glob.glob(pattern1)
+
+pattern2 = "MC*/MC*R*swp-crop.fits"
+file_list2 = glob.glob(pattern2)
+
+pattern3 = "MC*/MC*G*swp-crop.fits"
+file_list3 = glob.glob(pattern3)
+
+pattern_region = "MC*/*.reg"
+file_list_region = glob.glob(pattern_region)
+
+file_1 = []
+file_2 = []
+file_3 = []
+file_region = []
+for a, b, c, d in zip(file_list1, file_list2, file_list3, file_list_region):
+    file_1.append(a.split('.fit')[0])
+    file_2.append(b.split('.fit')[0])
+    file_3.append(c.split('.fit')[0])
+    file_region.append(d.split('.re')[0])
+
+file_1.sort()
+file_2.sort()
+file_3.sort()
+file_region.sort()
+tab = Table([file_1, file_2, file_3, file_region],  names=('File1', 'File2', 'File3', 'File_region'), meta={'name': 'first table'})
+    #table_fig.sort('Auto')
+for aa, bb, cc, dd in zip(tab['File1'], tab['File2'], tab['File3'], tab['File_region']):
+    file1 = aa
+    file2 = bb
+    file3 = cc
+    file4 = dd
+    print("python", "../varios-programas/rgb_image-v2.py", file1, file2, file3, "--position", file4, "--debug")
+   
+#+END_SRC
+
+After to create the file ith the comands, I convert the file in a executable:
+
+: chmod +x run-rgb-image.run 
+
+To rum the executable file:
+
+: ./run-rgb-image.run 
+
+- I already make for the filters G, R and I.
+
+- I now have to make for the filters F515, F660, F861.
+
+* Finding for new SMC PNe
+
+** Applying the colour criterio:
+ *** Given is a very large catalog MC.catalog ~ 4 G. It s necesary used database sqlite3. 
+  + Creating sqlite databe:
+    : sqlite3 MCcatalog.db
+
+   - Creating a table for example
+  
+#+begin_example
+      CREATE TABLE MCcatalog (
+      ...> ID INT PRIMARY KEY NOT NULL,
+      ...> NAME TEXT NOT NULL
+      ...> );
+#+end_example
+  
+   + Import file.csv:
+     
+    : sqlite> .mode 
+    : sqlite> .mode csv
+    : sqlite> .import SMCcatalog.csv SMCcatalog
+
+   + To see the tables in the database:
+
+    : .tables
+
+   + See the name of columns:
+   
+   : .schema SMCcatalog
+
+#+RESULTS:
+#+begin_example
+
+   CREATE TABLE SMCcatalog(
+  "Field" TEXT,
+  "ID" TEXT,
+  "RA" TEXT,
+  "DEC" TEXT,
+  "X" TEXT,
+  "Y" TEXT,
+  "ISOarea" TEXT,
+  "MU_MAX" TEXT,
+  "A" TEXT,
+  "B" TEXT,
+  "THETA" TEXT,
+  "ELONGATION" TEXT,
+  "ELLIPTICITY" TEXT,
+  "FLUX_RADIUS" TEXT,
+  "KRON_RADIUS" TEXT,
+  "PhotoFlagDet" TEXT,
+  "CLASS_STAR" TEXT,
+  "FWHM" TEXT,
+  "FWHM_n" TEXT,
+  "s2nDet" TEXT,
+  "PhotoFlag_U" TEXT,
+  "PhotoFlag_F378" TEXT,
+  "PhotoFlag_F395" TEXT,
+  "PhotoFlag_F410" TEXT,
+  "PhotoFlag_F430" TEXT,
+  "PhotoFlag_G" TEXT,
+  "PhotoFlag_F515" TEXT,
+  "PhotoFlag_R" TEXT,
+  "PhotoFlag_F660" TEXT,
+  "PhotoFlag_I" TEXT,
+  "PhotoFlag_F861" TEXT,
+  "PhotoFlag_Z" TEXT,
+  "U_auto" TEXT,
+  "e_U_auto" TEXT,
+  "s2n_U_auto" TEXT,
+  "F378_auto" TEXT,
+  "e_F378_auto" TEXT,
+  "s2n_F378_auto" TEXT,
+  "F395_auto" TEXT,
+  "e_F395_auto" TEXT,
+  "s2n_F395_auto" TEXT,
+  "F410_auto" TEXT,
+  "e_F410_auto" TEXT,
+  "s2n_F410_auto" TEXT,
+  "F430_auto" TEXT,
+  "e_F430_auto" TEXT,
+  "s2n_F430_auto" TEXT,
+  "G_auto" TEXT,
+  "e_G_auto" TEXT,
+  "s2n_G_auto" TEXT,
+  "F515_auto" TEXT,
+  "e_F515_auto" TEXT,
+  "s2n_F515_auto" TEXT,
+  "R_auto" TEXT,
+  "e_R_auto" TEXT,
+  "s2n_R_auto" TEXT,
+  "F660_auto" TEXT,
+  "e_F660_auto" TEXT,
+  "s2n_F660_auto" TEXT,
+  "I_auto" TEXT,
+  "e_I_auto" TEXT,
+  "s2n_I_auto" TEXT,
+  "F861_auto" TEXT,
+  "e_F861_auto" TEXT,
+  "s2n_F861_auto" TEXT,
+  "Z_auto" TEXT,
+  "e_Z_auto" TEXT,
+  "s2n_Z_auto" TEXT,
+  "nDet_auto" TEXT,
+  "U_petro" TEXT,
+  "e_U_petro" TEXT,
+  "s2n_U_petro" TEXT,
+  "F378_petro" TEXT,
+  "e_F378_petro" TEXT,
+  "s2n_F378_petro" TEXT,
+  "F395_petro" TEXT,
+  "e_F395_petro" TEXT,
+  "s2n_F395_petro" TEXT,
+  "F410_petro" TEXT,
+  "e_F410_petro" TEXT,
+  "s2n_F410_petro" TEXT,
+  "F430_petro" TEXT,
+  "e_F430_petro" TEXT,
+  "s2n_F430_petro" TEXT,
+  "G_petro" TEXT,
+  "e_G_petro" TEXT,
+  "s2n_G_petro" TEXT,
+  "F515_petro" TEXT,
+  "e_F515_petro" TEXT,
+  "s2n_F515_petro" TEXT,
+  "R_petro" TEXT,
+  "e_R_petro" TEXT,
+  "s2n_R_petro" TEXT,
+  "F660_petro" TEXT,
+  "e_F660_petro" TEXT,
+  "s2n_F660_petro" TEXT,
+  "I_petro" TEXT,
+  "e_I_petro" TEXT,
+  "s2n_I_petro" TEXT,
+  "F861_petro" TEXT,
+  "e_F861_petro" TEXT,
+  "s2n_F861_petro" TEXT,
+  "Z_petro" TEXT,
+  "e_Z_petro" TEXT,
+  "s2n_Z_petro" TEXT,
+  "nDet_petro" TEXT,
+  "U_iso" TEXT,
+  "e_U_iso" TEXT,
+  "s2n_U_iso" TEXT,
+  "F378_iso" TEXT,
+  "e_F378_iso" TEXT,
+  "s2n_F378_iso" TEXT,
+  "F395_iso" TEXT,
+  "e_F395_iso" TEXT,
+  "s2n_F395_iso" TEXT,
+  "F410_iso" TEXT,
+  "e_F410_iso" TEXT,
+  "s2n_F410_iso" TEXT,
+  "F430_iso" TEXT,
+  "e_F430_iso" TEXT,
+  "s2n_F430_iso" TEXT,
+  "G_iso" TEXT,
+  "e_G_iso" TEXT,
+  "s2n_G_iso" TEXT,
+  "F515_iso" TEXT,
+  "e_F515_iso" TEXT,
+  "s2n_F515_iso" TEXT,
+  "R_iso" TEXT,
+  "e_R_iso" TEXT,
+  "s2n_R_iso" TEXT,
+  "F660_iso" TEXT,
+  "e_F660_iso" TEXT,
+  "s2n_F660_iso" TEXT,
+  "I_iso" TEXT,
+  "e_I_iso" TEXT,
+  "s2n_I_iso" TEXT,
+  "F861_iso" TEXT,
+  "e_F861_iso" TEXT,
+  "s2n_F861_iso" TEXT,
+  "Z_iso" TEXT,
+  "e_Z_iso" TEXT,
+  "s2n_Z_iso" TEXT,
+  "nDet_iso" TEXT,
+  "U_isocor" TEXT,
+  "e_U_isocor" TEXT,
+  "s2n_U_isocor" TEXT,
+  "F378_isocor" TEXT,
+  "e_F378_isocor" TEXT,
+  "s2n_F378_isocor" TEXT,
+  "F395_isocor" TEXT,
+  "e_F395_isocor" TEXT,
+  "s2n_F395_isocor" TEXT,
+  "F410_isocor" TEXT,
+  "e_F410_isocor" TEXT,
+  "s2n_F410_isocor" TEXT,
+  "F430_isocor" TEXT,
+  "e_F430_isocor" TEXT,
+  "s2n_F430_isocor" TEXT,
+  "G_isocor" TEXT,
+  "e_G_isocor" TEXT,
+  "s2n_G_isocor" TEXT,
+  "F515_isocor" TEXT,
+  "e_F515_isocor" TEXT,
+  "s2n_F515_isocor" TEXT,
+  "R_isocor" TEXT,
+  "e_R_isocor" TEXT,
+  "s2n_R_isocor" TEXT,
+  "F660_isocor" TEXT,
+  "e_F660_isocor" TEXT,
+  "s2n_F660_isocor" TEXT,
+  "I_isocor" TEXT,
+  "e_I_isocor" TEXT,
+  "s2n_I_isocor" TEXT,
+  "F861_isocor" TEXT,
+  "e_F861_isocor" TEXT,
+  "s2n_F861_isocor" TEXT,
+  "Z_isocor" TEXT,
+  "e_Z_isocor" TEXT,
+  "s2n_Z_isocor" TEXT,
+  "nDet_isocor" TEXT,
+  "U_aper_3" TEXT,
+  "e_U_aper_3" TEXT,
+  "s2n_U_aper_3" TEXT,
+  "F378_aper_3" TEXT,
+  "e_F378_aper_3" TEXT,
+  "s2n_F378_aper_3" TEXT,
+  "F395_aper_3" TEXT,
+  "e_F395_aper_3" TEXT,
+  "s2n_F395_aper_3" TEXT,
+  "F410_aper_3" TEXT,
+  "e_F410_aper_3" TEXT,
+  "s2n_F410_aper_3" TEXT,
+  "F430_aper_3" TEXT,
+  "e_F430_aper_3" TEXT,
+  "s2n_F430_aper_3" TEXT,
+  "G_aper_3" TEXT,
+  "e_G_aper_3" TEXT,
+  "s2n_G_aper_3" TEXT,
+  "F515_aper_3" TEXT,
+  "e_F515_aper_3" TEXT,
+  "s2n_F515_aper_3" TEXT,
+  "R_aper_3" TEXT,
+  "e_R_aper_3" TEXT,
+  "s2n_R_aper_3" TEXT,
+  "F660_aper_3" TEXT,
+  "e_F660_aper_3" TEXT,
+  "s2n_F660_aper_3" TEXT,
+  "I_aper_3" TEXT,
+  "e_I_aper_3" TEXT,
+  "s2n_I_aper_3" TEXT,
+  "F861_aper_3" TEXT,
+  "e_F861_aper_3" TEXT,
+  "s2n_F861_aper_3" TEXT,
+  "Z_aper_3" TEXT,
+  "e_Z_aper_3" TEXT,
+  "s2n_Z_aper_3" TEXT,
+  "nDet_aper_3" TEXT,
+  "U_aper_6" TEXT,
+  "e_U_aper_6" TEXT,
+  "s2n_U_aper_6" TEXT,
+  "F378_aper_6" TEXT,
+  "e_F378_aper_6" TEXT,
+  "s2n_F378_aper_6" TEXT,
+  "F395_aper_6" TEXT,
+  "e_F395_aper_6" TEXT,
+  "s2n_F395_aper_6" TEXT,
+  "F410_aper_6" TEXT,
+  "e_F410_aper_6" TEXT,
+  "s2n_F410_aper_6" TEXT,
+  "F430_aper_6" TEXT,
+  "e_F430_aper_6" TEXT,
+  "s2n_F430_aper_6" TEXT,
+  "G_aper_6" TEXT,
+  "e_G_aper_6" TEXT,
+  "s2n_G_aper_6" TEXT,
+  "F515_aper_6" TEXT,
+  "e_F515_aper_6" TEXT,
+  "s2n_F515_aper_6" TEXT,
+  "R_aper_6" TEXT,
+  "e_R_aper_6" TEXT,
+  "s2n_R_aper_6" TEXT,
+  "F660_aper_6" TEXT,
+  "e_F660_aper_6" TEXT,
+  "s2n_F660_aper_6" TEXT,
+  "I_aper_6" TEXT,
+  "e_I_aper_6" TEXT,
+  "s2n_I_aper_6" TEXT,
+  "F861_aper_6" TEXT,
+  "e_F861_aper_6" TEXT,
+  "s2n_F861_aper_6" TEXT,
+  "Z_aper_6" TEXT,
+  "e_Z_aper_6" TEXT,
+  "s2n_Z_aper_6" TEXT,
+  "nDet_aper_6" TEXT,
+  "U_total" TEXT,
+  "e_U_total" TEXT,
+  "s2n_U_total" TEXT,
+  "F378_total" TEXT,
+  "e_F378_total" TEXT,
+  "s2n_F378_total" TEXT,
+  "F395_total" TEXT,
+  "e_F395_total" TEXT,
+  "s2n_F395_total" TEXT,
+  "F410_total" TEXT,
+  "e_F410_total" TEXT,
+  "s2n_F410_total" TEXT,
+  "F430_total" TEXT,
+  "e_F430_total" TEXT,
+  "s2n_F430_total" TEXT,
+  "G_total" TEXT,
+  "e_G_total" TEXT,
+  "s2n_G_total" TEXT,
+  "F515_total" TEXT,
+  "e_F515_total" TEXT,
+  "s2n_F515_total" TEXT,
+  "R_total" TEXT,
+  "e_R_total" TEXT,
+  "s2n_R_total" TEXT,
+  "F660_total" TEXT,
+  "e_F660_total" TEXT,
+  "s2n_F660_total" TEXT,
+  "I_total" TEXT,
+  "e_I_total" TEXT,
+  "s2n_I_total" TEXT,
+  "F861_total" TEXT,
+  "e_F861_total" TEXT,
+  "s2n_F861_total" TEXT,
+  "Z_total" TEXT,
+  "e_Z_total" TEXT,
+  "s2n_Z_total" TEXT,
+  "nDet_magTotal" TEXT
+  );
+    
+#+end_example
+
++ Let run a simple query:
+ 
+ : sqlite> select * from SMCcatalog limit 2;
+
+
+#+RESULTS:
+#+begin_example
+
+MC0070,SPLUS.MC0070.000000.griz,6.082561011458683,-71.66490260623553,10214.195,844.23785,29,15.597364,2.0923233,1.5547086,-86.52176,1.3457978,0.25694627,"(1.8254867, 0.0, 0.0)",5.942718,0,0.93795925,5.075451,2.0471618,22.386076,0,0,0,0,0,0,0,0,0,0,0,0,21.838316,0.8116645,1.3423963,21.948238,1.4608434,0.7433894,21.084288,1.0805662,1.003897,21.387775,1.2906494,0.8418678,20.550402,0.5812432,1.8647504,19.541624,0.086724624,12.7078495,19.71508,0.21742633,5.0007987,19.383549,0.06949865,15.438983,19.234365,0.06896026,15.712825,19.494743,0.11010116,9.924407,19.16236,0.18116388,5.971214,18.814518,0.11141781,9.758946,12.0,22.126892,0.82587856,1.3236359,21.739687,0.93872863,1.156832,22.03373,2.007524,0.53974724,22.133139,1.9917636,0.5458041,21.163626,0.79234904,1.3652458,19.695084,0.0794617,14.074771,19.84288,0.19150312,5.684567,19.461124,0.058011197,18.274624,19.33154,0.059262358,18.243052,19.497759,0.08688101,12.654303,19.067757,0.12932481,8.332145,18.931812,0.09690224,11.234441,12.0,23.35841,1.4158545,0.76955324,23.324295,2.2319443,0.48656034,23.95683,6.5261493,0.16622008,21.855017,0.85881734,1.2651774,21.764252,0.7674045,1.4123888,19.835056,0.052094284,21.155556,20.070944,0.13499302,8.05453,19.582474,0.038614772,27.786995,19.360792,0.03656808,29.631319,19.528385,0.050979882,21.433723,19.171518,0.08124968,13.314124,18.990566,0.05787791,18.786448,12.0,20.162792,0.14752847,7.385526,20.128677,0.23211236,4.6786637,20.761211,0.6779059,1.6001881,18.659399,0.08998319,12.075102,18.568634,0.08058188,13.450586,18.043354,0.04056951,27.165316,16.875326,0.02,59.179096,18.89381,0.062637724,17.13007,16.165174,0.02,86.91384,18.460552,0.06133975,17.813713,15.975902,0.02,74.258965,17.780281,0.0592605,18.348146,12.0,99.0,22.721313,-0.0019641204,26.120989,17.298126,0.06277996,99.0,21.624758,-0.13201225,99.0,21.748543,-0.07595925,22.627684,1.0085319,1.0747042,20.258945,0.04882572,22.571785,20.738096,0.1517631,7.164491,19.823177,0.031590786,33.965233,19.647722,0.03160315,34.286465,19.696226,0.037749205,28.946007,19.438704,0.064504,16.770561,19.327824,0.048435893,22.448648,9.0,25.035194,7.8086605,0.13953422,23.684008,3.6674166,0.29611462,23.103586,3.5184503,0.30831102,23.090973,3.144362,0.34555703,21.570408,0.7575528,1.4307564,19.866146,0.061793625,17.834908,20.10749,0.1623416,6.697639,19.575245,0.044204816,24.273113,19.326403,0.040674124,26.640043,19.519447,0.05889222,18.554043,19.225002,0.09955552,10.865978,18.968216,0.06638991,16.377796,12.0,99.0,21.974827,-0.0019641204,25.445454,17.298126,0.06277996,99.0,20.953722,-0.13201225,99.0,21.087341,-0.07595925,22.038265,1.0085319,1.0747042,19.79395,0.04882572,22.571785,20.203436,0.1517631,7.164491,19.385695,0.031590786,33.965233,19.180222,0.03160315,34.286465,19.322979,0.037749205,28.946007,19.036411,0.064504,16.770561,18.953691,0.048435893,22.448648,9.0
+MC0070,SPLUS.MC0070.000001.griz,6.177394747955132,-71.66593832317544,10018.773,844.7152,23,15.487787,1.5488486,1.4330238,-7.403101,1.0808254,0.07478124,"(1.3201131, 0.0, 0.0)",4.9102077,0,0.9503354,2.3795292,0.9597732,26.332409,0,0,0,0,0,0,0,0,0,0,0,0,24.844276,8.793735,0.123836994,22.574034,1.7764318,0.6119044,23.972984,10.49467,0.10321276,21.598627,1.0721679,1.0138222,22.030224,1.543589,0.70129496,19.96318,0.08814975,12.506073,24.835228,16.35626,0.06656734,19.701124,0.06437066,16.661858,19.295628,0.051172882,21.182789,19.516018,0.07754315,14.095649,19.036425,0.111356825,9.7160225,19.009892,0.09158851,11.872775,12.0,26.030273,21.010393,0.051973686,23.262012,2.677237,0.40639424,99.0,20.537388,-0.37072897,22.165228,1.445134,0.75285494,22.007391,1.2068546,0.89408755,20.087212,0.081132874,13.792956,23.24542,3.0364072,0.35950136,19.755287,0.05437212,19.481245,19.343697,0.04377656,24.715794,19.504946,0.06253355,17.591955,19.024963,0.088744156,12.14622,19.097336,0.07995102,13.618607,11.0,27.884546,77.85202,0.013987943,99.0,21.424126,-0.03547519,99.0,21.030504,-0.72848475,22.20863,1.0174716,1.0683224,22.958132,1.9567549,0.55321753,20.112886,0.05782757,19.063696,23.209915,1.9792538,0.5501026,19.795662,0.04060822,26.411766,19.47381,0.03557624,30.469337,19.464184,0.042056214,25.989525,19.101912,0.066391446,16.296457,19.146614,0.057513323,18.907095,10.0,24.688929,8.085677,0.13468133,99.0,21.56962,-0.03547519,99.0,20.783537,-0.72848475,19.013012,0.10658232,10.198574,19.762514,0.20370117,5.314212,18.688358,0.059667107,18.475962,20.014297,0.20603254,5.2845664,19.268465,0.06904726,15.533343,16.278193,0.02,75.44186,19.027922,0.065967314,16.56913,15.906293,0.02,69.78889,18.393108,0.07700848,14.120651,10.0,99.0,22.721313,-6.159502E-5,99.0,22.174767,-0.011863551,25.309793,13.386101,0.08091855,24.416374,5.33355,0.20380192,23.992432,3.5022852,0.3090871,20.214706,0.04712168,23.394901,24.226997,3.4874082,0.31220686,19.876114,0.03287732,32.622334,19.655975,0.031791884,34.09626,19.588482,0.034561623,31.625278,19.247772,0.05493125,19.696356,19.225056,0.044325482,24.532387,10.0,25.680069,14.127253,0.07708432,22.69991,1.4869614,0.73102534,99.0,20.910528,-0.8641026,21.952793,1.1071191,0.9818164,21.88827,1.0113571,1.070355,20.095636,0.07548541,14.60424,22.626354,1.5970803,0.68173945,19.761518,0.051890753,20.669092,19.347527,0.041412905,26.175037,19.512304,0.058526497,18.67566,19.080816,0.087525696,12.361461,19.143478,0.07771132,13.99294,11.0,99.0,21.974827,-6.159502E-5,99.0,21.499231,-0.011863551,24.638758,13.386101,0.08091855,23.755173,5.33355,0.20380192,23.403013,3.5022852,0.3090871,19.74971,0.04712168,23.394901,23.692337,3.4874082,0.31220686,19.438631,0.03287732,32.622334,19.188475,0.031791884,34.09626,19.215235,0.034561623,31.625278,18.845478,0.05493125,19.696356,18.850924,0.044325482,24.532387,10.0
+
+#+end_example
+ 
++ Tables contains:
+   
+ : select count(*) from SMCcatalog;
+
+ : 2898812
+
+
+
+
