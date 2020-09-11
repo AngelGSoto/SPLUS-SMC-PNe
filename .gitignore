@@ -3,3 +3,8 @@
 *.catalog
 *~
 *#
+*.png
+*.db
+MC*
+SMCcatalog.csv
+.#Description.org

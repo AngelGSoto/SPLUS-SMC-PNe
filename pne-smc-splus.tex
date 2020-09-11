@@ -8,6 +8,7 @@
 %\usepackage[vmargin=0.8in, hmargin=1.00in]{geometry}
 \usepackage[vmargin=0.7in, hmargin=1.0in]{geometry}
 \usepackage{lipsum}
+\usepackage{longtable}
 
 \newcommand\U[1]{\ensuremath{\mathrm{#1}}}
 \newcommand\K{\U{K}}
@@ -47,56 +48,80 @@
 \begin{figure}
 \centering
 \begin{tabular}{l l}
-  \includegraphics[width=0.52\linewidth, trim=10 15 5 8, clip]{../../Dropbox/JPAS/Tesis/Fig/DdDm-1-HPNe-SPLUS18-magnitude-paper.pdf}
-   \includegraphics[width=0.5\linewidth, trim=5 15 5 8, clip]{../../Dropbox/JPAS/Tesis/Fig/DdDm1_L4_T200_output_SED-tere_E02_600-JPLUS17-magnitude-paper.pdf}
+  \includegraphics[width=0.52\linewidth, trim=10 15 5 8, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/DdDm-1-HPNe-SPLUS18-magnitude-paper.pdf}
+   \includegraphics[width=0.5\linewidth, trim=5 15 5 8, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/DdDm1_L4_T200_output_SED-tere_E02_600-JPLUS17-magnitude-paper.pdf}
   \end{tabular}  
 \end{figure}
 
-
-
-\begin{figure}[!h]
-  \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig1-JPLUS17-Viironen.pdf}
-\end{figure}
-
-\begin{figure*}[1h]
+\begin{figure*}
 %\setlength\tabcolsep{\figstampcolsep}
 \centering
 \begin{tabular}{l l}
- \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig2-JPLUS17-J0515-J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig5-JPLUS17-J0660-r.pdf} \\
+ \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig1-JPLUS17-Viironen.pdf} & \\
+ \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig2-JPLUS17-J0515-J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig5-JPLUS17-J0660-r.pdf} \\
 %\raiselabel{(\textit{a})} & \raiselabel{(\textit{b})}\\
-\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig3-JPLUS17-z-g.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig6-JPLUS17-g-i.pdf} \\
+\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig3-JPLUS17-z-g.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig6-JPLUS17-g-i.pdf} \\
 %\raiselabel{(\textit{c})} & \raiselabel{(\textit{d})}
   
   \end{tabular}
 \end{figure*}
 
-I found this sample of SMC PNe: vizier-> J/A+A/472/101/table7. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, 2007A\&A…472..101I) This catalog has $\sim$40 PNe.\\
-
-I made cross matching between this catalog and SPLUS catalog. I found 21 matches using a 1 arcsec of radii. 
-
-I put the final matches in my diagram,
-
-
-\begin{figure}[!h]
-  \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig1-IDR2-SPLUS-vironen.pdf}
-\end{figure}
-
-\begin{figure*}[1h]
+\begin{figure*}
 %\setlength\tabcolsep{\figstampcolsep}
 \centering
 \begin{tabular}{l l}
+\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig1-IDR2-SPLUS-vironen.pdf} & \\
  \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig2-IDR2-SPLUS-J0515_J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig4-IDR2-SPLUS-g.pdf} \\
 %\raiselabel{(\textit{a})} & \raiselabel{(\textit{b})}\\
 \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig3-IDR2-SPLUS-z.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig5-IDR2-SPLUS-gi.pdf} \\
 %\raiselabel{(\textit{c})} & \raiselabel{(\textit{d})}
-  
-  \end{tabular}
+\end{tabular}
+\caption{}
+\label{fig:smppne}
 \end{figure*}
 
-\newpage
-\input{table-figs.tex}
-\input{table-figs1.tex}
-\input{table-figs2.tex}
+I found this sample of SMC PNe: vizier -$>$ J/A+A/472/101/table7. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, 2007A\&A…472..101I) This catalog has $\sim$40 PNe.\\
 
+I made cross matching between this catalog and SPLUS catalog. I found 21 matches using a 1 arcsec of radii. 
+
+I putted the final matches in my S-PLUS colour diagrams diagram (see Fig.~\ref{fig:smppne}),
+
+
+\newpage
+\begin{longtable}{ccc}
+  %\caption[]{continuación }\\
+  \input{table-figs.tex}
+\end{longtable}
+% \newpage
+% \begin{center}[!h]
+% \begin{longtable}{ccc}
+% %\caption{A sample long table.} \label{tab:long} \\
+
+%  \multicolumn{1}{c}{\textbf{Aper (3'')}} & \multicolumn{1}{c}{\textbf{F515+F660+F861}} & \multicolumn{1}{c}{\textbf{G+R+I}} \\ 
+% \endfirsthead
+
+% % \multicolumn{3}{c}%
+% % {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+% %  \multicolumn{1}{c}{\textbf{Aper (3'')}} & \multicolumn{1}{c}{\textbf{F515+F660+F861}} & \multicolumn{1}{c}{\textbf{G+R+I}} \\ 
+% % \endhead
+
+% \multicolumn{3}{r}{{Continued on next page}} \\
+% \endfoot
+
+% \endlastfoot
+
+% \input{table-images.tex}
+
+% \end{longtable}
+% \end{center}
+
+
+\newpage
+\begin{longtable}{ccc}
+  %\caption{Distancias, tamaños y formas de los choques de proa en la Nebulosa de Orión. Las unidades de la distancia y los radios están en [arcsec]. \label{tab:test}}\\
+
+  %\caption[]{continuación }\\
+  \input{table-images.tex}
+\end{longtable}
 
 \end{document}

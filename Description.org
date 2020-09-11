@@ -1540,7 +1540,7 @@ data = cur.fetchall()
 headers = [i[0] for i in cur.description]
 
 # Open CSV file for writing
-file_name = 'pne-cand-smc-colorcriterio.csv'
+file_name = 'PneCand-smc-color-viirfilError.csv'
 csv_file = csv.writer(open(file_name, 'w', newline=''),
                              delimiter=',', lineterminator='\r\n',
                              quoting=csv.QUOTE_ALL, escapechar='\\')
@@ -1556,3 +1556,16 @@ print("Data export successful ans writting the file: {}.".format(file_name))
 conn.close()
 
 #+END_SRC
+
+The file PneCand-smc-color-viirfilError.csv was wrote with 33 objects of which 16 are PNe known in agreement 
+with (2007A&A...472..101I). In this query the error criteria were only used on the IPHAS filter and R <= 19.
+
+- IPHAS error flites plus R <= 20 -> 49 objects select.
+   : PneCand-smc-color-viirfilErrorR20.csv
+
+- IPHAS error filters plus R <= 20.5 -> 57 objects select.
+   : PneCand-smc-color-viirfilErrorR205.csv
+
+
+- IPHAS error filters --NONE  plus R <= 20.5 -> 41 objects select.
+   : PneCand-smc-color.csv 
