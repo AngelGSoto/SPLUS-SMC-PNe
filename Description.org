@@ -1567,5 +1567,5 @@ with (2007A&A...472..101I). In this query the error criteria were only used on t
    : PneCand-smc-color-viirfilErrorR205.csv
 
 
-- IPHAS error filters --NONE  plus R <= 20.5 -> 41 objects select.
+- IPHAS error filters --NONE  plus R <= 19.5 -> 41 objects select.
    : PneCand-smc-color.csv 
