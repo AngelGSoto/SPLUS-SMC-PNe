@@ -5,6 +5,6 @@
 *#
 *.png
 *.db
-MC*
+*.fits
 SMCcatalog.csv
 .#Description.org
