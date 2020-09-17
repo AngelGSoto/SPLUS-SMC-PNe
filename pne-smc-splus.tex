@@ -9,6 +9,8 @@
 \usepackage[vmargin=0.7in, hmargin=1.0in]{geometry}
 \usepackage{lipsum}
 \usepackage{longtable}
+\usepackage{pdfpages}
+\usepackage{listings}
 
 \newcommand\U[1]{\ensuremath{\mathrm{#1}}}
 \newcommand\K{\U{K}}
@@ -48,8 +50,8 @@
 \begin{figure}
 \centering
 \begin{tabular}{l l}
-  \includegraphics[width=0.52\linewidth, trim=10 15 5 8, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/DdDm-1-HPNe-SPLUS18-magnitude-paper.pdf}
-   \includegraphics[width=0.5\linewidth, trim=5 15 5 8, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/DdDm1_L4_T200_output_SED-tere_E02_600-JPLUS17-magnitude-paper.pdf}
+  \includegraphics[width=0.5\linewidth, trim=10 15 5 8, clip]{../../Dropbox/JPAS/Tesis/Fig/DdDm-1-HPNe-SPLUS18-magnitude-paper.pdf}
+   \includegraphics[width=0.52\linewidth, trim=5 15 5 8, clip]{../../Dropbox/JPAS/Tesis/Fig/DdDm1_L4_T200_output_SED-tere_E02_600-JPLUS17-magnitude-paper.pdf}
   \end{tabular}  
 \end{figure}
 
@@ -57,10 +59,10 @@
 %\setlength\tabcolsep{\figstampcolsep}
 \centering
 \begin{tabular}{l l}
- \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig1-JPLUS17-Viironen.pdf} & \\
- \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig2-JPLUS17-J0515-J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig5-JPLUS17-J0660-r.pdf} \\
+ \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig1-JPLUS17-Viironen.pdf} & \\
+ \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig2-JPLUS17-J0515-J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig5-JPLUS17-J0660-r.pdf} \\
 %\raiselabel{(\textit{a})} & \raiselabel{(\textit{b})}\\
-\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig3-JPLUS17-z-g.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../../../../home/angel/Dropbox/JPAS/Tesis/Fig/Fig6-JPLUS17-g-i.pdf} \\
+\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig3-JPLUS17-z-g.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{../../Dropbox/JPAS/Tesis/Fig/Fig6-JPLUS17-g-i.pdf} \\
 %\raiselabel{(\textit{c})} & \raiselabel{(\textit{d})}
   
   \end{tabular}
@@ -115,7 +117,6 @@ I putted the final matches in my S-PLUS colour diagrams diagram (see Fig.~\ref{f
 % \end{longtable}
 % \end{center}
 
-
 \newpage
 \begin{longtable}{ccc}
   %\caption{Distancias, tamaños y formas de los choques de proa en la Nebulosa de Orión. Las unidades de la distancia y los radios están en [arcsec]. \label{tab:test}}\\
@@ -123,5 +124,57 @@ I putted the final matches in my S-PLUS colour diagrams diagram (see Fig.~\ref{f
   %\caption[]{continuación }\\
   \input{table-images.tex}
 \end{longtable}
+
+\subsection{What about compact H II regions}
+\label{sec:ini}
+
+I found a catalog of 12 compact H II regions (2012SerAJ.185...53W) in the SMC SPLUS
+   catalog. In Simbad appear reported like emission line stars.
+
+\begin{figure*}
+%\setlength\tabcolsep{\figstampcolsep}
+\centering
+\begin{tabular}{l l}
+\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig1-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-vironen.pdf} & \\
+ \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig2-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-J0515_J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-g.pdf} \\
+%\raiselabel{(\textit{a})} & \raiselabel{(\textit{b})}\\
+\includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig3-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-z.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig5-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-gi.pdf} \\
+%\raiselabel{(\textit{c})} & \raiselabel{(\textit{d})}
+\end{tabular}
+\caption{}
+\label{fig:smppne}
+\end{figure*}
+  
+\newpage
+\begin{longtable}{ccc}
+  %\caption[]{continuación }\\
+  \input{Hii-table-figs.tex}
+\end{longtable} 
+
+\newpage
+\begin{figure*}[!h]
+% %\setlength\tabcolsep{\figstampcolsep}
+\centering
+\begin{tabular}{ccc}
+\textbf{Aper(3'')} & \textbf{F515+F660+F861} & \textbf{G+R+I} \\
+\includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0094/MC0094_F861_318227-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0094/MC0094_I_318227-RGB.pdf} \\
+\includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0095/MC0095_F861_257970-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0095/MC0095_I_257970-RGB.pdf} \\
+\includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0095/MC0095_F861_265990-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0095/MC0095_I_265990-RGB.pdf} \\
+\includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_F861_222322-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_I_222322-RGB.pdf} \\
+\includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0116/MC0116_F861_191358-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0116/MC0116_I_191358-RGB.pdf} \\
+% \includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0094-194143_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0094/MC0094_F861_194143-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0094/MC0094_I_194143-RGB.pdf} \\
+% \includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0113-084466_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0113/MC0113_F861_084466-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0113/MC0113_I_084466-RGB.pdf} \\
+% \includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0114-113862_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_F861_113862-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_I_113862-RGB.pdf} \\
+% \includegraphics[width=0.3\linewidth, clip]{photopectrum_splus_MC0114-273678_aper.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_F861_273678-RGB.pdf} & \includegraphics[width=0.3\linewidth, clip]{MC0114/MC0114_I_273678-RGB.pdf} \\
+ \end{tabular}
+\caption{}
+\end{figure*}
+
+\newpage
+\subsubsection{Comparing SPLUS images with HST}
+\label{sec:hst}
+The professor Denise found HST information for four of these objects. She sent me the information that follows (I added the SPLUS imges).
+
+\includepdf[page=-]{HSTimages-sizes_SMCPNe.pdf}
 
 \end{document}
