@@ -1,3 +1,5 @@
+#+TITLE: SMC PNe in SPLUS
+#+EMAIL: gsoto.angel@gmail.com
 * SMC Planetary nebula in SPLUS
 
   Given that the SMC was observed by S-PLUS and i is already available a catalog of SMC SPLUS, I am going to looking for new PNe in this galaxy. For that I will apply my SPLUS color criteria 
@@ -444,7 +446,7 @@ plt.savefig(pltfile)
 
 #+END_SRC
    
-     For this the file must be pne-smc-splus-match-2007.fits
+For this the file must be pne-smc-splus-match-2007.fits
 
  + I made the S-spectrum for all the objects. I also wrote the a new program based on the other to display the spectrum:
 
@@ -683,7 +685,7 @@ for i in range(len(n)):
    For this the file must be pne-smc-splus-match-2007.dat
  
  + All is resumed in the file pne-smc-splus.tex.
-     - For that I wrote a program to made the table eith of th figures (photospectrum,): 
+     - For that I wrote a program to made the table with the figures (photos-pectrum) in Latex format: 
 
                      : python ../varios-programas/latex-figs.py
 
@@ -734,57 +736,66 @@ table_fig = Table([ap3, apa, app],  names=('Aper_3', 'Auto', 'Petro'), meta={'na
     #table_fig.sort('Auto')
 table_fig.write('table-figs.tex', format = "ascii.latex", overwrite=True) 
  
-  
 #+END_SRC
   
  + I now included the RGB images of the objects. I made one pair of the objects: One combining the F515, F660 and F861 and the second one by 
    combining the filters G, R and I.
+ 
+*** Known compact HII regions
+I found a catalog of compact H II regions (2012SerAJ.185...53W). This sample has 51 compact H II regions of which 12 are in the SMC SPLUS
+   catalog. The file compat-HIIRegions-smc-match-splus.dat.
+
+[X] Put in the color-color diagrams. 
+    : python ../varios-programas/color-diagrams-splusdr2_automatic-v3.py pne-smc-splus-match-2007 compat-HIIRegions-smc-match-splus
+[X] S-spectrum.
+[X] RGB images. Some is not possible to do the images. I will fix that.
 
 *** Making the images of the objects.
-+ I wrote the DS9 region for each PNe using ipython/Write DS9 region.
-   I made some changes for this one I used the package catalog-utils-v2.py. I change box for circle, and I putted 6 arcsec of radii.
 
-+ I converted the .fz to .fits using the comand line:
++ I converted the .fz to .fits using the command line:
 
 : for D in ./MC*; do if [ -d “$D” ]; then cd “$D”; for f in *.fz; do python ../varios-programas/convert-fz-fits.py ${f%.fz}; done; cd ..; fi; done
 
 #+BEGIN_SRC python: convert fz to fits
 
-    '''
-    Based on the progam of Gabriel.
-    Original vrsion: covert.py
-    '''
-    from astropy.io import fits, ascii
-    import os
-    import argparse
+'''
+Based on the progam of Gabriel.
+Original vrsion: covert.py
+'''
+from astropy.io import fits, ascii
+import os
+import argparse
 
-    def fz2fits(image):
-        """
-        It converts SPLUS images
-        from .fz to .fits
-        """
-        datos = fits.open(image)[1].data
-        heada = fits.open(image)[1].header
-        imageout = image[:-2] + 'fits'
-        print ('Creating file: ')
-        print (imageout)
-        fits.writeto(imageout, datos, heada, overwrite=True)
+def fz2fits(image):
+    """
+    It converts SPLUS images
+    from .fz to .fits
+    """
+    datos = fits.open(image)[1].data
+    heada = fits.open(image)[1].header
+    imageout = image[:-2] + 'fits'
+    print ('Creating file: ')
+    print (imageout)
+    fits.writeto(imageout, datos, heada, overwrite=True)
 
-    parser = argparse.ArgumentParser(
-        description="""Make a table from the S-PLUS catalogs """)
+parser = argparse.ArgumentParser(
+    description="""Convert file.fz to file.fits""")
 
-    parser.add_argument("fzfile", type=str,
-                      default="teste-program",
-                        help="Name of catalog, taken the prefix ")
+parser.add_argument("fzfile", type=str,
+                    default="MC0095_F378_swp",
+                    help="Name of file, taken the prefix ")
 
-    cmd_args = parser.parse_args()
-    fzfile_ = cmd_args.fzfile + ".fz"
+cmd_args = parser.parse_args()
+fzfile_ = cmd_args.fzfile + ".fz"
  
-    fz2fits(fzfile_)
+fz2fits(fzfile_)
 
 #+END_SRC
++ I wrote the DS9 region for each PNe using ipython/Write DS9 region.
+   I made some changes for this one I used the package catalog-utils-v2.py. I change box for circle, and I putted 6 arcsec of radii.
 
-+ Cut the images centered in the object, I used the program; cut-images-fits.py
++ Cut the images centered in the object, I used the program; cut-images-fits.py.
+  Consult Extended-pne-splus/blob/master/Description.org.
 
 #+BEGIN_SRC python : cut images
 
@@ -891,7 +902,7 @@ for line in f:
 #+END_SRC
 
 The only problem it is the program is no so autmatic I have to change manually " outfile = regionfile.replace("_swp.fits", "_{}_swp-crop.fits".format(position.split("15-")[-1].split("-p")[0]))"
-I have to fix that.
+Changing the term "split("15-")[-1]". I have to fix that.
 
 + I modified the rgb-image.py (now rgb_image-v2.py) to make the RGB images to work with these data. To run the programa just executing the comand:
 
