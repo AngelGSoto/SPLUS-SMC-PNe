@@ -748,6 +748,7 @@ I found a catalog of compact H II regions (2012SerAJ.185...53W). This sample has
 [X] Put in the color-color diagrams. 
     : python ../varios-programas/color-diagrams-splusdr2_automatic-v3.py pne-smc-splus-match-2007 compat-HIIRegions-smc-match-splus
 [X] S-spectrum.
+
 [X] RGB images. Some is not possible to do the images. I will fix that.
 
 *** Making the images of the objects.
@@ -1580,3 +1581,4 @@ with (2007A&A...472..101I). In this query the error criteria were only used on t
 
 - IPHAS error filters --NONE  plus R <= 19.5 -> 41 objects select.
    : PneCand-smc-color.csv 
+  

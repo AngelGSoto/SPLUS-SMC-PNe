@@ -11,6 +11,8 @@
 \usepackage{longtable}
 \usepackage{pdfpages}
 \usepackage{listings}
+\usepackage{hyperref}
+\usepackage{url}
 
 \newcommand\U[1]{\ensuremath{\mathrm{#1}}}
 \newcommand\K{\U{K}}
@@ -82,7 +84,9 @@
 \label{fig:smppne}
 \end{figure*}
 
-I found this sample of SMC PNe: vizier -$>$ J/A+A/472/101/table7. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, 2007A\&A…472..101I) This catalog has $\sim$40 PNe.\\
+The Small Magellanic Cloud (SMC) is a gas-rich late-type dwarf galaxy (Bolatto et al. 2007) with a gas-to-dust ratio 30 times higher than the Milky Way (Stanimirovic et al. 2000). It is a member of the Local Group and is classified as an irregular galaxy (ImIV$-$V) (Sandage et al. 1994). The SMC is at a distance of 60.6$\pm$3.8 kpc (Hilditch et al. 2005) from the Galaxy which makes the spatial scale $\sim$0.3 pc$/$arcsec.
+
+I found this sample of SMC PNe: vizier -$>$ \url{J/A+A/472/101/table7}. Chemical evolution of SMC planetary nebulae (Idiart+, 2007, \url{2007A&A...472..101I}) This catalog has $\sim$40 PNe.\\
 
 I made cross matching between this catalog and SPLUS catalog. I found 21 matches using a 1 arcsec of radii. 
 
@@ -128,12 +132,15 @@ I putted the final matches in my S-PLUS colour diagrams diagram (see Fig.~\ref{f
 \subsection{What about compact H II regions}
 \label{sec:ini}
 
-I found a catalog of 12 compact H II regions (2012SerAJ.185...53W) in the SMC SPLUS
+I found a catalog of 12 compact H II regions (\url{2012SerAJ.185...53W}) in the SMC SPLUS
    catalog. In Simbad appear reported like emission line stars.
 
 \begin{figure*}
 %\setlength\tabcolsep{\figstampcolsep}
-\centering
+\end{figure*}
+
+\begin{figure*}
+  \centering
 \begin{tabular}{l l}
 \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig1-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-vironen.pdf} & \\
  \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig2-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-J0515_J0660.pdf} & \includegraphics[width=0.5\linewidth, trim=10 10 10 10, clip]{Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-g.pdf} \\
@@ -174,6 +181,8 @@ I found a catalog of 12 compact H II regions (2012SerAJ.185...53W) in the SMC SP
 \subsubsection{Comparing SPLUS images with HST}
 \label{sec:hst}
 The professor Denise found HST information for four of these objects. She sent me the information that follows (I added the SPLUS imges).
+
+A import detail about the paper cited in below document. "The nebular diameters, given in column (5), were measured with respect to the 10\% intensity contour of the outermost structure and are useful for conducting follow-on observations of the PNe." And the paper (\url{2003ApJ...596..997S}) used the same method to measured the size. "the nebular dimensions, measured from the 10\% brightness contour".
 
 \includepdf[page=-]{HSTimages-sizes_SMCPNe.pdf}
 
