@@ -746,7 +746,7 @@ table_fig.write('table-figs.tex', format = "ascii.latex", overwrite=True)
 Seems there is a discrepancy betwween the HST and SPLUS. Splus presents the PNe resolved. The literature 
 says that this object must appers as point sources. 
 
-The prof. prepare a document whit the HST counterpart of these PNe. She say that the size of the PNe 
+The prof. prepared a document with the HST counterpart of these PNe. She says that the size of the PNe 
 in SPLUS no correspond with the SPLUS. According to the paper (Shaw, Stanghellini, Villaver & Mutchler, 2006 (2006ApJS..167..201S))
 these PNe have angular dimensions between 0.31" x 0.31"(R, round) e 0.59" x 0.48".
 
