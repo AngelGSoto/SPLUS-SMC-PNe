@@ -740,6 +740,19 @@ table_fig.write('table-figs.tex', format = "ascii.latex", overwrite=True)
   
  + I now included the RGB images of the objects. I made one pair of the objects: One combining the F515, F660 and F861 and the second one by 
    combining the filters G, R and I.
+
+**** More information about the SMC PNe
+
+Seems there is a discrepancy betwween the HST and SPLUS. Splus presents the PNe resolved. The literature 
+says that this object must appers as point sources. 
+
+The prof. prepare a document whit the HST counterpart of these PNe. She say that the size of the PNe 
+in SPLUS no correspond with the SPLUS. According to the paper (Shaw, Stanghellini, Villaver & Mutchler, 2006 (2006ApJS..167..201S))
+these PNe have angular dimensions between 0.31" x 0.31"(R, round) e 0.59" x 0.48".
+
+A import detail about the paper cited in below document. "The nebular diameters, given in column (5), were measured with respect to the 10\% intensity contour of the outermost structure and are useful for conducting follow-on observations of the PNe." And the paper (\url{2003ApJ...596..997S}) used the same method to measured the size. "the nebular dimensions, measured from the 10\% brightness contour".
+
+I really don't understand the technique that the used to computed these sizes.
  
 *** Known compact HII regions
 I found a catalog of compact H II regions (2012SerAJ.185...53W). This sample has 51 compact H II regions of which 12 are in the SMC SPLUS
