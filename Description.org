@@ -463,6 +463,7 @@ import numpy as np
 import glob
 import json
 import matplotlib.pyplot as plt
+plt.rcParams.update({'figure.max_open_warning': 0})
 from astropy.table import Table
 #import seaborn as sns
 import sys
@@ -480,7 +481,6 @@ marker = ["s", "o", "o", "o", "o", "s", "o", "s", "o", "s", "o", "s"] ### tienen
 # color1 = [ "#9900FF", "#6600FF", "#0000FF", "#009999", "#006600", "#DD8000", "#FF0000", "#CC0066", "#990033", "#660033", "#330034"]
 # marker1 = [ "o", "o", "o", "o", "s", "o", "s", "o", "s", "o", "s"] # No tiene el primer filtro
 
-
 parser = argparse.ArgumentParser(
     description="""Write wave and magnitude of a spectrum""")
 
@@ -494,24 +494,23 @@ parser.add_argument("--debug", action="store_true",
 args = parser.parse_args()
 file_ = args.source + ".dat"
 
-
 data = Table.read(file_, format="ascii")
-n = data["RA"]
+n = len(data)
 
 Number = []
-mag_auto  = [[] for _ in range(len(n))]
-mag_petro = [[] for _ in range(len(n))]
-mag_aper = [[] for _ in range(len(n))]
+mag_auto  = [[] for _ in range(n)]
+mag_petro = [[] for _ in range(n)]
+mag_aper = [[] for _ in range(n)]
 
 #Error
-mag_auto_err  = [[] for _ in range(len(n))]
-mag_petro_err  = [[] for _ in range(len(n))]
-mag_aper_err  = [[] for _ in range(len(n))]
+mag_auto_err  = [[] for _ in range(n)]
+mag_petro_err  = [[] for _ in range(n)]
+mag_aper_err  = [[] for _ in range(n)]
 
-print(len(n))
+print("The number of objects for calculated the S-spectra are:", n)
+
 #sys.exit()
-
-for i in range(len(n)):
+for i in range(n):
     mag_aper[i].append(data["U_aper_3"][i]) #aper
     mag_aper[i].append(data["F378_aper_3"][i])
     mag_aper[i].append(data["F395_aper_3"][i])
@@ -524,7 +523,7 @@ for i in range(len(n)):
     mag_aper[i].append(data["I_aper_3"][i]) 
     mag_aper[i].append(data["F861_aper_3"][i]) 
     mag_aper[i].append(data["Z_aper_3"][i])
-    #Petro
+    #auto
     mag_auto[i].append(data["U_auto"][i]) #auto
     mag_auto[i].append(data["F378_auto"][i])
     mag_auto[i].append(data["F395_auto"][i])
@@ -601,7 +600,7 @@ for i in range(len(n)):
     ##########################################################################################
     # Plotting -- Aper  ######################################################################
     ##########################################################################################
-    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_aper.pdf"
+    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_{}_aper.pdf".format(file_.split('.da')[0])
     fig = plt.figure(figsize=(15.5, 9.5))
     ax = fig.add_subplot(1,1,1)
     plt.tick_params(axis='x', labelsize=42) 
@@ -611,8 +610,12 @@ for i in range(len(n)):
     #ax1.set_xlabel(r'$\lambda$')
     ax.set_xlabel(r'Wavelength $[\mathrm{\AA]}$', fontsize = 44)
     ax.set_ylabel(r'Magnitude [AB]', fontsize = 44)
-    ax.plot(wl, mag_aper[i], '-k', alpha=0.2)#, label='Auto')
-    for wl1, mag, mag_err, colors, marker_ in zip(wl, mag_aper[i], mag_aper_err[i], color, marker):
+
+    # Mask to no take the values 99.0
+    mask = [mag_aper[i][m] != 99.0 for m in range(len(mag_aper[0]))]
+
+    ax.plot(np.array(wl)[mask], np.array(mag_aper[i])[mask], '-k', alpha=0.2)#, label='Auto')
+    for wl1, mag, mag_err, colors, marker_ in zip(np.array(wl)[mask], np.array(mag_aper[i])[mask], mag_aper_err[i], color, marker):
         ax.scatter(wl1, mag, color = colors, marker=marker_, s=600, zorder=10)
         ax.errorbar(wl1, mag, yerr=mag_err, marker='.', fmt='.', color=colors, ecolor=colors, elinewidth=5.9, markeredgewidth=5.2,  capsize=20)
     # plt.text(0.06, 0.1, "Fr 2-21",
@@ -628,7 +631,7 @@ for i in range(len(n)):
     ##########################################################################################
     # Plotting -- Auto  ######################################################################
     ##########################################################################################
-    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_auto.pdf"
+    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_{}_auto.pdf".format(file_.split('.da')[0])
     fig = plt.figure(figsize=(15.5, 9.5))
     ax = fig.add_subplot(1,1,1)
     plt.tick_params(axis='x', labelsize=42) 
@@ -638,8 +641,12 @@ for i in range(len(n)):
     #ax1.set_xlabel(r'$\lambda$')
     ax.set_xlabel(r'Wavelength $[\mathrm{\AA]}$', fontsize = 44)
     ax.set_ylabel(r'Magnitude [AB]', fontsize = 44)
-    ax.plot(wl, mag_auto[i], '-k', alpha=0.2)#, label='Auto')
-    for wl1, mag, mag_err, colors, marker_ in zip(wl, mag_auto[i], mag_auto_err[i], color, marker):
+
+    # Mask to no take the values 99.0
+    mask_au = [mag_auto[i][m] != 99.0 for m in range(len(mag_auto[0]))]
+
+    ax.plot(np.array(wl)[mask_au], np.array(mag_auto[i])[mask_au], '-k', alpha=0.2)#, label='Auto')
+    for wl1, mag, mag_err, colors, marker_ in zip(np.array(wl)[mask_au], np.array(mag_auto[i])[mask_au], mag_auto_err[i], color, marker):
         ax.scatter(wl1, mag, color = colors, marker=marker_, s=600, zorder=10)
         ax.errorbar(wl1, mag, yerr=mag_err, marker='.', fmt='.', color=colors, ecolor=colors, elinewidth=5.9, markeredgewidth=5.2,  capsize=20)
     # plt.text(0.06, 0.1, "Fr 2-21",
@@ -655,7 +662,7 @@ for i in range(len(n)):
     ##########################################################################################
     #PETRO####################################################################################
     ##########################################################################################
-    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_petro.pdf"
+    plotfile = "photopectrum_splus_"+str(data["ID"][i].split("S.")[-1].split(".g")[0]).replace(".", "-")+"_{}_petro.pdf".format(file_.split('.da')[0])
     fig = plt.figure(figsize=(15.5, 9.5))
     ax1 = fig.add_subplot(1,1,1)
     plt.tick_params(axis='x', labelsize=42) 
@@ -665,8 +672,12 @@ for i in range(len(n)):
     #ax1.set_xlabel(r'$\lambda$')
     ax1.set_xlabel(r'Wavelength $[\mathrm{\AA]}$', fontsize = 44)
     ax1.set_ylabel(r'Magnitude [AB]', fontsize = 44)
-    ax1.plot(wl, mag_petro[i], '-k', alpha=0.2)#, label='Auto')
-    for wl1, mag_1, mag_err_1, colors, marker_ in zip(wl, mag_petro[i], mag_petro_err[i], color, marker):
+
+    # Mask to no take the values 99.0
+    mask_p = [mag_petro[i][m] != 99.0 for m in range(len(mag_petro[0]))]   
+
+    ax1.plot(np.array(wl)[mask_p], np.array(mag_petro[i])[mask_p], '-k', alpha=0.2)#, label='Auto')
+    for wl1, mag_1, mag_err_1, colors, marker_ in zip(np.array(wl)[mask_p], np.array(mag_petro[i])[mask_p], mag_petro_err[i], color, marker):
         ax1.scatter(wl1, mag_1, color = colors, marker=marker_, s=600, zorder=10)
         ax1.errorbar(wl1, mag_1, yerr=mag_err_1, marker='.', fmt='.', color=colors, ecolor=colors, elinewidth=5.9, markeredgewidth=5.2,  capsize=20)
     # plt.text(0.06, 0.1, "Fr 2-21",
@@ -679,7 +690,6 @@ for i in range(len(n)):
     #file_save = os.path.join(save_path, plotfile)
     plt.savefig(plotfile)
     plt.clf()
-
 
 #+END_SRC    
    For this the file must be pne-smc-splus-match-2007.dat

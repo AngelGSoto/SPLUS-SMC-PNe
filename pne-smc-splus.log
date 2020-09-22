@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.1.24)  21 SEP 2020 11:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.1.24)  22 SEP 2020 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -831,552 +831,700 @@ JPLUS17-J0515-J0660.pdf> <../../Dropbox/JPAS/Tesis/Fig/Fig5-JPLUS17-J0660-r.pdf
 /Fig/Fig6-JPLUS17-g-i.pdf>] [3 <./Fig1-IDR2-SPLUS-vironen.pdf> <./Fig2-IDR2-SPL
 US-J0515_J0660.pdf> <./Fig4-IDR2-SPLUS-g.pdf> <./Fig3-IDR2-SPLUS-z.pdf> <./Fig5
 -IDR2-SPLUS-gi.pdf>] (./table-figs.tex
-<photopectrum_splus_MC0072-006125_aper.pdf, id=662, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-006125_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf, id=662, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-006125_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-006125_aper.pdf used on inpu
-t line 4.
+<use photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2
+007_aper.pdf used on input line 4.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0072-006125_auto.pdf, id=664, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-006125_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_auto.pdf, id=664, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-006125_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-006125_auto.pdf used on inpu
-t line 4.
+<use photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2
+007_auto.pdf used on input line 4.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0072-006125_petro.pdf, id=666, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-006125_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_petro.pdf, id=666, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0072-006125_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-006125_petro.pdf used on inp
-ut line 4.
+<use photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2
+007_petro.pdf used on input line 4.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0072-044863_aper.pdf, id=668, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-044863_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_aper.pdf, id=668, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-044863_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-044863_aper.pdf used on inpu
-t line 5.
+<use photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2
+007_aper.pdf used on input line 5.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0072-044863_auto.pdf, id=670, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-044863_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_auto.pdf, id=670, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-044863_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-044863_auto.pdf used on inpu
-t line 5.
+<use photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2
+007_auto.pdf used on input line 5.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0072-044863_petro.pdf, id=672, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0072-044863_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_petro.pdf, id=672, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0072-044863_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-044863_petro.pdf used on inp
-ut line 5.
+<use photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2
+007_petro.pdf used on input line 5.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-051819_aper.pdf, id=674, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-051819_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_aper.pdf, id=674, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-051819_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-051819_aper.pdf used on inpu
-t line 6.
+<use photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2
+007_aper.pdf used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-051819_auto.pdf, id=676, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-051819_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_auto.pdf, id=676, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-051819_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-051819_auto.pdf used on inpu
-t line 6.
+<use photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2
+007_auto.pdf used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-051819_petro.pdf, id=678, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-051819_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_petro.pdf, id=678, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0093-051819_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-051819_petro.pdf used on inp
-ut line 6.
+<use photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2
+007_petro.pdf used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-085620_aper.pdf, id=680, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-085620_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.pdf, id=680, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-085620_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-085620_aper.pdf used on inpu
-t line 7.
+<use photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2
+007_aper.pdf used on input line 7.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-085620_auto.pdf, id=682, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-085620_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_auto.pdf, id=682, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-085620_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-085620_auto.pdf used on inpu
-t line 7.
+<use photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2
+007_auto.pdf used on input line 7.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-085620_petro.pdf, id=684, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-085620_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_petro.pdf, id=684, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0093-085620_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-085620_petro.pdf used on inp
-ut line 7.
+<use photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2
+007_petro.pdf used on input line 7.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-295870_aper.pdf, id=686, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-295870_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf, id=686, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-295870_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-295870_aper.pdf used on inpu
-t line 8.
+<use photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2
+007_aper.pdf used on input line 8.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-295870_auto.pdf, id=688, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-295870_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_auto.pdf, id=688, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-295870_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-295870_auto.pdf used on inpu
-t line 8.
+<use photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2
+007_auto.pdf used on input line 8.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0093-295870_petro.pdf, id=690, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0093-295870_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_petro.pdf, id=690, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0093-295870_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-295870_petro.pdf used on inp
-ut line 8.
+<use photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2
+007_petro.pdf used on input line 8.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0094-194143_aper.pdf, id=692, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0094-194143_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_aper.pdf, id=692, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0094-194143_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0094-194143_aper.pdf used on inpu
-t line 9.
+<use photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2
+007_aper.pdf used on input line 9.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0094-194143_auto.pdf, id=694, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0094-194143_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_auto.pdf, id=694, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0094-194143_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0094-194143_auto.pdf used on inpu
-t line 9.
+<use photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2
+007_auto.pdf used on input line 9.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0094-194143_petro.pdf, id=696, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0094-194143_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_petro.pdf, id=696, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0094-194143_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0094-194143_petro.pdf used on inp
-ut line 9.
+<use photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2
+007_petro.pdf used on input line 9.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0113-084466_aper.pdf, id=698, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0113-084466_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aper.pdf, id=698, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0113-084466_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0113-084466_aper.pdf used on inpu
-t line 10.
+<use photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2
+007_aper.pdf used on input line 10.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0113-084466_auto.pdf, id=700, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0113-084466_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_auto.pdf, id=700, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0113-084466_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0113-084466_auto.pdf used on inpu
-t line 10.
+<use photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2
+007_auto.pdf used on input line 10.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0113-084466_petro.pdf, id=702, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0113-084466_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_petro.pdf, id=702, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0113-084466_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0113-084466_petro.pdf used on inp
-ut line 10.
+<use photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2
+007_petro.pdf used on input line 10.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-113862_aper.pdf, id=704, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-113862_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf, id=704, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-113862_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-113862_aper.pdf used on inpu
-t line 11.
+<use photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2
+007_aper.pdf used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-113862_auto.pdf, id=706, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-113862_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_auto.pdf, id=706, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-113862_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-113862_auto.pdf used on inpu
-t line 11.
+<use photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2
+007_auto.pdf used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-113862_petro.pdf, id=708, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-113862_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_petro.pdf, id=708, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0114-113862_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-113862_petro.pdf used on inp
-ut line 11.
+<use photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2
+007_petro.pdf used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-273678_aper.pdf, id=710, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-273678_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_aper.pdf, id=710, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-273678_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-273678_aper.pdf used on inpu
-t line 12.
+<use photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2
+007_aper.pdf used on input line 12.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-273678_auto.pdf, id=712, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-273678_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_auto.pdf, id=712, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-273678_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-273678_auto.pdf used on inpu
-t line 12.
+<use photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2
+007_auto.pdf used on input line 12.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0114-273678_petro.pdf, id=714, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0114-273678_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_petro.pdf, id=714, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0114-273678_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-273678_petro.pdf used on inp
-ut line 12.
+<use photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2
+007_petro.pdf used on input line 12.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-043944_aper.pdf, id=716, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-043944_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_aper.pdf, id=716, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-043944_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-043944_aper.pdf used on inpu
-t line 13.
+<use photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2
+007_aper.pdf used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-043944_auto.pdf, id=718, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-043944_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_auto.pdf, id=718, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-043944_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-043944_auto.pdf used on inpu
-t line 13.
+<use photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2
+007_auto.pdf used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-043944_petro.pdf, id=720, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-043944_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_petro.pdf, id=720, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-043944_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-043944_petro.pdf used on inp
-ut line 13.
+<use photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2
+007_petro.pdf used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-063029_aper.pdf, id=722, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-063029_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.pdf, id=722, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-063029_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-063029_aper.pdf used on inpu
-t line 14.
+<use photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2
+007_aper.pdf used on input line 14.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-063029_auto.pdf, id=724, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-063029_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_auto.pdf, id=724, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-063029_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-063029_auto.pdf used on inpu
-t line 14.
+<use photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2
+007_auto.pdf used on input line 14.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-063029_petro.pdf, id=726, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-063029_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_petro.pdf, id=726, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-063029_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-063029_petro.pdf used on inp
-ut line 14.
+<use photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2
+007_petro.pdf used on input line 14.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-105523_aper.pdf, id=728, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-105523_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf, id=728, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-105523_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-105523_aper.pdf used on inpu
-t line 15.
+<use photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2
+007_aper.pdf used on input line 15.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-105523_auto.pdf, id=730, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-105523_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_auto.pdf, id=730, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-105523_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-105523_auto.pdf used on inpu
-t line 15.
+<use photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2
+007_auto.pdf used on input line 15.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-105523_petro.pdf, id=732, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-105523_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_petro.pdf, id=732, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-105523_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-105523_petro.pdf used on inp
-ut line 15.
+<use photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2
+007_petro.pdf used on input line 15.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-112627_aper.pdf, id=734, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-112627_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_aper.pdf, id=734, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-112627_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-112627_aper.pdf used on inpu
-t line 16.
+<use photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2
+007_aper.pdf used on input line 16.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-112627_auto.pdf, id=736, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-112627_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_auto.pdf, id=736, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-112627_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-112627_auto.pdf used on inpu
-t line 16.
+<use photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2
+007_auto.pdf used on input line 16.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-112627_petro.pdf, id=738, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-112627_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_petro.pdf, id=738, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-112627_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-112627_petro.pdf used on inp
-ut line 16.
+<use photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2
+007_petro.pdf used on input line 16.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-147165_aper.pdf, id=740, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-147165_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aper.pdf, id=740, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-147165_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-147165_aper.pdf used on inpu
-t line 17.
+<use photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2
+007_aper.pdf used on input line 17.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-147165_auto.pdf, id=742, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-147165_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_auto.pdf, id=742, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-147165_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-147165_auto.pdf used on inpu
-t line 17.
+<use photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2
+007_auto.pdf used on input line 17.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-147165_petro.pdf, id=744, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-147165_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_petro.pdf, id=744, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-147165_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-147165_petro.pdf used on inp
-ut line 17.
+<use photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2
+007_petro.pdf used on input line 17.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-229578_aper.pdf, id=746, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-229578_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf, id=746, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-229578_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-229578_aper.pdf used on inpu
-t line 18.
+<use photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2
+007_aper.pdf used on input line 18.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-229578_auto.pdf, id=748, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-229578_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_auto.pdf, id=748, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-229578_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-229578_auto.pdf used on inpu
-t line 18.
+<use photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2
+007_auto.pdf used on input line 18.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-229578_petro.pdf, id=750, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-229578_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_petro.pdf, id=750, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-229578_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-229578_petro.pdf used on inp
-ut line 18.
+<use photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2
+007_petro.pdf used on input line 18.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-308119_aper.pdf, id=752, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-308119_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_aper.pdf, id=752, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-308119_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-308119_aper.pdf used on inpu
-t line 19.
+<use photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2
+007_aper.pdf used on input line 19.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-308119_auto.pdf, id=754, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-308119_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_auto.pdf, id=754, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-308119_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-308119_auto.pdf used on inpu
-t line 19.
+<use photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2
+007_auto.pdf used on input line 19.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-308119_petro.pdf, id=756, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-308119_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_petro.pdf, id=756, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-308119_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-308119_petro.pdf used on inp
-ut line 19.
+<use photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2
+007_petro.pdf used on input line 19.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-350934_aper.pdf, id=758, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-350934_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_aper.pdf, id=758, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-350934_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-350934_aper.pdf used on inpu
-t line 20.
+<use photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2
+007_aper.pdf used on input line 20.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-350934_auto.pdf, id=760, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-350934_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_auto.pdf, id=760, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-350934_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-350934_auto.pdf used on inpu
-t line 20.
+<use photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2
+007_auto.pdf used on input line 20.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-350934_petro.pdf, id=762, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-350934_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_petro.pdf, id=762, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-350934_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-350934_petro.pdf used on inp
-ut line 20.
+<use photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2
+007_petro.pdf used on input line 20.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-402039_aper.pdf, id=764, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-402039_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.pdf, id=764, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-402039_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-402039_aper.pdf used on inpu
-t line 21.
+<use photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2
+007_aper.pdf used on input line 21.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-402039_auto.pdf, id=766, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-402039_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_auto.pdf, id=766, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-402039_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-402039_auto.pdf used on inpu
-t line 21.
+<use photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2
+007_auto.pdf used on input line 21.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0115-402039_petro.pdf, id=768, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0115-402039_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_petro.pdf, id=768, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0115-402039_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-402039_petro.pdf used on inp
-ut line 21.
+<use photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2
+007_petro.pdf used on input line 21.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-015280_aper.pdf, id=770, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-015280_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf, id=770, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-015280_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-015280_aper.pdf used on inpu
-t line 22.
+<use photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2
+007_aper.pdf used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-015280_auto.pdf, id=772, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-015280_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_auto.pdf, id=772, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-015280_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-015280_auto.pdf used on inpu
-t line 22.
+<use photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2
+007_auto.pdf used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-015280_petro.pdf, id=774, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-015280_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_petro.pdf, id=774, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0116-015280_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-015280_petro.pdf used on inp
-ut line 22.
+<use photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2
+007_petro.pdf used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-172101_aper.pdf, id=776, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-172101_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_aper.pdf, id=776, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-172101_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-172101_aper.pdf used on inpu
-t line 23.
+<use photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2
+007_aper.pdf used on input line 23.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-172101_auto.pdf, id=778, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-172101_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_auto.pdf, id=778, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-172101_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-172101_auto.pdf used on inpu
-t line 23.
+<use photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2
+007_auto.pdf used on input line 23.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0116-172101_petro.pdf, id=780, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0116-172101_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_petro.pdf, id=780, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0116-172101_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-172101_petro.pdf used on inp
-ut line 23.
+<use photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2
+007_petro.pdf used on input line 23.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0133-025038_aper.pdf, id=782, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0133-025038_aper.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aper.pdf, id=782, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0133-025038_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0133-025038_aper.pdf used on inpu
-t line 24.
+<use photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2
+007_aper.pdf used on input line 24.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0133-025038_auto.pdf, id=784, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0133-025038_auto.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_auto.pdf, id=784, 11
+20.185pt x 686.565pt>
+File: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_auto.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0133-025038_auto.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0133-025038_auto.pdf used on inpu
-t line 24.
+<use photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_auto.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2
+007_auto.pdf used on input line 24.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
-<photopectrum_splus_MC0133-025038_petro.pdf, id=786, 1120.185pt x 686.565pt>
-File: photopectrum_splus_MC0133-025038_petro.pdf Graphic file (type pdf)
+<photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_petro.pdf, id=786, 1
+120.185pt x 686.565pt>
+File: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_petro.pdf Graph
+ic file (type pdf)
 
-<use photopectrum_splus_MC0133-025038_petro.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0133-025038_petro.pdf used on inp
-ut line 24.
+<use photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_petro.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2
+007_petro.pdf used on input line 24.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
-) [4 <./photopectrum_splus_MC0072-006125_aper.pdf> <./photopectrum_splus_MC0072
--006125_auto.pdf> <./photopectrum_splus_MC0072-006125_petro.pdf> <./photopectru
-m_splus_MC0072-044863_aper.pdf> <./photopectrum_splus_MC0072-044863_auto.pdf> <
-./photopectrum_splus_MC0072-044863_petro.pdf> <./photopectrum_splus_MC0093-0518
-19_aper.pdf> <./photopectrum_splus_MC0093-051819_auto.pdf> <./photopectrum_splu
-s_MC0093-051819_petro.pdf> <./photopectrum_splus_MC0093-085620_aper.pdf> <./pho
-topectrum_splus_MC0093-085620_auto.pdf> <./photopectrum_splus_MC0093-085620_pet
-ro.pdf> <./photopectrum_splus_MC0093-295870_aper.pdf> <./photopectrum_splus_MC0
-093-295870_auto.pdf> <./photopectrum_splus_MC0093-295870_petro.pdf> <./photopec
-trum_splus_MC0094-194143_aper.pdf> <./photopectrum_splus_MC0094-194143_auto.pdf
-> <./photopectrum_splus_MC0094-194143_petro.pdf> <./photopectrum_splus_MC0113-0
-84466_aper.pdf> <./photopectrum_splus_MC0113-084466_auto.pdf> <./photopectrum_s
-plus_MC0113-084466_petro.pdf>]
-[5 <./photopectrum_splus_MC0114-113862_aper.pdf> <./photopectrum_splus_MC0114-1
-13862_auto.pdf> <./photopectrum_splus_MC0114-113862_petro.pdf> <./photopectrum_
-splus_MC0114-273678_aper.pdf> <./photopectrum_splus_MC0114-273678_auto.pdf> <./
-photopectrum_splus_MC0114-273678_petro.pdf> <./photopectrum_splus_MC0115-043944
-_aper.pdf> <./photopectrum_splus_MC0115-043944_auto.pdf> <./photopectrum_splus_
-MC0115-043944_petro.pdf> <./photopectrum_splus_MC0115-063029_aper.pdf> <./photo
-pectrum_splus_MC0115-063029_auto.pdf> <./photopectrum_splus_MC0115-063029_petro
-.pdf> <./photopectrum_splus_MC0115-105523_aper.pdf> <./photopectrum_splus_MC011
-5-105523_auto.pdf> <./photopectrum_splus_MC0115-105523_petro.pdf> <./photopectr
-um_splus_MC0115-112627_aper.pdf> <./photopectrum_splus_MC0115-112627_auto.pdf> 
-<./photopectrum_splus_MC0115-112627_petro.pdf> <./photopectrum_splus_MC0115-147
-165_aper.pdf> <./photopectrum_splus_MC0115-147165_auto.pdf> <./photopectrum_spl
-us_MC0115-147165_petro.pdf>] [6 <./photopectrum_splus_MC0115-229578_aper.pdf> <
-./photopectrum_splus_MC0115-229578_auto.pdf> <./photopectrum_splus_MC0115-22957
-8_petro.pdf> <./photopectrum_splus_MC0115-308119_aper.pdf> <./photopectrum_splu
-s_MC0115-308119_auto.pdf> <./photopectrum_splus_MC0115-308119_petro.pdf> <./pho
-topectrum_splus_MC0115-350934_aper.pdf> <./photopectrum_splus_MC0115-350934_aut
-o.pdf> <./photopectrum_splus_MC0115-350934_petro.pdf> <./photopectrum_splus_MC0
-115-402039_aper.pdf> <./photopectrum_splus_MC0115-402039_auto.pdf> <./photopect
-rum_splus_MC0115-402039_petro.pdf> <./photopectrum_splus_MC0116-015280_aper.pdf
-> <./photopectrum_splus_MC0116-015280_auto.pdf> <./photopectrum_splus_MC0116-01
-5280_petro.pdf> <./photopectrum_splus_MC0116-172101_aper.pdf> <./photopectrum_s
-plus_MC0116-172101_auto.pdf> <./photopectrum_splus_MC0116-172101_petro.pdf> <./
-photopectrum_splus_MC0133-025038_aper.pdf> <./photopectrum_splus_MC0133-025038_
-auto.pdf> <./photopectrum_splus_MC0133-025038_petro.pdf>] (./table-images.tex
-File: photopectrum_splus_MC0072-006125_aper.pdf Graphic file (type pdf)
+)
+[4 <./photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf> <./ph
+otopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_auto.pdf> <./photopectr
+um_splus_MC0072-006125_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splu
+s_MC0072-044863_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0072
+-044863_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0072-044863_
+pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0093-051819_pne-smc
+-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0093-051819_pne-smc-splus-m
+atch-2007_auto.pdf> <./photopectrum_splus_MC0093-051819_pne-smc-splus-match-200
+7_petro.pdf> <./photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.
+pdf> <./photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_auto.pdf> <./
+photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_petro.pdf> <./photope
+ctrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_sp
+lus_MC0093-295870_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC00
+93-295870_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0094-1941
+43_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0094-194143_pne-s
+mc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0094-194143_pne-smc-splus
+-match-2007_petro.pdf> <./photopectrum_splus_MC0113-084466_pne-smc-splus-match-
+2007_aper.pdf> <./photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aut
+o.pdf> <./photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_petro.pdf>]
+[5 <./photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf> <./ph
+otopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_auto.pdf> <./photopectr
+um_splus_MC0114-113862_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splu
+s_MC0114-273678_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0114
+-273678_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0114-273678_
+pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0115-043944_pne-smc
+-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0115-043944_pne-smc-splus-m
+atch-2007_auto.pdf> <./photopectrum_splus_MC0115-043944_pne-smc-splus-match-200
+7_petro.pdf> <./photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.
+pdf> <./photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_auto.pdf> <./
+photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_petro.pdf> <./photope
+ctrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_sp
+lus_MC0115-105523_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC01
+15-105523_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0115-1126
+27_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0115-112627_pne-s
+mc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0115-112627_pne-smc-splus
+-match-2007_petro.pdf> <./photopectrum_splus_MC0115-147165_pne-smc-splus-match-
+2007_aper.pdf> <./photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aut
+o.pdf> <./photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_petro.pdf>]
+[6 <./photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf> <./ph
+otopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_auto.pdf> <./photopectr
+um_splus_MC0115-229578_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splu
+s_MC0115-308119_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0115
+-308119_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0115-308119_
+pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0115-350934_pne-smc
+-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0115-350934_pne-smc-splus-m
+atch-2007_auto.pdf> <./photopectrum_splus_MC0115-350934_pne-smc-splus-match-200
+7_petro.pdf> <./photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.
+pdf> <./photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_auto.pdf> <./
+photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_petro.pdf> <./photope
+ctrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_sp
+lus_MC0116-015280_pne-smc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC01
+16-015280_pne-smc-splus-match-2007_petro.pdf> <./photopectrum_splus_MC0116-1721
+01_pne-smc-splus-match-2007_aper.pdf> <./photopectrum_splus_MC0116-172101_pne-s
+mc-splus-match-2007_auto.pdf> <./photopectrum_splus_MC0116-172101_pne-smc-splus
+-match-2007_petro.pdf> <./photopectrum_splus_MC0133-025038_pne-smc-splus-match-
+2007_aper.pdf> <./photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aut
+o.pdf> <./photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_petro.pdf>]
+(./table-images.tex
+File: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-006125_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-006125_aper.pdf used on inpu
-t line 4.
+<use photopectrum_splus_MC0072-006125_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-006125_pne-smc-splus-match-2
+007_aper.pdf used on input line 4.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0072/MC0072_F861_006125-RGB.pdf, id=3028, 650.45413pt x 570.70306pt>
@@ -1393,11 +1541,12 @@ File: MC0072/MC0072_I_006125-RGB.pdf Graphic file (type pdf)
 <use MC0072/MC0072_I_006125-RGB.pdf>
 Package pdftex.def Info: MC0072/MC0072_I_006125-RGB.pdf used on input line 4.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0072-044863_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0072-044863_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0072-044863_aper.pdf used on inpu
-t line 5.
+<use photopectrum_splus_MC0072-044863_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0072-044863_pne-smc-splus-match-2
+007_aper.pdf used on input line 5.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0072/MC0072_F861_044863-RGB.pdf, id=3033, 650.45413pt x 570.70306pt>
@@ -1414,11 +1563,12 @@ File: MC0072/MC0072_I_044863-RGB.pdf Graphic file (type pdf)
 <use MC0072/MC0072_I_044863-RGB.pdf>
 Package pdftex.def Info: MC0072/MC0072_I_044863-RGB.pdf used on input line 5.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0093-051819_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-051819_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-051819_aper.pdf used on inpu
-t line 6.
+<use photopectrum_splus_MC0093-051819_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-051819_pne-smc-splus-match-2
+007_aper.pdf used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0093/MC0093_F861_051819-RGB.pdf, id=3038, 655.46248pt x 570.70306pt>
@@ -1435,11 +1585,12 @@ File: MC0093/MC0093_I_051819-RGB.pdf Graphic file (type pdf)
 <use MC0093/MC0093_I_051819-RGB.pdf>
 Package pdftex.def Info: MC0093/MC0093_I_051819-RGB.pdf used on input line 6.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
-File: photopectrum_splus_MC0093-085620_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-085620_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-085620_aper.pdf used on inpu
-t line 7.
+<use photopectrum_splus_MC0093-085620_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-085620_pne-smc-splus-match-2
+007_aper.pdf used on input line 7.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0093/MC0093_F861_085620-RGB.pdf, id=3043, 655.46248pt x 570.70306pt>
@@ -1456,11 +1607,12 @@ File: MC0093/MC0093_I_085620-RGB.pdf Graphic file (type pdf)
 <use MC0093/MC0093_I_085620-RGB.pdf>
 Package pdftex.def Info: MC0093/MC0093_I_085620-RGB.pdf used on input line 7.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
-File: photopectrum_splus_MC0093-295870_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0093-295870_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0093-295870_aper.pdf used on inpu
-t line 8.
+<use photopectrum_splus_MC0093-295870_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0093-295870_pne-smc-splus-match-2
+007_aper.pdf used on input line 8.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0093/MC0093_F861_295870-RGB.pdf, id=3048, 645.49542pt x 570.70306pt>
@@ -1477,11 +1629,12 @@ File: MC0093/MC0093_I_295870-RGB.pdf Graphic file (type pdf)
 <use MC0093/MC0093_I_295870-RGB.pdf>
 Package pdftex.def Info: MC0093/MC0093_I_295870-RGB.pdf used on input line 8.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
-File: photopectrum_splus_MC0094-194143_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0094-194143_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0094-194143_aper.pdf used on inpu
-t line 9.
+<use photopectrum_splus_MC0094-194143_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0094-194143_pne-smc-splus-match-2
+007_aper.pdf used on input line 9.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0094/MC0094_F861_194143-RGB.pdf, id=3053, 650.45413pt x 570.70306pt>
@@ -1498,11 +1651,12 @@ File: MC0094/MC0094_I_194143-RGB.pdf Graphic file (type pdf)
 <use MC0094/MC0094_I_194143-RGB.pdf>
 Package pdftex.def Info: MC0094/MC0094_I_194143-RGB.pdf used on input line 9.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0113-084466_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0113-084466_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0113-084466_aper.pdf used on inpu
-t line 10.
+<use photopectrum_splus_MC0113-084466_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0113-084466_pne-smc-splus-match-2
+007_aper.pdf used on input line 10.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0113/MC0113_F861_084466-RGB.pdf, id=3058, 650.45413pt x 570.70306pt>
@@ -1519,11 +1673,12 @@ File: MC0113/MC0113_I_084466-RGB.pdf Graphic file (type pdf)
 <use MC0113/MC0113_I_084466-RGB.pdf>
 Package pdftex.def Info: MC0113/MC0113_I_084466-RGB.pdf used on input line 10.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0114-113862_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-113862_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-113862_aper.pdf used on inpu
-t line 11.
+<use photopectrum_splus_MC0114-113862_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-113862_pne-smc-splus-match-2
+007_aper.pdf used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0114/MC0114_F861_113862-RGB.pdf, id=3063, 650.45413pt x 570.70306pt>
@@ -1540,11 +1695,12 @@ File: MC0114/MC0114_I_113862-RGB.pdf Graphic file (type pdf)
 <use MC0114/MC0114_I_113862-RGB.pdf>
 Package pdftex.def Info: MC0114/MC0114_I_113862-RGB.pdf used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0114-273678_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0114-273678_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0114-273678_aper.pdf used on inpu
-t line 12.
+<use photopectrum_splus_MC0114-273678_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0114-273678_pne-smc-splus-match-2
+007_aper.pdf used on input line 12.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0114/MC0114_F861_273678-RGB.pdf, id=3068, 650.45413pt x 570.70306pt>
@@ -1561,11 +1717,12 @@ File: MC0114/MC0114_I_273678-RGB.pdf Graphic file (type pdf)
 <use MC0114/MC0114_I_273678-RGB.pdf>
 Package pdftex.def Info: MC0114/MC0114_I_273678-RGB.pdf used on input line 12.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0115-043944_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-043944_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-043944_aper.pdf used on inpu
-t line 13.
+<use photopectrum_splus_MC0115-043944_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-043944_pne-smc-splus-match-2
+007_aper.pdf used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_043944-RGB.pdf, id=3073, 650.45413pt x 570.70306pt>
@@ -1582,11 +1739,12 @@ File: MC0115/MC0115_I_043944-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_043944-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_043944-RGB.pdf used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0115-063029_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-063029_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-063029_aper.pdf used on inpu
-t line 14.
+<use photopectrum_splus_MC0115-063029_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-063029_pne-smc-splus-match-2
+007_aper.pdf used on input line 14.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_063029-RGB.pdf, id=3078, 645.49542pt x 570.70306pt>
@@ -1603,11 +1761,12 @@ File: MC0115/MC0115_I_063029-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_063029-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_063029-RGB.pdf used on input line 14.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
-File: photopectrum_splus_MC0115-105523_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-105523_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-105523_aper.pdf used on inpu
-t line 15.
+<use photopectrum_splus_MC0115-105523_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-105523_pne-smc-splus-match-2
+007_aper.pdf used on input line 15.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_105523-RGB.pdf, id=3083, 664.73001pt x 570.70306pt>
@@ -1624,11 +1783,12 @@ File: MC0115/MC0115_I_105523-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_105523-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_105523-RGB.pdf used on input line 15.
 (pdftex.def)             Requested size: 140.92793pt x 120.99194pt.
-File: photopectrum_splus_MC0115-112627_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-112627_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-112627_aper.pdf used on inpu
-t line 16.
+<use photopectrum_splus_MC0115-112627_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-112627_pne-smc-splus-match-2
+007_aper.pdf used on input line 16.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_112627-RGB.pdf, id=3088, 650.45413pt x 570.70306pt>
@@ -1645,11 +1805,12 @@ File: MC0115/MC0115_I_112627-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_112627-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_112627-RGB.pdf used on input line 16.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0115-147165_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-147165_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-147165_aper.pdf used on inpu
-t line 17.
+<use photopectrum_splus_MC0115-147165_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-147165_pne-smc-splus-match-2
+007_aper.pdf used on input line 17.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_147165-RGB.pdf, id=3093, 645.49542pt x 570.70306pt>
@@ -1666,11 +1827,12 @@ File: MC0115/MC0115_I_147165-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_147165-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_147165-RGB.pdf used on input line 17.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
-File: photopectrum_splus_MC0115-229578_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-229578_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-229578_aper.pdf used on inpu
-t line 18.
+<use photopectrum_splus_MC0115-229578_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-229578_pne-smc-splus-match-2
+007_aper.pdf used on input line 18.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_229578-RGB.pdf, id=3098, 661.61552pt x 570.70306pt>
@@ -1687,11 +1849,12 @@ File: MC0115/MC0115_I_229578-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_229578-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_229578-RGB.pdf used on input line 18.
 (pdftex.def)             Requested size: 140.92793pt x 121.55798pt.
-File: photopectrum_splus_MC0115-308119_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-308119_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-308119_aper.pdf used on inpu
-t line 19.
+<use photopectrum_splus_MC0115-308119_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-308119_pne-smc-splus-match-2
+007_aper.pdf used on input line 19.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_308119-RGB.pdf, id=3103, 650.45413pt x 570.70306pt>
@@ -1708,11 +1871,12 @@ File: MC0115/MC0115_I_308119-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_308119-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_308119-RGB.pdf used on input line 19.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0115-350934_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-350934_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-350934_aper.pdf used on inpu
-t line 20.
+<use photopectrum_splus_MC0115-350934_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-350934_pne-smc-splus-match-2
+007_aper.pdf used on input line 20.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_350934-RGB.pdf, id=3108, 650.45413pt x 570.70306pt>
@@ -1729,11 +1893,12 @@ File: MC0115/MC0115_I_350934-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_350934-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_350934-RGB.pdf used on input line 20.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0115-402039_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0115-402039_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0115-402039_aper.pdf used on inpu
-t line 21.
+<use photopectrum_splus_MC0115-402039_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0115-402039_pne-smc-splus-match-2
+007_aper.pdf used on input line 21.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0115/MC0115_F861_402039-RGB.pdf, id=3113, 650.45413pt x 570.70306pt>
@@ -1750,11 +1915,12 @@ File: MC0115/MC0115_I_402039-RGB.pdf Graphic file (type pdf)
 <use MC0115/MC0115_I_402039-RGB.pdf>
 Package pdftex.def Info: MC0115/MC0115_I_402039-RGB.pdf used on input line 21.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0116-015280_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-015280_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-015280_aper.pdf used on inpu
-t line 22.
+<use photopectrum_splus_MC0116-015280_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-015280_pne-smc-splus-match-2
+007_aper.pdf used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0116/MC0116_F861_015280-RGB.pdf, id=3118, 650.45413pt x 570.70306pt>
@@ -1771,11 +1937,12 @@ File: MC0116/MC0116_I_015280-RGB.pdf Graphic file (type pdf)
 <use MC0116/MC0116_I_015280-RGB.pdf>
 Package pdftex.def Info: MC0116/MC0116_I_015280-RGB.pdf used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 123.64795pt.
-File: photopectrum_splus_MC0116-172101_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0116-172101_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0116-172101_aper.pdf used on inpu
-t line 23.
+<use photopectrum_splus_MC0116-172101_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0116-172101_pne-smc-splus-match-2
+007_aper.pdf used on input line 23.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0116/MC0116_F861_172101-RGB.pdf, id=3123, 645.49542pt x 570.70306pt>
@@ -1792,11 +1959,12 @@ File: MC0116/MC0116_I_172101-RGB.pdf Graphic file (type pdf)
 <use MC0116/MC0116_I_172101-RGB.pdf>
 Package pdftex.def Info: MC0116/MC0116_I_172101-RGB.pdf used on input line 23.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
-File: photopectrum_splus_MC0133-025038_aper.pdf Graphic file (type pdf)
+File: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aper.pdf Graphi
+c file (type pdf)
 
-<use photopectrum_splus_MC0133-025038_aper.pdf>
-Package pdftex.def Info: photopectrum_splus_MC0133-025038_aper.pdf used on inpu
-t line 24.
+<use photopectrum_splus_MC0133-025038_pne-smc-splus-match-2007_aper.pdf>
+Package pdftex.def Info: photopectrum_splus_MC0133-025038_pne-smc-splus-match-2
+007_aper.pdf used on input line 24.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <MC0133/MC0133_F861_025038-RGB.pdf, id=3128, 650.45413pt x 570.70306pt>
@@ -1833,7 +2001,7 @@ GB.pdf> <./MC0115/MC0115_F861_229578-RGB.pdf> <./MC0115/MC0115_I_229578-RGB.pdf
 C0116_F861_015280-RGB.pdf> <./MC0116/MC0116_I_015280-RGB.pdf> <./MC0116/MC0116_
 F861_172101-RGB.pdf> <./MC0116/MC0116_I_172101-RGB.pdf>]
 <Fig1-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-vironen.pdf, i
-d=5474, 505.89pt x 433.62pt>
+d=5475, 505.89pt x 433.62pt>
 File: Fig1-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-vironen.p
 df Graphic file (type pdf)
 
@@ -1844,7 +2012,7 @@ tch-splus-vironen.pdf used on input line 145.
 (pdftex.def)             Requested size: 234.8775pt x 199.93173pt.
 
 <Fig2-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-J0515_J0660.pd
-f, id=5476, 505.89pt x 433.62pt>
+f, id=5477, 505.89pt x 433.62pt>
 File: Fig2-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-J0515_J06
 60.pdf Graphic file (type pdf)
 
@@ -1854,7 +2022,7 @@ Package pdftex.def Info: Fig2-pne-smc-splus-match-2007-compat-HIIRegions-smc-ma
 tch-splus-J0515_J0660.pdf used on input line 146.
 (pdftex.def)             Requested size: 234.8775pt x 199.93173pt.
 
-<Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-g.pdf, id=5478
+<Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-g.pdf, id=5479
 , 505.89pt x 433.62pt>
 File: Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-g.pdf Gra
 phic file (type pdf)
@@ -1864,7 +2032,7 @@ Package pdftex.def Info: Fig4-pne-smc-splus-match-2007-compat-HIIRegions-smc-ma
 tch-splus-g.pdf used on input line 146.
 (pdftex.def)             Requested size: 234.8775pt x 199.93173pt.
 
-<Fig3-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-z.pdf, id=5480
+<Fig3-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-z.pdf, id=5481
 , 505.89pt x 433.62pt>
 File: Fig3-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-z.pdf Gra
 phic file (type pdf)
@@ -1875,7 +2043,7 @@ tch-splus-z.pdf used on input line 148.
 (pdftex.def)             Requested size: 234.8775pt x 199.93173pt.
 
 <Fig5-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-gi.pdf, id=548
-2, 505.89pt x 433.62pt>
+3, 505.89pt x 433.62pt>
 File: Fig5-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-gi.pdf Gr
 aphic file (type pdf)
 
@@ -1896,7 +2064,7 @@ pdf> <./Fig3-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-z.pdf>
 <./Fig5-pne-smc-splus-match-2007-compat-HIIRegions-smc-match-splus-gi.pdf>]
 (./Hii-table-figs.tex
 <photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5778, 1120.185pt x 686.565pt>
+d=5779, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -1907,7 +2075,7 @@ Package pdftex.def Info: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5780, 1120.185pt x 686.565pt>
+d=5781, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -1918,7 +2086,7 @@ Package pdftex.def Info: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5782, 1120.185pt x 686.565pt>
+id=5783, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -1929,7 +2097,7 @@ Package pdftex.def Info: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5784, 1120.185pt x 686.565pt>
+d=5785, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -1940,7 +2108,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5786, 1120.185pt x 686.565pt>
+d=5787, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -1951,7 +2119,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5788, 1120.185pt x 686.565pt>
+id=5789, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -1962,7 +2130,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5790, 1120.185pt x 686.565pt>
+d=5791, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -1973,7 +2141,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5792, 1120.185pt x 686.565pt>
+d=5793, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -1984,7 +2152,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5794, 1120.185pt x 686.565pt>
+id=5795, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -1995,7 +2163,7 @@ Package pdftex.def Info: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5796, 1120.185pt x 686.565pt>
+d=5797, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2006,7 +2174,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5798, 1120.185pt x 686.565pt>
+d=5799, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2017,7 +2185,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5800, 1120.185pt x 686.565pt>
+id=5801, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2028,7 +2196,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5802, 1120.185pt x 686.565pt>
+d=5803, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2039,7 +2207,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5804, 1120.185pt x 686.565pt>
+d=5805, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2050,7 +2218,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5806, 1120.185pt x 686.565pt>
+id=5807, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2061,7 +2229,7 @@ Package pdftex.def Info: photopectrum_splus_MC0114-327430_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5808, 1120.185pt x 686.565pt>
+d=5809, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2072,7 +2240,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5810, 1120.185pt x 686.565pt>
+d=5811, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2083,7 +2251,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5812, 1120.185pt x 686.565pt>
+id=5813, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2094,7 +2262,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-152415_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5814, 1120.185pt x 686.565pt>
+d=5815, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2105,7 +2273,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5816, 1120.185pt x 686.565pt>
+d=5817, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2116,7 +2284,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5818, 1120.185pt x 686.565pt>
+id=5819, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2127,7 +2295,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-287587_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5820, 1120.185pt x 686.565pt>
+d=5821, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2138,7 +2306,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5822, 1120.185pt x 686.565pt>
+d=5823, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2149,7 +2317,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5824, 1120.185pt x 686.565pt>
+id=5825, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2160,7 +2328,7 @@ Package pdftex.def Info: photopectrum_splus_MC0115-397126_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5826, 1120.185pt x 686.565pt>
+d=5827, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2171,7 +2339,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5828, 1120.185pt x 686.565pt>
+d=5829, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2182,7 +2350,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5830, 1120.185pt x 686.565pt>
+id=5831, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2193,7 +2361,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-158507_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5832, 1120.185pt x 686.565pt>
+d=5833, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2204,7 +2372,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5834, 1120.185pt x 686.565pt>
+d=5835, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2215,7 +2383,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5836, 1120.185pt x 686.565pt>
+id=5837, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2226,7 +2394,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-168236_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5838, 1120.185pt x 686.565pt>
+d=5839, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2237,7 +2405,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5840, 1120.185pt x 686.565pt>
+d=5841, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2248,7 +2416,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5842, 1120.185pt x 686.565pt>
+id=5843, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2259,7 +2427,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-170015_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_aper.pdf, i
-d=5844, 1120.185pt x 686.565pt>
+d=5845, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
 
@@ -2270,7 +2438,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_auto.pdf, i
-d=5846, 1120.185pt x 686.565pt>
+d=5847, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_auto.p
 df Graphic file (type pdf)
 
@@ -2281,7 +2449,7 @@ Package pdftex.def Info: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
 
 <photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_petro.pdf, 
-id=5848, 1120.185pt x 686.565pt>
+id=5849, 1120.185pt x 686.565pt>
 File: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_petro.
 pdf Graphic file (type pdf)
 
@@ -2335,20 +2503,20 @@ f>
 Package pdftex.def Info: photopectrum_splus_MC0094-318227_compat-HIIRegions-smc
 -match-splus_aper.pdf used on input line 167.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
- <MC0094/MC0094_F861_318227-RGB.pdf, id=7171, 645.49542pt x 570.70306pt>
-File: MC0094/MC0094_F861_318227-RGB.pdf Graphic file (type pdf)
+ <MC0094/MC0094_F861_318227-RGB-hii.pdf, id=7172, 645.49542pt x 570.70306pt>
+File: MC0094/MC0094_F861_318227-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0094/MC0094_F861_318227-RGB.pdf>
-Package pdftex.def Info: MC0094/MC0094_F861_318227-RGB.pdf used on input line 1
-67.
+<use MC0094/MC0094_F861_318227-RGB-hii.pdf>
+Package pdftex.def Info: MC0094/MC0094_F861_318227-RGB-hii.pdf used on input li
+ne 167.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
 
-<MC0094/MC0094_I_318227-RGB.pdf, id=7173, 645.49542pt x 570.70306pt>
-File: MC0094/MC0094_I_318227-RGB.pdf Graphic file (type pdf)
+<MC0094/MC0094_I_318227-RGB-hii.pdf, id=7174, 645.49542pt x 570.70306pt>
+File: MC0094/MC0094_I_318227-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0094/MC0094_I_318227-RGB.pdf>
-Package pdftex.def Info: MC0094/MC0094_I_318227-RGB.pdf used on input line 167.
-
+<use MC0094/MC0094_I_318227-RGB-hii.pdf>
+Package pdftex.def Info: MC0094/MC0094_I_318227-RGB-hii.pdf used on input line 
+167.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
 File: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
@@ -2358,20 +2526,20 @@ f>
 Package pdftex.def Info: photopectrum_splus_MC0095-257970_compat-HIIRegions-smc
 -match-splus_aper.pdf used on input line 168.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
- <MC0095/MC0095_F861_257970-RGB.pdf, id=7176, 655.46248pt x 570.70306pt>
-File: MC0095/MC0095_F861_257970-RGB.pdf Graphic file (type pdf)
+ <MC0095/MC0095_F861_257970-RGB-hii.pdf, id=7177, 655.46248pt x 570.70306pt>
+File: MC0095/MC0095_F861_257970-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0095/MC0095_F861_257970-RGB.pdf>
-Package pdftex.def Info: MC0095/MC0095_F861_257970-RGB.pdf used on input line 1
-68.
+<use MC0095/MC0095_F861_257970-RGB-hii.pdf>
+Package pdftex.def Info: MC0095/MC0095_F861_257970-RGB-hii.pdf used on input li
+ne 168.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
 
-<MC0095/MC0095_I_257970-RGB.pdf, id=7178, 655.46248pt x 570.70306pt>
-File: MC0095/MC0095_I_257970-RGB.pdf Graphic file (type pdf)
+<MC0095/MC0095_I_257970-RGB-hii.pdf, id=7179, 655.46248pt x 570.70306pt>
+File: MC0095/MC0095_I_257970-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0095/MC0095_I_257970-RGB.pdf>
-Package pdftex.def Info: MC0095/MC0095_I_257970-RGB.pdf used on input line 168.
-
+<use MC0095/MC0095_I_257970-RGB-hii.pdf>
+Package pdftex.def Info: MC0095/MC0095_I_257970-RGB-hii.pdf used on input line 
+168.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
 File: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
@@ -2381,20 +2549,20 @@ f>
 Package pdftex.def Info: photopectrum_splus_MC0095-265990_compat-HIIRegions-smc
 -match-splus_aper.pdf used on input line 169.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
- <MC0095/MC0095_F861_265990-RGB.pdf, id=7181, 645.49542pt x 570.70306pt>
-File: MC0095/MC0095_F861_265990-RGB.pdf Graphic file (type pdf)
+ <MC0095/MC0095_F861_265990-RGB-hii.pdf, id=7182, 645.49542pt x 570.70306pt>
+File: MC0095/MC0095_F861_265990-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0095/MC0095_F861_265990-RGB.pdf>
-Package pdftex.def Info: MC0095/MC0095_F861_265990-RGB.pdf used on input line 1
-69.
+<use MC0095/MC0095_F861_265990-RGB-hii.pdf>
+Package pdftex.def Info: MC0095/MC0095_F861_265990-RGB-hii.pdf used on input li
+ne 169.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
 
-<MC0095/MC0095_I_265990-RGB.pdf, id=7183, 645.49542pt x 570.70306pt>
-File: MC0095/MC0095_I_265990-RGB.pdf Graphic file (type pdf)
+<MC0095/MC0095_I_265990-RGB-hii.pdf, id=7184, 645.49542pt x 570.70306pt>
+File: MC0095/MC0095_I_265990-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0095/MC0095_I_265990-RGB.pdf>
-Package pdftex.def Info: MC0095/MC0095_I_265990-RGB.pdf used on input line 169.
-
+<use MC0095/MC0095_I_265990-RGB-hii.pdf>
+Package pdftex.def Info: MC0095/MC0095_I_265990-RGB-hii.pdf used on input line 
+169.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
 File: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
@@ -2404,20 +2572,20 @@ f>
 Package pdftex.def Info: photopectrum_splus_MC0114-222322_compat-HIIRegions-smc
 -match-splus_aper.pdf used on input line 170.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
- <MC0114/MC0114_F861_222322-RGB.pdf, id=7186, 655.46248pt x 570.70306pt>
-File: MC0114/MC0114_F861_222322-RGB.pdf Graphic file (type pdf)
+ <MC0114/MC0114_F861_222322-RGB-hii.pdf, id=7187, 655.46248pt x 570.70306pt>
+File: MC0114/MC0114_F861_222322-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0114/MC0114_F861_222322-RGB.pdf>
-Package pdftex.def Info: MC0114/MC0114_F861_222322-RGB.pdf used on input line 1
-70.
+<use MC0114/MC0114_F861_222322-RGB-hii.pdf>
+Package pdftex.def Info: MC0114/MC0114_F861_222322-RGB-hii.pdf used on input li
+ne 170.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
 
-<MC0114/MC0114_I_222322-RGB.pdf, id=7188, 655.46248pt x 570.70306pt>
-File: MC0114/MC0114_I_222322-RGB.pdf Graphic file (type pdf)
+<MC0114/MC0114_I_222322-RGB-hii.pdf, id=7189, 655.46248pt x 570.70306pt>
+File: MC0114/MC0114_I_222322-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0114/MC0114_I_222322-RGB.pdf>
-Package pdftex.def Info: MC0114/MC0114_I_222322-RGB.pdf used on input line 170.
-
+<use MC0114/MC0114_I_222322-RGB-hii.pdf>
+Package pdftex.def Info: MC0114/MC0114_I_222322-RGB-hii.pdf used on input line 
+170.
 (pdftex.def)             Requested size: 140.92793pt x 122.69876pt.
 File: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc-match-splus_aper.p
 df Graphic file (type pdf)
@@ -2427,32 +2595,33 @@ f>
 Package pdftex.def Info: photopectrum_splus_MC0116-191358_compat-HIIRegions-smc
 -match-splus_aper.pdf used on input line 171.
 (pdftex.def)             Requested size: 140.92793pt x 86.37564pt.
- <MC0116/MC0116_F861_191358-RGB.pdf, id=7191, 645.49542pt x 570.70306pt>
-File: MC0116/MC0116_F861_191358-RGB.pdf Graphic file (type pdf)
+ <MC0116/MC0116_F861_191358-RGB-hii.pdf, id=7192, 645.49542pt x 570.70306pt>
+File: MC0116/MC0116_F861_191358-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0116/MC0116_F861_191358-RGB.pdf>
-Package pdftex.def Info: MC0116/MC0116_F861_191358-RGB.pdf used on input line 1
-71.
+<use MC0116/MC0116_F861_191358-RGB-hii.pdf>
+Package pdftex.def Info: MC0116/MC0116_F861_191358-RGB-hii.pdf used on input li
+ne 171.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
 
-<MC0116/MC0116_I_191358-RGB.pdf, id=7193, 645.49542pt x 570.70306pt>
-File: MC0116/MC0116_I_191358-RGB.pdf Graphic file (type pdf)
+<MC0116/MC0116_I_191358-RGB-hii.pdf, id=7194, 645.49542pt x 570.70306pt>
+File: MC0116/MC0116_I_191358-RGB-hii.pdf Graphic file (type pdf)
 
-<use MC0116/MC0116_I_191358-RGB.pdf>
-Package pdftex.def Info: MC0116/MC0116_I_191358-RGB.pdf used on input line 171.
-
+<use MC0116/MC0116_I_191358-RGB-hii.pdf>
+Package pdftex.def Info: MC0116/MC0116_I_191358-RGB-hii.pdf used on input line 
+171.
 (pdftex.def)             Requested size: 140.92793pt x 124.59715pt.
- [15 <./MC0094/MC0094_F861_318227-RGB.pdf> <./MC0094/MC0094_I_318227-RGB.pdf> <
-./MC0095/MC0095_F861_257970-RGB.pdf> <./MC0095/MC0095_I_257970-RGB.pdf> <./MC00
-95/MC0095_F861_265990-RGB.pdf> <./MC0095/MC0095_I_265990-RGB.pdf> <./MC0114/MC0
-114_F861_222322-RGB.pdf> <./MC0114/MC0114_I_222322-RGB.pdf> <./MC0116/MC0116_F8
-61_191358-RGB.pdf> <./MC0116/MC0116_I_191358-RGB.pdf>]
+ [15 <./MC0094/MC0094_F861_318227-RGB-hii.pdf> <./MC0094/MC0094_I_318227-RGB-hi
+i.pdf> <./MC0095/MC0095_F861_257970-RGB-hii.pdf> <./MC0095/MC0095_I_257970-RGB-
+hii.pdf> <./MC0095/MC0095_F861_265990-RGB-hii.pdf> <./MC0095/MC0095_I_265990-RG
+B-hii.pdf> <./MC0114/MC0114_F861_222322-RGB-hii.pdf> <./MC0114/MC0114_I_222322-
+RGB-hii.pdf> <./MC0116/MC0116_F861_191358-RGB-hii.pdf> <./MC0116/MC0116_I_19135
+8-RGB-hii.pdf>]
 
 Package pdfpages Warning: Option `page' is unknow to \includepdf.
 (pdfpages)                Did you mean `pages'? (Note the `s'!)
 (pdfpages)                OK, I'll proceed as if it were `pages'.
 
-<HSTimages-sizes_SMCPNe.pdf, id=7781, 597.23125pt x 845.1575pt>
+<HSTimages-sizes_SMCPNe.pdf, id=7782, 597.23125pt x 845.1575pt>
 File: HSTimages-sizes_SMCPNe.pdf Graphic file (type pdf)
 
 <use HSTimages-sizes_SMCPNe.pdf>
@@ -2463,7 +2632,7 @@ File: HSTimages-sizes_SMCPNe.pdf Graphic file (type pdf)
 Package pdftex.def Info: HSTimages-sizes_SMCPNe.pdf used on input line 187.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [16]
-<HSTimages-sizes_SMCPNe.pdf, id=7790, page=1, 597.23125pt x 845.1575pt>
+<HSTimages-sizes_SMCPNe.pdf, id=7791, page=1, 597.23125pt x 845.1575pt>
 File: HSTimages-sizes_SMCPNe.pdf Graphic file (type pdf)
 
 <use HSTimages-sizes_SMCPNe.pdf, page 1>
@@ -2495,7 +2664,7 @@ Package pdftex.def Info: HSTimages-sizes_SMCPNe.pdf, page1 used on input line 1
 87.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [17 <./HSTimages-sizes_SMCPNe.pdf>]
-<HSTimages-sizes_SMCPNe.pdf, id=7848, page=2, 597.23125pt x 845.1575pt>
+<HSTimages-sizes_SMCPNe.pdf, id=7849, page=2, 597.23125pt x 845.1575pt>
 File: HSTimages-sizes_SMCPNe.pdf Graphic file (type pdf)
 
 <use HSTimages-sizes_SMCPNe.pdf, page 2>
@@ -2515,7 +2684,7 @@ Package pdftex.def Info: HSTimages-sizes_SMCPNe.pdf, page2 used on input line 1
 87.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [18 <./HSTimages-sizes_SMCPNe.pdf>]
-<HSTimages-sizes_SMCPNe.pdf, id=7854, page=3, 597.23125pt x 845.1575pt>
+<HSTimages-sizes_SMCPNe.pdf, id=7855, page=3, 597.23125pt x 845.1575pt>
 File: HSTimages-sizes_SMCPNe.pdf Graphic file (type pdf)
 
 <use HSTimages-sizes_SMCPNe.pdf, page 3>
@@ -2551,7 +2720,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
  10814 strings out of 493304
- 182325 string characters out of 6139871
+ 190400 string characters out of 6139871
  351106 words of memory out of 5000000
  13930 multiletter control sequences out of 15000+600000
  9877 words of font info for 36 fonts, out of 8000000 for 9000
@@ -2563,11 +2732,12 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on pne-smc-splus.pdf (19 pages, 5221508 bytes).
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb>
+Output written on pne-smc-splus.pdf (19 pages, 5229283 bytes).
 PDF statistics:
- 7893 PDF objects out of 8907 (max. 8388607)
- 1670 compressed objects within 17 object streams
+ 7897 PDF objects out of 8907 (max. 8388607)
+ 1673 compressed objects within 17 object streams
  29 named destinations out of 1000 (max. 500000)
  2059 words of extra memory for PDF output out of 10000 (max. 10000000)
 
